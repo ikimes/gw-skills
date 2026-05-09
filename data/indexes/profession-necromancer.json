@@ -1,0 +1,2483 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:48.282Z",
+  "sources": [
+    {
+      "id": "profession-necromancer",
+      "kind": "category",
+      "title": "Necromancer skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ANecromancer_skills",
+      "category": "Necromancer skills",
+      "group": "profession",
+      "profession": "Necromancer",
+      "fetchedAt": "2026-05-09T00:57:48.282Z",
+      "count": 154
+    }
+  ],
+  "skills": [
+    {
+      "title": "Angorodon's Gaze",
+      "pageId": 51863,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Angorodon's_Gaze",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Animate Bone Fiend",
+      "pageId": 7343,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Animate_Bone_Fiend",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Animate Bone Horror",
+      "pageId": 14340,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Animate_Bone_Horror",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Animate Bone Minions",
+      "pageId": 14059,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Animate_Bone_Minions",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Animate Flesh Golem",
+      "pageId": 3952,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Animate_Flesh_Golem",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Animate Shambling Horror",
+      "pageId": 14053,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Animate Vampiric Horror",
+      "pageId": 14326,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Animate_Vampiric_Horror",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Atrophy",
+      "pageId": 51866,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Atrophy",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of the Lich",
+      "pageId": 4128,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Awaken the Blood",
+      "pageId": 1731,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Awaken_the_Blood",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Barbed Signet",
+      "pageId": 1733,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barbed_Signet",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Barbs",
+      "pageId": 14858,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barbs",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Bitter Chill",
+      "pageId": 14342,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bitter_Chill",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood Bond",
+      "pageId": 1734,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_Bond",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood Drinker",
+      "pageId": 1735,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_Drinker",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood is Power",
+      "pageId": 1738,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood of the Aggressor",
+      "pageId": 1741,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_of_the_Aggressor",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood of the Master",
+      "pageId": 7946,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_of_the_Master",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood Renewal",
+      "pageId": 1736,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_Renewal",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blood Ritual",
+      "pageId": 1737,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blood_Ritual",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Cacophony",
+      "pageId": 51858,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cacophony",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Chilblains",
+      "pageId": 15400,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chilblains",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Consume Corpse",
+      "pageId": 10964,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Contagion",
+      "pageId": 4320,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Contagion",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Corrupt Enchantment",
+      "pageId": 4316,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Corrupt_Enchantment",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Cultist's Fervor",
+      "pageId": 1742,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cultist's_Fervor",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Aura",
+      "pageId": 14343,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Aura",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Bond",
+      "pageId": 1743,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Bond",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Fury",
+      "pageId": 1744,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Fury",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Pact",
+      "pageId": 1745,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Pact",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Death Nova",
+      "pageId": 16177,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death_Nova",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Deathly Chill",
+      "pageId": 16178,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Deathly Swarm",
+      "pageId": 12382,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deathly_Swarm",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Defile Defenses",
+      "pageId": 51862,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defile_Defenses",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Defile Enchantments",
+      "pageId": 15399,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Defile Flesh",
+      "pageId": 14859,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Demonic Flesh",
+      "pageId": 1747,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Depravity",
+      "pageId": 4317,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Depravity",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Desecrate Enchantments",
+      "pageId": 15398,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Discord",
+      "pageId": 4313,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Discord",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Discord (PvP)",
+      "pageId": 136084,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Discord_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enfeeble",
+      "pageId": 15397,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enfeeble",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enfeeble (PvP)",
+      "pageId": 136091,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enfeebling Blood",
+      "pageId": 15395,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enfeebling_Blood",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enfeebling Blood (PvP)",
+      "pageId": 148642,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enfeebling Touch",
+      "pageId": 14860,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enfeebling_Touch",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Envenom Enchantments",
+      "pageId": 15394,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Envenom_Enchantments",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Faintheartedness",
+      "pageId": 15393,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Faintheartedness",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Feast for the Dead",
+      "pageId": 16014,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Feast of Corruption",
+      "pageId": 4120,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feast_of_Corruption",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Fetid Ground",
+      "pageId": 16022,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fetid_Ground",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Foul Feast",
+      "pageId": 51856,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Foul_Feast",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Gaze of Contempt",
+      "pageId": 7052,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Grenth's Balance",
+      "pageId": 4060,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grenth's_Balance",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Hexer's Vigor",
+      "pageId": 51859,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hexer's_Vigor",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Holiday Blues",
+      "pageId": 75373,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Holiday_Blues",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Icy Veins",
+      "pageId": 4314,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Icy_Veins",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Infuse Condition",
+      "pageId": 14332,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Infuse_Condition",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Insidious Parasite",
+      "pageId": 6727,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Jagged Bones",
+      "pageId": 4321,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Jaundiced Gaze",
+      "pageId": 1749,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jaundiced_Gaze",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Life Siphon",
+      "pageId": 1751,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_Siphon",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Life Transfer",
+      "pageId": 1752,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_Transfer",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Lifebane Strike",
+      "pageId": 1753,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Lingering Curse",
+      "pageId": 4054,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Malaise",
+      "pageId": 15401,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Malaise",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Malign Intervention",
+      "pageId": 16183,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Malign_Intervention",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Fury",
+      "pageId": 1754,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Fury",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Pain",
+      "pageId": 4192,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Pain",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Subversion",
+      "pageId": 1757,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Subversion",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Masochism",
+      "pageId": 51861,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Masochism",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Masochism (PvP)",
+      "pageId": 215098,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Masochism_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Meekness",
+      "pageId": 15402,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Meekness",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Necrosis",
+      "pageId": 41103,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Necrosis",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Necrotic Traversal",
+      "pageId": 16184,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Necrotic_Traversal",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Offering of Blood",
+      "pageId": 1758,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Offering_of_Blood",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Oppressive Gaze",
+      "pageId": 1760,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Oppressive_Gaze",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Order of Apostasy",
+      "pageId": 4307,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Order_of_Apostasy",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Order of Pain",
+      "pageId": 1764,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Order of the Vampire",
+      "pageId": 1766,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Order_of_the_Vampire",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Order of Undeath",
+      "pageId": 4322,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Order_of_Undeath",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Pain of Disenchantment",
+      "pageId": 4318,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Parasitic Bond",
+      "pageId": 5182,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Parasitic_Bond",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Plague Sending",
+      "pageId": 15403,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Plague_Sending",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Plague Signet",
+      "pageId": 4055,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Plague_Signet",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Plague Touch",
+      "pageId": 7051,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Plague_Touch",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Poisoned Heart",
+      "pageId": 14862,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Poisoned_Heart",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Price of Failure",
+      "pageId": 14863,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Putrid Bile",
+      "pageId": 51857,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Putrid_Bile",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Putrid Explosion",
+      "pageId": 5185,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Putrid_Explosion",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Putrid Flesh",
+      "pageId": 16011,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Putrid_Flesh",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ravenous Gaze",
+      "pageId": 1768,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ravenous_Gaze",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Reaper's Mark",
+      "pageId": 4325,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reaper's_Mark",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Reckless Haste",
+      "pageId": 14864,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Rend Enchantments",
+      "pageId": 15404,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rend_Enchantments",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Rigor Mortis",
+      "pageId": 15405,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rigor_Mortis",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Rip Enchantment",
+      "pageId": 15407,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rip_Enchantment",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Rising Bile",
+      "pageId": 16018,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rising_Bile",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Rotting Flesh",
+      "pageId": 13113,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rotting_Flesh",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow of Fear",
+      "pageId": 15408,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_of_Fear",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Strike",
+      "pageId": 1772,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shivers of Dread",
+      "pageId": 15410,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shivers_of_Dread",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Agony",
+      "pageId": 1773,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Agony (PvP)",
+      "pageId": 221973,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Corruption",
+      "pageId": 41152,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Corruption",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Lost Souls",
+      "pageId": 7056,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Lost_Souls",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Sorrow",
+      "pageId": 7057,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Sorrow",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Suffering",
+      "pageId": 4319,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Suffering",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Barbs",
+      "pageId": 15411,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Bind",
+      "pageId": 4310,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Bind",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Feast",
+      "pageId": 16186,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Feast",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Leech",
+      "pageId": 1774,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Leech",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Taker",
+      "pageId": 313294,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Taker",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spinal Shivers",
+      "pageId": 15412,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spinal_Shivers",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spiteful Spirit",
+      "pageId": 4776,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spiteful_Spirit",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spoil Victor",
+      "pageId": 1775,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spoil_Victor",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spoil Victor (PvP)",
+      "pageId": 268912,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Star Servant",
+      "pageId": 42424,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Star_Servant",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Strip Enchantment",
+      "pageId": 1776,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Strip_Enchantment",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Suffering",
+      "pageId": 15413,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Suffering",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Tainted Flesh",
+      "pageId": 4058,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Taste of Death",
+      "pageId": 16188,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Taste_of_Death",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Taste of Pain",
+      "pageId": 16017,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Taste_of_Pain",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Touch of Agony",
+      "pageId": 1777,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Toxic Chill",
+      "pageId": 4323,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Toxic_Chill",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ulcerous Lungs",
+      "pageId": 15414,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ulcerous_Lungs",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Unholy Feast",
+      "pageId": 1778,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Unholy Feast (PvP)",
+      "pageId": 221970,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unholy_Feast_(PvP)",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampiric Bite",
+      "pageId": 1779,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampiric_Bite",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampiric Gaze",
+      "pageId": 1780,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampiric_Gaze",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampiric Spirit",
+      "pageId": 1781,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampiric_Spirit",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampiric Swarm",
+      "pageId": 1782,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampiric Touch",
+      "pageId": 1783,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Verata's Aura",
+      "pageId": 16189,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Verata's_Aura",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Verata's Gaze",
+      "pageId": 16190,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Verata's_Gaze",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Verata's Sacrifice",
+      "pageId": 16191,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Verata's_Sacrifice",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vile Miasma",
+      "pageId": 16016,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vile Touch",
+      "pageId": 16192,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vile_Touch",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Virulence",
+      "pageId": 4131,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Virulence",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Vocal Minority",
+      "pageId": 15416,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vocal_Minority",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wail of Doom",
+      "pageId": 4315,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wail_of_Doom",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wallow's Bite",
+      "pageId": 1784,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wallow's_Bite",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Weaken Armor",
+      "pageId": 5183,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Weaken Knees",
+      "pageId": 4312,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weaken_Knees",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Blood",
+      "pageId": 1785,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Blood",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Darkness",
+      "pageId": 15418,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Darkness",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Power",
+      "pageId": 1786,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Power",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Ruin",
+      "pageId": 51864,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Silence",
+      "pageId": 15419,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Silence",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Suffering",
+      "pageId": 16029,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Suffering",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of the Profane",
+      "pageId": 16193,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Well of Weariness",
+      "pageId": 15420,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Well_of_Weariness",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wither",
+      "pageId": 4126,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wither",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    },
+    {
+      "title": "Withering Aura",
+      "pageId": 51854,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Withering_Aura",
+      "sources": [
+        {
+          "id": "profession-necromancer",
+          "title": "Necromancer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Necromancer",
+          "category": "Necromancer skills"
+        }
+      ]
+    }
+  ]
+}

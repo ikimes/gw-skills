@@ -1,0 +1,1987 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:47.148Z",
+  "sources": [
+    {
+      "id": "profession-assassin",
+      "kind": "category",
+      "title": "Assassin skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AAssassin_skills",
+      "category": "Assassin skills",
+      "group": "profession",
+      "profession": "Assassin",
+      "fetchedAt": "2026-05-09T00:57:47.147Z",
+      "count": 123
+    }
+  ],
+  "skills": [
+    {
+      "title": "Assassin's Promise",
+      "pageId": 4407,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Assassin's_Promise",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Assassin's Remedy",
+      "pageId": 14559,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Assassin's_Remedy",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Assassin's Remedy (PvP)",
+      "pageId": 136101,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Assassin's_Remedy_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Assault Enchantments",
+      "pageId": 4428,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Assault_Enchantments",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Augury of Death",
+      "pageId": 14607,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Augury_of_Death",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Displacement",
+      "pageId": 4427,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Displacement",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Beguiling Haze",
+      "pageId": 4421,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Beguiling_Haze",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Black Lotus Strike",
+      "pageId": 14573,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Black Mantis Thrust",
+      "pageId": 14492,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Black_Mantis_Thrust",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Black Spider Strike",
+      "pageId": 14493,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Black_Spider_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Blades of Steel",
+      "pageId": 6779,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blades_of_Steel",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Blinding Powder",
+      "pageId": 14736,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blinding_Powder",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Caltrops",
+      "pageId": 14741,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Caltrops",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Dagger",
+      "pageId": 14609,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Dagger",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Critical Agility",
+      "pageId": 41120,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Critical_Agility",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Critical Defenses",
+      "pageId": 14581,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Critical Eye",
+      "pageId": 14596,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Critical_Eye",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Critical Strike",
+      "pageId": 14598,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Critical_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Dancing Daggers",
+      "pageId": 14731,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dancing_Daggers",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Apostasy",
+      "pageId": 4402,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Apostasy",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Escape",
+      "pageId": 6705,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Escape",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Dark Prison",
+      "pageId": 14763,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dark_Prison",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Dash",
+      "pageId": 1658,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dash",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Deadly Haste",
+      "pageId": 14599,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deadly_Haste",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Deadly Paradox",
+      "pageId": 14766,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deadly_Paradox",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Death Blossom",
+      "pageId": 14061,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death_Blossom",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Death Blossom (PvP)",
+      "pageId": 221975,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death_Blossom_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Death's Charge",
+      "pageId": 14744,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death's_Charge",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Death's Retreat",
+      "pageId": 14759,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death's_Retreat",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Desperate Strike",
+      "pageId": 14495,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Desperate_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Dagger",
+      "pageId": 16293,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Dagger",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Stab",
+      "pageId": 14496,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Stab",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Enduring Toxin",
+      "pageId": 16295,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enduring_Toxin",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Entangling Asp",
+      "pageId": 16302,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Entangling_Asp",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Exhausting Assault",
+      "pageId": 14498,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Exhausting_Assault",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Expose Defenses",
+      "pageId": 16304,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Expose_Defenses",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Expunge Enchantments",
+      "pageId": 16305,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Expunge_Enchantments",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Falling Lotus Strike",
+      "pageId": 51828,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Falling Spider",
+      "pageId": 14499,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Falling_Spider",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Feigned Neutrality",
+      "pageId": 12404,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feigned_Neutrality",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Flashing Blades",
+      "pageId": 3961,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flashing_Blades",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Fox Fangs",
+      "pageId": 14503,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Fox Fangs (PvP)",
+      "pageId": 270656,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fox_Fangs_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Fox's Promise",
+      "pageId": 4430,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fox's_Promise",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Golden Fang Strike",
+      "pageId": 51827,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Golden_Fang_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Golden Fox Strike",
+      "pageId": 14504,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Golden_Fox_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Golden Lotus Strike",
+      "pageId": 14507,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Golden_Lotus_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Golden Phoenix Strike",
+      "pageId": 14509,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Golden_Phoenix_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Golden Skull Strike",
+      "pageId": 4433,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Golden_Skull_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Heart of Shadow",
+      "pageId": 14761,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heart_of_Shadow",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Hidden Caltrops",
+      "pageId": 4440,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hidden_Caltrops",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Horns of the Ox",
+      "pageId": 14513,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Impale",
+      "pageId": 16307,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Impale",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Iron Palm",
+      "pageId": 16310,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Iron_Palm",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Jagged Strike",
+      "pageId": 14043,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jagged_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Jungle Strike",
+      "pageId": 14516,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jungle_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Leaping Mantis Sting",
+      "pageId": 14521,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Leaping_Mantis_Sting",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Lift Enchantment",
+      "pageId": 16312,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lift_Enchantment",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Locust's Fury",
+      "pageId": 4403,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Locust's_Fury",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Lotus Strike",
+      "pageId": 51825,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lotus_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Malicious Strike",
+      "pageId": 14601,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Malicious_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantis Touch",
+      "pageId": 16313,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantis_Touch",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Death",
+      "pageId": 16314,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Death",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Insecurity",
+      "pageId": 4436,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Insecurity",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Instability",
+      "pageId": 16272,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Instability",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Mirrored Stance",
+      "pageId": 14762,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mirrored_Stance",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Moebius Strike",
+      "pageId": 4405,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Moebius_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Nine Tail Strike",
+      "pageId": 14525,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Nine_Tail_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Palm Strike",
+      "pageId": 3625,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Palm_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Recall",
+      "pageId": 14847,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Recall",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Repeating Strike",
+      "pageId": 14539,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Repeating_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Return",
+      "pageId": 6706,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Return",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Sadist's Signet",
+      "pageId": 51830,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sadist's_Signet",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Scorpion Wire",
+      "pageId": 16316,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scorpion_Wire",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Seeping Wound",
+      "pageId": 4404,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seeping_Wound",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Fang",
+      "pageId": 51829,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Fang",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Form",
+      "pageId": 4422,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Form",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Form (PvP)",
+      "pageId": 136070,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Form_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Meld",
+      "pageId": 4442,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Meld",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow of Haste",
+      "pageId": 16277,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_of_Haste",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Prison",
+      "pageId": 4439,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Prison",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Refuge",
+      "pageId": 13045,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Refuge",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Sanctuary",
+      "pageId": 41154,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Shroud",
+      "pageId": 4423,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Shroud",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Theft",
+      "pageId": 313303,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Theft",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Walk",
+      "pageId": 13709,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Walk",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadowy Burden",
+      "pageId": 16278,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadowy_Burden",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shameful Fear",
+      "pageId": 16317,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shameful_Fear",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Sharpen Daggers",
+      "pageId": 14602,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sharpen_Daggers",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shattering Assault",
+      "pageId": 4435,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shattering_Assault",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shroud of Distress",
+      "pageId": 16279,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shroud of Distress (PvP)",
+      "pageId": 215064,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Shroud of Silence",
+      "pageId": 4410,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shroud_of_Silence",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Side Step",
+      "pageId": 75711,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Side_Step",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Deadly Corruption",
+      "pageId": 51834,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Deadly Corruption (PvP)",
+      "pageId": 215100,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Malice",
+      "pageId": 6700,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Malice",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Shadows",
+      "pageId": 16318,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Shadows",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Toxic Shock",
+      "pageId": 14840,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Toxic_Shock",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Twilight",
+      "pageId": 16273,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Siphon Speed",
+      "pageId": 16320,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Siphon_Speed",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Siphon Strength",
+      "pageId": 4417,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Siphon_Strength",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Smoke Powder Defense",
+      "pageId": 51833,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smoke_Powder_Defense",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Walk",
+      "pageId": 16274,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Walk",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Star Strike",
+      "pageId": 42425,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Star_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Swap",
+      "pageId": 16275,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Swap",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Temple Strike",
+      "pageId": 4406,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Temple_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Trampling Ox",
+      "pageId": 51832,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Trampling_Ox",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Twisting Fangs",
+      "pageId": 14603,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Twisting_Fangs",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Unseen Fury",
+      "pageId": 16280,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unseen_Fury",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Unseen Fury (PvP)",
+      "pageId": 215101,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unseen_Fury_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Unsuspecting Strike",
+      "pageId": 14604,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unsuspecting_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampiric Assault",
+      "pageId": 51822,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampiric_Assault",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Viper's Defense",
+      "pageId": 16282,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Viper's_Defense",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Wastrel's Collapse",
+      "pageId": 4445,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wastrel's_Collapse",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Way of Perfection",
+      "pageId": 16283,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Way_of_Perfection",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Way of the Assassin",
+      "pageId": 4432,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Assassin",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Way of the Empty Palm",
+      "pageId": 4419,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Way of the Fox",
+      "pageId": 16284,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Fox",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Way of the Lotus",
+      "pageId": 16286,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Lotus",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Way of the Master",
+      "pageId": 51836,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Master",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Wild Strike",
+      "pageId": 13948,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wild_Strike",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    },
+    {
+      "title": "Wild Strike (PvP)",
+      "pageId": 270655,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wild_Strike_(PvP)",
+      "sources": [
+        {
+          "id": "profession-assassin",
+          "title": "Assassin skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Assassin",
+          "category": "Assassin skills"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.profession-filter {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: stretch;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.profession-rows {
+  display: grid;
+  gap: 11px;
+  width: 100%;
+}
+
+.profession-row {
+  display: grid;
+  justify-content: start;
+  gap: 11px;
+}
+
+.profession-row--casters,
+.profession-row--martial {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.profession-row--skill-filters {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.chip,
+.segment {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  border: 1px solid rgba(221, 207, 170, 0.2);
+  border-radius: 6px;
+  color: #d8d1c2;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 0.98rem;
+  white-space: nowrap;
+}
+
+.chip {
+  padding: 0 16px;
+}
+
+.chip--profession {
+  --profession-rgb: 221, 207, 170;
+  border-color: rgba(var(--profession-rgb), 0.24);
+  background: rgba(var(--profession-rgb), 0.08);
+  font-size: 1.03rem;
+}
+
+.chip--profession:hover {
+  border-color: rgba(var(--profession-rgb), 0.58);
+  background: rgba(var(--profession-rgb), 0.14);
+}
+
+.chip--profession.chip--active {
+  border-color: rgba(var(--profession-rgb), 0.88);
+  background: rgba(var(--profession-rgb), 0.28);
+}
+
+.chip--mesmer {
+  --profession-rgb: 126, 75, 134;
+}
+
+.chip--necromancer {
+  --profession-rgb: 79, 138, 91;
+}
+
+.chip--ritualist {
+  --profession-rgb: 46, 140, 135;
+}
+
+.chip--elementalist {
+  --profession-rgb: 169, 84, 69;
+}
+
+.chip--monk {
+  --profession-rgb: 114, 167, 176;
+}
+
+.chip--dervish {
+  --profession-rgb: 108, 111, 134;
+}
+
+.chip--assassin {
+  --profession-rgb: 141, 60, 104;
+}
+
+.chip--warrior {
+  --profession-rgb: 179, 139, 61;
+}
+
+.chip--ranger {
+  --profession-rgb: 111, 142, 59;
+}
+
+.chip--paragon {
+  --profession-rgb: 184, 122, 46;
+}
+
+.profession-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  opacity: 0.82;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.65));
+}
+
+.chip--active .profession-icon,
+.chip--profession:hover .profession-icon {
+  opacity: 1;
+}
+
+.chip--all {
+  min-width: 70px;
+  height: 100%;
+}
+
+.chip:hover,
+.segment:hover {
+  border-color: rgba(237, 194, 105, 0.54);
+  color: #fff4d8;
+}
+
+.chip--active,
+.segment--active {
+  border-color: rgba(247, 198, 91, 0.82);
+  color: #fff6dd;
+  background: rgba(123, 70, 24, 0.72);
+}
+
+.mode-filter {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, auto));
+  overflow: hidden;
+  flex: 0 0 auto;
+  margin-left: -2px;
+  border: 1px solid rgba(221, 207, 170, 0.2);
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.3);
+  align-self: stretch;
+  min-height: 91px;
+}
+
+.mode-filter .segment {
+  border: 0;
+  border-radius: 0;
+  padding: 0 22px;
+  white-space: nowrap;
+}

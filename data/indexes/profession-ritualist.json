@@ -1,0 +1,2467 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:48.975Z",
+  "sources": [
+    {
+      "id": "profession-ritualist",
+      "kind": "category",
+      "title": "Ritualist skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ARitualist_skills",
+      "category": "Ritualist skills",
+      "group": "profession",
+      "profession": "Ritualist",
+      "fetchedAt": "2026-05-09T00:57:48.975Z",
+      "count": 153
+    }
+  ],
+  "skills": [
+    {
+      "title": "Agony",
+      "pageId": 51860,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Agony",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Agony (PvP)",
+      "pageId": 207518,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Agony_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ancestors' Rage",
+      "pageId": 2810,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ancestors'_Rage",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ancestors' Rage (PvP)",
+      "pageId": 136082,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ancestors'_Rage_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Anguish",
+      "pageId": 6410,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anguish",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Anguish (PvP)",
+      "pageId": 207630,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anguish_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Anguished Was Lingwah",
+      "pageId": 6365,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anguished_Was_Lingwah",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Armor of Unfeeling",
+      "pageId": 6362,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Armor of Unfeeling (PvP)",
+      "pageId": 207738,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Attuned Was Songkai",
+      "pageId": 5084,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Attuned_Was_Songkai",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Binding Chains",
+      "pageId": 6361,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Binding_Chains",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Blind Was Mingson",
+      "pageId": 5893,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blind_Was_Mingson",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Bloodsong",
+      "pageId": 1035,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bloodsong",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Bloodsong (PvP)",
+      "pageId": 207854,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bloodsong_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Boon of Creation",
+      "pageId": 4197,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Boon_of_Creation",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Brutal Weapon",
+      "pageId": 6360,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Brutal_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Call to the Spirit Realm",
+      "pageId": 92401,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Call_to_the_Spirit_Realm",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Caretaker's Charge",
+      "pageId": 3056,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Caretaker's_Charge",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Celestial Summoning",
+      "pageId": 42426,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Celestial_Summoning",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Channeled Strike",
+      "pageId": 2811,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Channeled_Strike",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Clamor of Souls",
+      "pageId": 2819,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Clamor_of_Souls",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Consume Soul",
+      "pageId": 4225,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Consume_Soul",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Cruel Was Daoshen",
+      "pageId": 2822,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cruel_Was_Daoshen",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Death Pact Signet",
+      "pageId": 5038,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death_Pact_Signet",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Death Pact Signet (PvP)",
+      "pageId": 136079,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Defiant Was Xinrae",
+      "pageId": 4344,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Destruction",
+      "pageId": 2823,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Destruction",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Destruction (PvP)",
+      "pageId": 207855,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Destruction_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Destructive Was Glaive",
+      "pageId": 3064,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Destructive Was Glaive (PvP)",
+      "pageId": 243841,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Disenchantment",
+      "pageId": 6358,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disenchantment",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Disenchantment (PvP)",
+      "pageId": 207636,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disenchantment_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Disenchantment (Togo)",
+      "pageId": 218671,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disenchantment_(Togo)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Displacement",
+      "pageId": 6357,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Displacement",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Displacement (PvP)",
+      "pageId": 207627,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Displacement_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Dissonance",
+      "pageId": 6354,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dissonance",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Dissonance (PvP)",
+      "pageId": 207730,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dissonance_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Doom",
+      "pageId": 5102,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Doom",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Dragon Empire Rage",
+      "pageId": 92410,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dragon_Empire_Rage",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Draw Spirit",
+      "pageId": 5013,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Draw_Spirit",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Dulled Weapon",
+      "pageId": 6346,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dulled_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Earthbind",
+      "pageId": 6343,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Earthbind",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Earthbind (PvP)",
+      "pageId": 208126,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Earthbind_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Empowerment",
+      "pageId": 5097,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Empowerment",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Empowerment (PvP)",
+      "pageId": 207715,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Empowerment_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Energetic Was Lee Sa",
+      "pageId": 51888,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energetic_Was_Lee_Sa",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Essence Strike",
+      "pageId": 3067,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Essence_Strike",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Essence Strike (Togo)",
+      "pageId": 244931,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Essence_Strike_(Togo)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Explosive Growth",
+      "pageId": 5094,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Explosive_Growth",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Feast of Souls",
+      "pageId": 5092,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feast_of_Souls",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Flesh of My Flesh",
+      "pageId": 5892,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Flesh of My Flesh (PvP)",
+      "pageId": 136077,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Gaze from Beyond",
+      "pageId": 3137,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gaze_from_Beyond",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Gaze of Fury",
+      "pageId": 6456,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Gaze of Fury (PvP)",
+      "pageId": 207949,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Generous Was Tsungrai",
+      "pageId": 5890,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Generous_Was_Tsungrai",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ghostly Haste",
+      "pageId": 5089,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ghostly_Haste",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ghostly Weapon",
+      "pageId": 51855,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ghostly_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ghostmirror Light",
+      "pageId": 4102,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ghostmirror_Light",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Grasping Was Kuurong",
+      "pageId": 3140,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grasping_Was_Kuurong",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Guided Weapon",
+      "pageId": 6341,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Guided_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Jack Frost",
+      "pageId": 75430,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jack_Frost",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lamentation",
+      "pageId": 3143,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lamentation",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Life",
+      "pageId": 5888,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Life (PvP)",
+      "pageId": 208132,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lively Was Naomei",
+      "pageId": 5887,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lively_Was_Naomei",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mend Body and Soul",
+      "pageId": 5886,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mend_Body_and_Soul",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mend Body and Soul (Togo)",
+      "pageId": 244933,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mend_Body_and_Soul_(Togo)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mending Grip",
+      "pageId": 51872,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mending_Grip",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mighty Was Vorizun",
+      "pageId": 1040,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mighty_Was_Vorizun",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Nightmare Weapon",
+      "pageId": 8354,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Nightmare_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Offering of Spirit",
+      "pageId": 4346,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Offering_of_Spirit",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Pain",
+      "pageId": 6338,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pain",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Pain (PvP)",
+      "pageId": 207533,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Painful Bond",
+      "pageId": 3150,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Painful_Bond",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Preservation",
+      "pageId": 4222,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Preservation",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Preservation (PvP)",
+      "pageId": 207683,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Preservation_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Protective Was Kaolai",
+      "pageId": 5885,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Protective_Was_Kaolai",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Pure Was Li Ming",
+      "pageId": 51885,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pure_Was_Li_Ming",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Reclaim Essence",
+      "pageId": 4214,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reclaim_Essence",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Recovery",
+      "pageId": 4096,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Recovery",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Recovery (PvP)",
+      "pageId": 207698,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Recovery_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Recuperation",
+      "pageId": 5884,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Recuperation",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Recuperation (PvP)",
+      "pageId": 207696,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Recuperation_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Rejuvenation",
+      "pageId": 51865,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rejuvenation",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Rejuvenation (PvP)",
+      "pageId": 207694,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rejuvenation_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Renewing Memories",
+      "pageId": 5087,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Renewing_Memories",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Renewing Surge",
+      "pageId": 6455,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Renewing_Surge",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Resilient Was Xiko",
+      "pageId": 5878,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Resilient_Was_Xiko",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Resilient Weapon",
+      "pageId": 5877,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Resilient_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Restoration",
+      "pageId": 6337,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Restoration",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Restoration (PvP)",
+      "pageId": 207631,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Restoration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ritual Lord",
+      "pageId": 4226,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ritual_Lord",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Rupture Soul",
+      "pageId": 5086,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rupture_Soul",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadowsong",
+      "pageId": 6333,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadowsong",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadowsong (PvP)",
+      "pageId": 207635,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadowsong_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shelter",
+      "pageId": 6332,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shelter",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shelter (PvP)",
+      "pageId": 207628,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shelter_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Sight Beyond Sight",
+      "pageId": 5085,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sight_Beyond_Sight",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Binding",
+      "pageId": 6409,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Binding",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Creation",
+      "pageId": 5083,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Creation",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Ghostly Might",
+      "pageId": 4347,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Ghostly Might (PvP)",
+      "pageId": 176114,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Spirits",
+      "pageId": 3152,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Spirits",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Spirits (PvP)",
+      "pageId": 176113,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Soothing",
+      "pageId": 6331,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soothing",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Soothing (PvP)",
+      "pageId": 207634,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soothing_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Soothing Memories",
+      "pageId": 5109,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soothing_Memories",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Twisting",
+      "pageId": 4223,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Twisting",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Boon Strike",
+      "pageId": 3154,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Boon_Strike",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Burn",
+      "pageId": 3157,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Burn",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Burn (Togo)",
+      "pageId": 244930,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Burn_(Togo)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Channeling",
+      "pageId": 4230,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Channeling",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Light",
+      "pageId": 5108,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Light",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Light Weapon",
+      "pageId": 4221,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Rift",
+      "pageId": 8437,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Rift",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Rift (Togo)",
+      "pageId": 244932,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Rift_(Togo)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Siphon",
+      "pageId": 4179,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Siphon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit to Flesh",
+      "pageId": 5070,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_to_Flesh",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Transfer",
+      "pageId": 5104,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Transfer",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit's Gift",
+      "pageId": 5062,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit's_Gift",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit's Strength",
+      "pageId": 4213,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit's_Strength",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Spiritleech Aura",
+      "pageId": 51869,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spiritleech_Aura",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Splinter Weapon",
+      "pageId": 4186,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Splinter Weapon (PvP)",
+      "pageId": 136074,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Splinter_Weapon_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Summon Spirits",
+      "pageId": 41156,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Summon_Spirits",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Sundering Weapon",
+      "pageId": 51879,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sundering_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Tranquil Was Tanasen",
+      "pageId": 4217,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Union",
+      "pageId": 6329,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Union",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Union (PvP)",
+      "pageId": 207632,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Union_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampirism",
+      "pageId": 41123,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampirism",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Vengeful Was Khanhei",
+      "pageId": 2978,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Vengeful Weapon",
+      "pageId": 1094,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Vital Weapon",
+      "pageId": 6328,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vital_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Vocal Was Sogolon",
+      "pageId": 4091,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vocal_Was_Sogolon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wailing Weapon",
+      "pageId": 4193,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wailing_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wanderlust",
+      "pageId": 3959,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wanderlust",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wanderlust (PvP)",
+      "pageId": 207633,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wanderlust_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Warmonger's Weapon",
+      "pageId": 6454,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Warmonger's_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Aggression",
+      "pageId": 51882,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Aggression",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Fury",
+      "pageId": 4216,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Fury",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Quickening",
+      "pageId": 4345,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Quickening",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Remedy",
+      "pageId": 4088,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Remedy",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Renewal",
+      "pageId": 51876,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Renewal",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Shadow",
+      "pageId": 2979,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Warding",
+      "pageId": 2980,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Warding",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapon of Warding (PvP)",
+      "pageId": 154809,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Warding_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapons of Three Forges",
+      "pageId": 313297,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wielder's Boon",
+      "pageId": 4111,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wielder's_Boon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wielder's Remedy",
+      "pageId": 5053,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wielder's_Remedy",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wielder's Strike",
+      "pageId": 6452,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wielder's_Strike",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Wielder's Zeal",
+      "pageId": 4207,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wielder's_Zeal",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    },
+    {
+      "title": "Xinrae's Weapon",
+      "pageId": 4348,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Xinrae's_Weapon",
+      "sources": [
+        {
+          "id": "profession-ritualist",
+          "title": "Ritualist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ritualist",
+          "category": "Ritualist skills"
+        }
+      ]
+    }
+  ]
+}

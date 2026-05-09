@@ -1,0 +1,409 @@
+{
+  "schema": "gw-skills.semantic-overlays.v1",
+  "taxonomy": {
+    "intents": [
+      "buff_weapon_damage",
+      "buff_pet_damage",
+      "buff_spirit_damage",
+      "arrow_damage_buff",
+      "aoe_weapon_attack",
+      "damage_type_conversion",
+      "attack_speed",
+      "energy_management",
+      "condition_removal",
+      "hex_removal",
+      "armor_buff",
+      "damage_reduction",
+      "minion_support",
+      "interrupt",
+      "resurrection"
+    ],
+    "mechanics": [
+      "flat_damage_bonus",
+      "percent_damage_bonus",
+      "armor_penetration",
+      "damage_type_conversion",
+      "splash_damage",
+      "triggered_damage",
+      "health_steal",
+      "effective_damage_bonus",
+      "unblockable",
+      "attack_speed_bonus",
+      "arrow_speed_bonus",
+      "condition_rider",
+      "interrupt_rider",
+      "multi_target_attack",
+      "health_regeneration",
+      "knockdown_chance"
+    ],
+    "appliesTo": [
+      "attacks",
+      "weapon_attacks",
+      "melee_attacks",
+      "scythe_attacks",
+      "bow_attacks",
+      "sword_attacks",
+      "axe_attacks",
+      "physical_attacks",
+      "physical_damage",
+      "attack_skills",
+      "pet_attacks",
+      "spirit_attacks",
+      "party"
+    ],
+    "areas": [
+      "point_blank",
+      "adjacent",
+      "adjacent_to_target",
+      "nearby",
+      "in_the_area",
+      "earshot",
+      "spirit_range",
+      "party_area",
+      "line",
+      "half_range"
+    ]
+  },
+  "skills": {
+    "Barbs": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["triggered_damage"],
+      "appliesTo": ["physical_damage"],
+      "notes": "Hex rider: adds damage whenever the target takes physical damage."
+    },
+    "Barrage": {
+      "intents": ["aoe_weapon_attack"],
+      "mechanics": ["multi_target_attack"],
+      "appliesTo": ["bow_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Direct bow attack; classified as an AoE weapon attack rather than a persistent enhancer."
+    },
+    "Brutal Weapon": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["weapon_attacks"],
+      "notes": "Conditional: no effect while target ally is enchanted."
+    },
+    "Great Dwarf Weapon": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus", "knockdown_chance"],
+      "appliesTo": ["weapon_attacks"]
+    },
+    "Hundred Blades": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["splash_damage"],
+      "appliesTo": ["weapon_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Sword-attack-triggered adjacent damage rather than direct target damage."
+    },
+    "Strength of Honor": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["melee_attacks"]
+    },
+    "Strength of Honor (PvP)": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["melee_attacks"]
+    },
+    "\"Together as One!\"": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus", "health_regeneration"],
+      "appliesTo": ["attacks", "party"]
+    },
+    "\"Dodge This!\"": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus", "unblockable"],
+      "appliesTo": ["attacks"],
+      "notes": "Single next-attack buff."
+    },
+    "\"Find Their Weakness!\"": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"],
+      "notes": "Single next-attack buff."
+    },
+    "\"I Am the Strongest!\"": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"]
+    },
+    "Anthem of Envy": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attack_skills", "party"],
+      "areas": ["earshot"],
+      "notes": "Conditional: only applies against foes above 50% Health."
+    },
+    "Anthem of Envy (PvP)": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attack_skills", "party"],
+      "areas": ["earshot"],
+      "notes": "Conditional: only applies against foes above 50% Health."
+    },
+    "Conjure Flame": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"],
+      "notes": "Conditional: requires a fire damage weapon."
+    },
+    "Conjure Frost": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"],
+      "notes": "Conditional: requires a cold damage weapon."
+    },
+    "Conjure Lightning": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"],
+      "notes": "Conditional: requires a lightning damage weapon."
+    },
+    "Choking Gas": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["flat_damage_bonus", "interrupt_rider"],
+      "appliesTo": ["bow_attacks"],
+      "areas": ["adjacent"]
+    },
+    "Ebon Battle Standard of Honor": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks", "party"],
+      "notes": "Area buff; spirits are unaffected."
+    },
+    "Ebon Dust Aura": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["melee_attacks"],
+      "notes": "Conditional: requires an earth weapon."
+    },
+    "Expert Focus": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff", "energy_management"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["bow_attacks"],
+      "notes": "Only affects bow attack skills."
+    },
+    "Favorable Winds": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["flat_damage_bonus", "arrow_speed_bonus"],
+      "appliesTo": ["bow_attacks"],
+      "notes": "Nature ritual range; does not affect spirits."
+    },
+    "Glass Arrows": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["flat_damage_bonus", "condition_rider"],
+      "appliesTo": ["bow_attacks"]
+    },
+    "Glass Arrows (PvP)": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["flat_damage_bonus", "condition_rider"],
+      "appliesTo": ["bow_attacks"]
+    },
+    "Grenth's Aura": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["effective_damage_bonus", "health_steal"],
+      "appliesTo": ["scythe_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Effective damage gain through life stealing, despite reducing normal scythe damage."
+    },
+    "Judge's Insight": {
+      "intents": ["buff_weapon_damage", "damage_type_conversion"],
+      "mechanics": ["armor_penetration", "damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "Ignite Arrows": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["splash_damage"],
+      "appliesTo": ["bow_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Arrow preparation that adds adjacent fire damage."
+    },
+    "Kindle Arrows": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff", "damage_type_conversion"],
+      "mechanics": ["flat_damage_bonus", "damage_type_conversion"],
+      "appliesTo": ["bow_attacks"]
+    },
+    "Mark of Pain": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["splash_damage", "triggered_damage"],
+      "appliesTo": ["physical_damage"],
+      "areas": ["adjacent"],
+      "notes": "Hex rider: physical damage to the target triggers adjacent damage."
+    },
+    "Order of Pain": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["physical_attacks", "party"]
+    },
+    "Order of the Vampire": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["health_steal"],
+      "appliesTo": ["physical_attacks", "party"]
+    },
+    "Melandru's Arrows": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["flat_damage_bonus", "condition_rider"],
+      "appliesTo": ["bow_attacks"],
+      "notes": "Damage bonus is conditional on enchanted foes."
+    },
+    "Nightmare Weapon": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["effective_damage_bonus", "health_steal"],
+      "appliesTo": ["weapon_attacks"],
+      "notes": "Effective damage gain through life stealing, despite reducing normal attack damage."
+    },
+    "Read the Wind": {
+      "intents": ["buff_weapon_damage", "arrow_damage_buff"],
+      "mechanics": ["flat_damage_bonus", "arrow_speed_bonus"],
+      "appliesTo": ["bow_attacks"]
+    },
+    "Sand Shards": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["splash_damage"],
+      "appliesTo": ["scythe_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Scythe-hit-triggered adjacent damage rather than direct target damage."
+    },
+    "Signet of Strength": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"]
+    },
+    "Soul Taker": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"],
+      "notes": "Costs health on each affected attack."
+    },
+    "Spirit's Strength": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks"],
+      "notes": "Conditional: requires being under a weapon spell."
+    },
+    "Splinter Weapon": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["splash_damage"],
+      "appliesTo": ["weapon_attacks"],
+      "notes": "Attack-triggered splash damage rather than direct target damage."
+    },
+    "Splinter Weapon (PvP)": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["splash_damage"],
+      "appliesTo": ["weapon_attacks"],
+      "notes": "Attack-triggered splash damage rather than direct target damage."
+    },
+    "Triple Chop": {
+      "intents": ["aoe_weapon_attack"],
+      "mechanics": ["multi_target_attack"],
+      "appliesTo": ["axe_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Direct axe attack; classified as an AoE weapon attack rather than a persistent enhancer."
+    },
+    "Ursan Roar": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["attacks", "party"],
+      "areas": ["earshot"]
+    },
+    "Vow of Strength": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["splash_damage"],
+      "appliesTo": ["scythe_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Scythe-attack-triggered adjacent damage rather than direct target damage."
+    },
+    "Volley": {
+      "intents": ["aoe_weapon_attack"],
+      "mechanics": ["multi_target_attack"],
+      "appliesTo": ["bow_attacks"],
+      "areas": ["adjacent"],
+      "notes": "Direct bow attack; classified as an AoE weapon attack rather than a persistent enhancer."
+    },
+    "Winnowing": {
+      "intents": ["buff_weapon_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["physical_attacks"],
+      "notes": "Nature ritual range; does not affect spirits."
+    },
+    "Feral Aggression": {
+      "intents": ["buff_pet_damage"],
+      "mechanics": ["flat_damage_bonus", "attack_speed_bonus"],
+      "appliesTo": ["pet_attacks"]
+    },
+    "Signet of Ghostly Might": {
+      "intents": ["buff_spirit_damage"],
+      "mechanics": ["flat_damage_bonus", "attack_speed_bonus"],
+      "appliesTo": ["spirit_attacks"],
+      "areas": ["earshot"]
+    },
+    "Signet of Ghostly Might (PvP)": {
+      "intents": ["buff_spirit_damage"],
+      "mechanics": ["flat_damage_bonus"],
+      "appliesTo": ["spirit_attacks"]
+    }
+  },
+  "skillsByPageId": {
+    "1308": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "2024": {
+      "intents": ["buff_weapon_damage", "damage_type_conversion"],
+      "mechanics": ["damage_type_conversion", "health_steal"],
+      "appliesTo": ["scythe_attacks"]
+    },
+    "2216": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "2217": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "2218": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "1378": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "12256": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "12262": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "14084": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "274757": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "274802": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    },
+    "278536": {
+      "intents": ["damage_type_conversion"],
+      "mechanics": ["damage_type_conversion"],
+      "appliesTo": ["attacks"]
+    }
+  }
+}

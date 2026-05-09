@@ -1,0 +1,2611 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:47.600Z",
+  "sources": [
+    {
+      "id": "profession-elementalist",
+      "kind": "category",
+      "title": "Elementalist skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AElementalist_skills",
+      "category": "Elementalist skills",
+      "group": "profession",
+      "profession": "Elementalist",
+      "fetchedAt": "2026-05-09T00:57:47.600Z",
+      "count": 162
+    }
+  ],
+  "skills": [
+    {
+      "title": "Aftershock",
+      "pageId": 8197,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aftershock",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Air Attunement",
+      "pageId": 1740,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Air_Attunement",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Arc Lightning",
+      "pageId": 1761,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arc_Lightning",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Armor of Earth",
+      "pageId": 11193,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Armor_of_Earth",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Armor of Frost",
+      "pageId": 14783,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Armor_of_Frost",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Armor of Mist",
+      "pageId": 14852,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Armor_of_Mist",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ash Blast",
+      "pageId": 11204,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ash_Blast",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Attunements",
+      "pageId": 197450,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Attunements",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Restoration",
+      "pageId": 2756,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Restoration (PvP)",
+      "pageId": 297010,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Bed of Coals",
+      "pageId": 2608,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bed_of_Coals",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Blinding Flash",
+      "pageId": 1788,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blinding_Flash",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Blinding Surge",
+      "pageId": 1793,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blinding_Surge",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Blurred Vision",
+      "pageId": 16254,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blurred_Vision",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Breath of Fire",
+      "pageId": 2434,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Burning Speed",
+      "pageId": 12218,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Burning_Speed",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Celestial Storm",
+      "pageId": 19125,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Celestial_Storm",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Chain Lightning",
+      "pageId": 1795,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Chilling Winds",
+      "pageId": 1797,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chilling_Winds",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Churning Earth",
+      "pageId": 12301,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Churning_Earth",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Conjure Flame",
+      "pageId": 10804,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conjure_Flame",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Conjure Frost",
+      "pageId": 14856,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conjure_Frost",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Conjure Lightning",
+      "pageId": 1801,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Crystal Wave",
+      "pageId": 14814,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crystal_Wave",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Deep Freeze",
+      "pageId": 14668,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Double Dragon",
+      "pageId": 3618,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Double_Dragon",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Dragon's Stomp",
+      "pageId": 13623,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dragon's_Stomp",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Earth Attunement",
+      "pageId": 8196,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Earthen Shackles",
+      "pageId": 51871,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Earthen_Shackles",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Earthquake",
+      "pageId": 13640,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Earthquake",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Hawk",
+      "pageId": 14067,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Hawk",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Elemental Attunement",
+      "pageId": 4064,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Elemental Flame",
+      "pageId": 16247,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Elemental_Flame",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Elemental Flame (PvP)",
+      "pageId": 302377,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Elemental_Flame_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Elemental Lord",
+      "pageId": 41150,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Elemental_Lord",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Energy Blast",
+      "pageId": 51881,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energy_Blast",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Energy Boon",
+      "pageId": 4328,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energy_Boon",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Enervating Charge",
+      "pageId": 1804,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Eruption",
+      "pageId": 14073,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Eruption",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Prism",
+      "pageId": 4339,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Prism",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Prodigy",
+      "pageId": 3477,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Prodigy",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Renewal",
+      "pageId": 4228,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Renewal",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Renewal (PvP)",
+      "pageId": 136071,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Renewal_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Fire Attunement",
+      "pageId": 2774,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Fire Storm",
+      "pageId": 2600,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fire_Storm",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Fireball",
+      "pageId": 2780,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fireball",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Flame Burst",
+      "pageId": 2784,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flame_Burst",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Flame Djinn's Haste",
+      "pageId": 2789,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flame_Djinn's_Haste",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Flare",
+      "pageId": 2752,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flare",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Freezing Gust",
+      "pageId": 16256,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Freezing_Gust",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Frigid Armor",
+      "pageId": 14649,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frigid_Armor",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Frozen Burst",
+      "pageId": 16257,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frozen_Burst",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Gale",
+      "pageId": 1805,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gale",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glimmering Mark",
+      "pageId": 1813,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glimmering_Mark",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glowing Gaze",
+      "pageId": 2791,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glowing_Gaze",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glowing Ice",
+      "pageId": 51880,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glowing_Ice",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glowstone",
+      "pageId": 16242,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glowstone",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Concentration",
+      "pageId": 16251,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Concentration",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Elemental Power",
+      "pageId": 14041,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Elemental_Power",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Energy",
+      "pageId": 4236,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Energy",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Essence",
+      "pageId": 16252,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Essence",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Immolation",
+      "pageId": 51870,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Immolation",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Lesser Energy",
+      "pageId": 1677,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Lesser_Energy",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Renewal",
+      "pageId": 4237,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Restoration",
+      "pageId": 8198,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Sacrifice",
+      "pageId": 8313,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Glyph of Swiftness",
+      "pageId": 51875,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Swiftness",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Grasping Earth",
+      "pageId": 6717,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grasping_Earth",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Gust",
+      "pageId": 1921,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gust",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ice Prison",
+      "pageId": 16258,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ice_Prison",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ice Spear",
+      "pageId": 14131,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ice_Spear",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ice Spikes",
+      "pageId": 16260,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ice_Spikes",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Icicles",
+      "pageId": 75705,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Icicles",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Icy Prism",
+      "pageId": 16261,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Icy_Prism",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Icy Shackles",
+      "pageId": 4343,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Icy_Shackles",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Immolate",
+      "pageId": 10784,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Immolate",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Incendiary Bonds",
+      "pageId": 16248,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Incendiary_Bonds",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Inferno",
+      "pageId": 16249,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Inferno",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Intensity",
+      "pageId": 41117,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Intensity",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Invoke Lightning",
+      "pageId": 1936,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Iron Mist",
+      "pageId": 15151,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Iron_Mist",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Kinetic Armor",
+      "pageId": 3053,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Kinetic_Armor",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lava Arrows",
+      "pageId": 10596,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lava_Arrows",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lava Font",
+      "pageId": 13710,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lava_Font",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Bolt",
+      "pageId": 1937,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Hammer",
+      "pageId": 1940,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Hammer",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Hammer (PvP)",
+      "pageId": 302376,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Hammer_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Javelin",
+      "pageId": 1942,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Javelin",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Orb",
+      "pageId": 1946,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Strike",
+      "pageId": 1950,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Strike",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Surge",
+      "pageId": 1958,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Touch",
+      "pageId": 1962,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Touch",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Liquid Flame",
+      "pageId": 2603,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Maelstrom",
+      "pageId": 10799,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Maelstrom",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Magnetic Aura",
+      "pageId": 14379,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Magnetic Surge",
+      "pageId": 51877,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Magnetic_Surge",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Rodgort",
+      "pageId": 10394,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Rodgort",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Master of Magic",
+      "pageId": 4340,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Master_of_Magic",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Meteor",
+      "pageId": 5098,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Meteor",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Meteor Shower",
+      "pageId": 5096,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Meteor_Shower",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Blast",
+      "pageId": 4341,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Blast",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Burn",
+      "pageId": 4065,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Burn",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Freeze",
+      "pageId": 3957,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Freeze (PvP)",
+      "pageId": 293538,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Freeze_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Shock",
+      "pageId": 2390,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Shock",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Shock (PvP)",
+      "pageId": 293537,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Shock_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mirror of Ice",
+      "pageId": 4331,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mirror_of_Ice",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mist Form",
+      "pageId": 4231,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mist_Form",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Mist Form (PvP)",
+      "pageId": 293542,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mist_Form_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Obsidian Flame",
+      "pageId": 14383,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Obsidian Flame (PvP)",
+      "pageId": 294245,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Obsidian_Flame_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Obsidian Flesh",
+      "pageId": 4061,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Obsidian_Flesh",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Over the Limit",
+      "pageId": 313293,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Over_the_Limit",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Phoenix",
+      "pageId": 10796,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Phoenix",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ride the Lightning",
+      "pageId": 2392,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ride_the_Lightning",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ride the Lightning (PvP)",
+      "pageId": 293543,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Rodgort's Invocation",
+      "pageId": 12698,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rodgort's_Invocation",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Rust",
+      "pageId": 16263,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rust",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Sandstorm",
+      "pageId": 4336,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sandstorm",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Savannah Heat",
+      "pageId": 4342,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Savannah Heat (PvP)",
+      "pageId": 207517,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Savannah_Heat_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Searing Flames",
+      "pageId": 3058,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Searing_Flames",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Searing Heat",
+      "pageId": 2423,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Searing_Heat",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Second Wind",
+      "pageId": 4334,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Second_Wind",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shard Storm",
+      "pageId": 16264,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shard_Storm",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shatterstone",
+      "pageId": 4332,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shatterstone",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shell Shock",
+      "pageId": 51868,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shell_Shock",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shock",
+      "pageId": 2394,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shock",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shock Arrow",
+      "pageId": 2396,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shock_Arrow",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Shockwave",
+      "pageId": 3068,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shockwave",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Slippery Ground",
+      "pageId": 51878,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Slippery_Ground",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Slippery Ground (PvP)",
+      "pageId": 302378,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Slippery_Ground_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Sliver Armor",
+      "pageId": 14388,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Smoldering Embers",
+      "pageId": 16250,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smoldering_Embers",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Star Burst",
+      "pageId": 4329,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Star_Burst",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Steam",
+      "pageId": 16267,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Steam",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Stone Daggers",
+      "pageId": 14135,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stone_Daggers",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Stone Sheath",
+      "pageId": 4337,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stone_Sheath",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Stone Striker",
+      "pageId": 16244,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stone_Striker",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Stoneflesh Aura",
+      "pageId": 14670,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stoneflesh_Aura",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Stoning",
+      "pageId": 14394,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stoning",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Storm Djinn's Haste",
+      "pageId": 2398,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Storm_Djinn's_Haste",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Swirling Aura",
+      "pageId": 16268,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Swirling_Aura",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Teinai's Crystals",
+      "pageId": 14401,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Teinai's_Crystals",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Teinai's Heat",
+      "pageId": 2431,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Teinai's_Heat",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Teinai's Prison",
+      "pageId": 16269,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Teinai's_Prison",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Teinai's Wind",
+      "pageId": 2400,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Teinai's_Wind",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Thunderclap",
+      "pageId": 2403,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Thunderclap",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Unsteady Ground",
+      "pageId": 4326,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unsteady_Ground",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Vapor Blade",
+      "pageId": 16270,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vapor_Blade",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward Against Elements",
+      "pageId": 16245,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Elements",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward Against Foes",
+      "pageId": 14406,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Foes",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward Against Harm",
+      "pageId": 4234,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Harm",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward Against Harm (PvP)",
+      "pageId": 293522,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Harm_(PvP)",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward Against Melee",
+      "pageId": 2193,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward of Stability",
+      "pageId": 11654,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_of_Stability",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Ward of Weakness",
+      "pageId": 51874,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ward_of_Weakness",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Water Attunement",
+      "pageId": 11209,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Water_Attunement",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Water Trident",
+      "pageId": 4235,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Water_Trident",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Whirlwind",
+      "pageId": 2404,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Whirlwind",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Windborne Speed",
+      "pageId": 2409,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Windborne_Speed",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    },
+    {
+      "title": "Winter's Embrace",
+      "pageId": 51867,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Winter's_Embrace",
+      "sources": [
+        {
+          "id": "profession-elementalist",
+          "title": "Elementalist skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Elementalist",
+          "category": "Elementalist skills"
+        }
+      ]
+    }
+  ]
+}

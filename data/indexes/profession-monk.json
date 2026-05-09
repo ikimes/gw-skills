@@ -1,0 +1,2499 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:48.052Z",
+  "sources": [
+    {
+      "id": "profession-monk",
+      "kind": "category",
+      "title": "Monk skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AMonk_skills",
+      "category": "Monk skills",
+      "group": "profession",
+      "profession": "Monk",
+      "fetchedAt": "2026-05-09T00:57:48.052Z",
+      "count": 155
+    }
+  ],
+  "skills": [
+    {
+      "title": "Aegis",
+      "pageId": 1215,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aegis",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Aegis (PvP)",
+      "pageId": 136093,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aegis_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Air of Enchantment",
+      "pageId": 4290,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Air_of_Enchantment",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Amity",
+      "pageId": 4104,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Amity",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Faith",
+      "pageId": 2625,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Faith",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Stability",
+      "pageId": 51889,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Stability",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Balthazar's Aura",
+      "pageId": 1544,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Balthazar's_Aura",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Balthazar's Pendulum",
+      "pageId": 3962,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Balthazar's_Pendulum",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Balthazar's Spirit",
+      "pageId": 5891,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Balthazar's_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Bane Signet",
+      "pageId": 1547,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bane_Signet",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Banish",
+      "pageId": 1548,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Banish",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Blessed Aura",
+      "pageId": 2897,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blessed_Aura",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Blessed Light",
+      "pageId": 2898,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blessed_Light",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Blessed Signet",
+      "pageId": 1119,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blessed_Signet",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Boon Signet",
+      "pageId": 2899,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Boon_Signet",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Castigation Signet",
+      "pageId": 51893,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Castigation_Signet",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Castigation Signet (Saul D'Alessio)",
+      "pageId": 207603,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Castigation_Signet_(Saul_D'Alessio)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Contemplation of Purity",
+      "pageId": 2900,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Contemplation_of_Purity",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Convert Hexes",
+      "pageId": 1216,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Convert_Hexes",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Cure Hex",
+      "pageId": 51883,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cure_Hex",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Defender's Zeal",
+      "pageId": 4350,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defender's_Zeal",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Deny Hexes",
+      "pageId": 2772,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deny_Hexes",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Dismiss Condition",
+      "pageId": 7831,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dismiss_Condition",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Divert Hexes",
+      "pageId": 4349,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Divert_Hexes",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Divine Boon",
+      "pageId": 1125,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Divine_Boon",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Divine Healing",
+      "pageId": 2902,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Divine_Healing",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Divine Intervention",
+      "pageId": 1129,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Divine_Intervention",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Divine Spirit",
+      "pageId": 2903,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Divine_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Draw Conditions",
+      "pageId": 1217,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Draw_Conditions",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Dwayna's Kiss",
+      "pageId": 2922,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dwayna's_Kiss",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Dwayna's Sorrow",
+      "pageId": 2923,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dwayna's_Sorrow",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Empathic Removal",
+      "pageId": 2773,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Empathic_Removal",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Essence Bond",
+      "pageId": 2777,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Essence_Bond",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Ethereal Light",
+      "pageId": 2925,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ethereal_Light",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Extinguish",
+      "pageId": 7834,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Extinguish",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Gift of Health",
+      "pageId": 2930,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gift_of_Health",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Glimmer of Light",
+      "pageId": 2926,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glimmer_of_Light",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Guardian",
+      "pageId": 1218,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Guardian",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Heal Area",
+      "pageId": 2932,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heal_Area",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Heal Other",
+      "pageId": 2934,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heal_Other",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Heal Party",
+      "pageId": 1136,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heal_Party",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Heal Party (PvP)",
+      "pageId": 268908,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heal_Party_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healer's Boon",
+      "pageId": 1078,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healer's_Boon",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healer's Covenant",
+      "pageId": 2935,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healer's_Covenant",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Breeze",
+      "pageId": 1137,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Breeze",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Burst",
+      "pageId": 2938,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Burst",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Hands",
+      "pageId": 2939,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Hands",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Light",
+      "pageId": 2928,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Light",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Ribbon",
+      "pageId": 51887,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Ribbon",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Ring",
+      "pageId": 2940,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Ring",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Seed",
+      "pageId": 1141,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Seed",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Touch",
+      "pageId": 1142,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Touch",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Whisper",
+      "pageId": 2942,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Whisper",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Heaven's Delight",
+      "pageId": 2904,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heaven's_Delight",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Holy Haste",
+      "pageId": 2905,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Holy_Haste",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Holy Strike",
+      "pageId": 13732,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Holy_Strike",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Holy Veil",
+      "pageId": 1514,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Holy_Veil",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Holy Wrath",
+      "pageId": 13729,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Holy_Wrath",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Ice Breaker",
+      "pageId": 75366,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ice_Breaker",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Infuse Health",
+      "pageId": 1175,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Infuse_Health",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Jamei's Gaze",
+      "pageId": 2946,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jamei's_Gaze",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Judge's Insight",
+      "pageId": 1577,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Judge's_Insight",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Judge's Intervention",
+      "pageId": 13043,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Judge's_Intervention",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Judgment Strike",
+      "pageId": 313305,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Judgment_Strike",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Karei's Healing Circle",
+      "pageId": 2944,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Karei's_Healing_Circle",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Kirin's Wrath",
+      "pageId": 13266,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Kirin's_Wrath",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Life Attunement",
+      "pageId": 13880,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_Attunement",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Life Barrier",
+      "pageId": 4106,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_Barrier",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Life Bond",
+      "pageId": 1220,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_Bond",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Life Sheath",
+      "pageId": 4294,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Life_Sheath",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Light of Deliverance",
+      "pageId": 2947,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Light_of_Deliverance",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Light of Deliverance (PvP)",
+      "pageId": 136081,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Light_of_Deliverance_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Light of Dwayna",
+      "pageId": 2779,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Light_of_Dwayna",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Live Vicariously",
+      "pageId": 2949,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Live_Vicariously",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Mark of Protection",
+      "pageId": 4107,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mark_of_Protection",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Martyr",
+      "pageId": 1519,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Martyr",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Mend Ailment",
+      "pageId": 1221,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mend_Ailment",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Mend Condition",
+      "pageId": 13877,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mend_Condition",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Mending",
+      "pageId": 1202,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mending",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Mending Touch",
+      "pageId": 6699,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mending_Touch",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Orison of Healing",
+      "pageId": 1204,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Orison_of_Healing",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Pacifism",
+      "pageId": 13863,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pacifism",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Patient Spirit",
+      "pageId": 51886,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Patient_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Peace and Harmony",
+      "pageId": 2906,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Peace_and_Harmony",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Pensive Guardian",
+      "pageId": 13053,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pensive_Guardian",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Protective Bond",
+      "pageId": 13793,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Protective_Bond",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Protective Spirit",
+      "pageId": 1222,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Protective_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Purge Conditions",
+      "pageId": 1525,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Purge_Conditions",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Purge Signet",
+      "pageId": 1528,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Purge_Signet",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Purifying Veil",
+      "pageId": 51895,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Purifying_Veil",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Ray of Judgment",
+      "pageId": 4298,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Rebirth",
+      "pageId": 1225,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rebirth",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Release Enchantments",
+      "pageId": 2907,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Release_Enchantments",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Remove Hex",
+      "pageId": 1530,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Remove_Hex",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Renew Life",
+      "pageId": 2951,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Renew_Life",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Restful Breeze",
+      "pageId": 2954,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Restful_Breeze",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Restore Condition",
+      "pageId": 4108,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Restore_Condition",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Restore Life",
+      "pageId": 2952,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Restore_Life",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Resurrect",
+      "pageId": 1532,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Resurrect",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Resurrection Chant",
+      "pageId": 2955,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Resurrection_Chant",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Retribution",
+      "pageId": 1589,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Retribution",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Reversal of Damage",
+      "pageId": 13039,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Reversal of Fortune",
+      "pageId": 1111,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reversal_of_Fortune",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Reverse Hex",
+      "pageId": 13129,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reverse_Hex",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Scourge Enchantment",
+      "pageId": 13030,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scourge_Enchantment",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Scourge Healing",
+      "pageId": 1600,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scourge_Healing",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Scourge Sacrifice",
+      "pageId": 13726,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scourge_Sacrifice",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Scribe's Insight",
+      "pageId": 2908,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scribe's_Insight",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Seed of Life",
+      "pageId": 41109,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seed_of_Life",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Selfless Spirit",
+      "pageId": 41146,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Selfless_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield Guardian",
+      "pageId": 13706,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_Guardian",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield of Absorption",
+      "pageId": 13048,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_of_Absorption",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield of Deflection",
+      "pageId": 4110,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_of_Deflection",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield of Judgment",
+      "pageId": 4113,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_of_Judgment",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield of Regeneration",
+      "pageId": 1486,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_of_Regeneration",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Shielding Hands",
+      "pageId": 1512,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shielding_Hands",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Devotion",
+      "pageId": 1132,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Devotion",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Judgment",
+      "pageId": 1720,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Judgment (PvP)",
+      "pageId": 148636,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Judgment_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Mystic Wrath",
+      "pageId": 12993,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Wrath",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Rage",
+      "pageId": 13084,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Rage",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Rejuvenation",
+      "pageId": 2960,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Rejuvenation",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Removal",
+      "pageId": 2782,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Removal",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Smite",
+      "pageId": 13073,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smite",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Smite Condition",
+      "pageId": 51884,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smite_Condition",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Smite Hex",
+      "pageId": 13889,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smite_Hex",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Smiter's Boon",
+      "pageId": 51892,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smiter's_Boon",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Smiter's Boon (PvP)",
+      "pageId": 157328,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smiter's_Boon_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spear of Light",
+      "pageId": 13066,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spear_of_Light",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spell Breaker",
+      "pageId": 1135,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spell_Breaker",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spell Shield",
+      "pageId": 2911,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spell_Shield",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Bond",
+      "pageId": 13696,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Bond",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Bond (PvP)",
+      "pageId": 154807,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Bond_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spotless Mind",
+      "pageId": 51890,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spotless_Mind",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Spotless Soul",
+      "pageId": 51891,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spotless_Soul",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Star Shine",
+      "pageId": 42422,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Star_Shine",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Stonesoul Strike",
+      "pageId": 13058,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stonesoul_Strike",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Strength of Honor",
+      "pageId": 13890,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Strength_of_Honor",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Strength of Honor (PvP)",
+      "pageId": 202637,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Strength_of_Honor_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Succor",
+      "pageId": 2783,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Succor",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Supportive Spirit",
+      "pageId": 2957,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Supportive_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbol of Wrath",
+      "pageId": 13719,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbol_of_Wrath",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Unyielding Aura",
+      "pageId": 2913,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unyielding_Aura",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Unyielding Aura (PvP)",
+      "pageId": 154794,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unyielding_Aura_(PvP)",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Vengeance",
+      "pageId": 2785,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vengeance",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Vigorous Spirit",
+      "pageId": 2958,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vigorous_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Vital Blessing",
+      "pageId": 13756,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vital_Blessing",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Watchful Healing",
+      "pageId": 2915,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Watchful_Healing",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Watchful Spirit",
+      "pageId": 2914,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Watchful_Spirit",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Withdraw Hexes",
+      "pageId": 2916,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Withdraw_Hexes",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Word of Censure",
+      "pageId": 2974,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Word_of_Censure",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Word of Healing",
+      "pageId": 1213,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Word_of_Healing",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Words of Comfort",
+      "pageId": 2961,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Words_of_Comfort",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Zealot's Fire",
+      "pageId": 2880,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zealot's_Fire",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    },
+    {
+      "title": "Zealous Benediction",
+      "pageId": 1360,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zealous_Benediction",
+      "sources": [
+        {
+          "id": "profession-monk",
+          "title": "Monk skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Monk",
+          "category": "Monk skills"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2595 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:48.745Z",
+  "sources": [
+    {
+      "id": "profession-ranger",
+      "kind": "category",
+      "title": "Ranger skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ARanger_skills",
+      "category": "Ranger skills",
+      "group": "profession",
+      "profession": "Ranger",
+      "fetchedAt": "2026-05-09T00:57:48.745Z",
+      "count": 161
+    }
+  ],
+  "skills": [
+    {
+      "title": "\"Together as One!\"",
+      "pageId": 313334,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Together_as_One!%22",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Antidote Signet",
+      "pageId": 3639,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Antidote_Signet",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Apply Poison",
+      "pageId": 3713,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Apply_Poison",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Archer's Signet",
+      "pageId": 4266,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Archer's_Signet",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcing Shot",
+      "pageId": 1232,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcing_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Barbed Arrows",
+      "pageId": 3714,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barbed_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Barbed Trap",
+      "pageId": 3715,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barbed_Trap",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Barrage",
+      "pageId": 1728,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barrage",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Bestial Fury",
+      "pageId": 1251,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bestial_Fury",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Bestial Mauling",
+      "pageId": 2021,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bestial_Mauling",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Bestial Pounce",
+      "pageId": 2022,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bestial_Pounce",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Body Shot",
+      "pageId": 51921,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Body_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Brambles",
+      "pageId": 6531,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Brambles",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Broad Head Arrow",
+      "pageId": 1730,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Brutal Strike",
+      "pageId": 2023,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Brutal_Strike",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Burning Arrow",
+      "pageId": 1238,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Burning_Arrow",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Call of Haste",
+      "pageId": 2504,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Call_of_Haste",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Call of Haste (PvP)",
+      "pageId": 215066,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Call_of_Haste_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Call of Protection",
+      "pageId": 2506,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Call_of_Protection",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Called Shot",
+      "pageId": 3640,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Called_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Celestial Stance",
+      "pageId": 26422,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Celestial_Stance",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Charm Animal",
+      "pageId": 1490,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Charm_Animal",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Charm Animal (Codex)",
+      "pageId": 227503,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Charm_Animal_(Codex)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Choking Gas",
+      "pageId": 6534,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Choking_Gas",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Comfort Animal",
+      "pageId": 1258,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Comfort_Animal",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Comfort Animal (PvP)",
+      "pageId": 215068,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Comfort_Animal_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Companionship",
+      "pageId": 51919,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Companionship",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Concussion Shot",
+      "pageId": 1944,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Concussion_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Conflagration",
+      "pageId": 6535,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conflagration",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Shot",
+      "pageId": 1952,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Crossfire",
+      "pageId": 1233,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crossfire",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Debilitating Shot",
+      "pageId": 1977,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Debilitating_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Determined Shot",
+      "pageId": 2222,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Determined_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Accuracy",
+      "pageId": 1240,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Lunge",
+      "pageId": 2507,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Lunge",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Shot",
+      "pageId": 51922,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Distracting Shot",
+      "pageId": 6516,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Distracting_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Dodge",
+      "pageId": 6517,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dodge",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Dryder's Defenses",
+      "pageId": 6570,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dryder's_Defenses",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Dual Shot",
+      "pageId": 3641,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dual_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Dust Trap",
+      "pageId": 6571,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dust_Trap",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Edge of Extinction",
+      "pageId": 2511,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Energizing Wind",
+      "pageId": 2567,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energizing_Wind",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Enraged Lunge",
+      "pageId": 2569,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enraged_Lunge",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Enraged Lunge (PvP)",
+      "pageId": 215073,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enraged_Lunge_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Equinox",
+      "pageId": 4273,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Equinox",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Escape",
+      "pageId": 4053,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Escape",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Escape (PvP)",
+      "pageId": 221968,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Escape_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Expert Focus",
+      "pageId": 51924,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Expert_Focus",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Expert's Dexterity",
+      "pageId": 4275,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Expert's_Dexterity",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Expert's Dexterity (PvP)",
+      "pageId": 170195,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Expert's_Dexterity_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Famine",
+      "pageId": 4274,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Famine",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Favorable Winds",
+      "pageId": 2223,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Favorable_Winds",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Feral Aggression",
+      "pageId": 51920,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feral_Aggression",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Feral Lunge",
+      "pageId": 2570,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feral_Lunge",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Ferocious Strike",
+      "pageId": 1254,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ferocious_Strike",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Fertile Season",
+      "pageId": 2830,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fertile_Season",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Flame Trap",
+      "pageId": 6572,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flame_Trap",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Flurry of Ice",
+      "pageId": 75685,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flurry_of_Ice",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Focused Shot",
+      "pageId": 2224,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Focused_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Forked Arrow",
+      "pageId": 1241,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Forked_Arrow",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Frozen Soil",
+      "pageId": 6573,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frozen_Soil",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Glass Arrows",
+      "pageId": 4270,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glass_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Glass Arrows (PvP)",
+      "pageId": 240761,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glass_Arrows_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Greater Conflagration",
+      "pageId": 4087,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Greater_Conflagration",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Heal as One",
+      "pageId": 2832,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heal_as_One",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Heal as One (PvP)",
+      "pageId": 243860,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heal_as_One_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Spring",
+      "pageId": 6575,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Spring",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Heket's Rampage",
+      "pageId": 2833,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heket's_Rampage",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Hunter's Shot",
+      "pageId": 2226,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hunter's_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Ignite Arrows",
+      "pageId": 6579,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ignite_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Incendiary Arrows",
+      "pageId": 4092,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Incendiary_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Infuriating Heat",
+      "pageId": 148278,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Infuriating_Heat",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Keen Arrow",
+      "pageId": 1242,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Keen_Arrow",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Keen Arrow (PvP)",
+      "pageId": 240764,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Keen_Arrow_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Kindle Arrows",
+      "pageId": 6581,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Kindle_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Lacerate",
+      "pageId": 2834,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lacerate",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Reflexes",
+      "pageId": 6519,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightning Reflexes (PvP)",
+      "pageId": 240765,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightning_Reflexes_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Magebane Shot",
+      "pageId": 3642,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Magebane_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Maiming Strike",
+      "pageId": 2837,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Maiming_Strike",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Marauder's Shot",
+      "pageId": 2227,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Marauder's_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Marksman's Wager",
+      "pageId": 4083,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Marksman's_Wager",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Melandru's Arrows",
+      "pageId": 4095,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Melandru's_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Melandru's Assault",
+      "pageId": 2840,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Melandru's_Assault",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Melandru's Assault (PvP)",
+      "pageId": 215110,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Melandru's_Assault_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Melandru's Resilience",
+      "pageId": 4100,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Melandru's_Resilience",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Melandru's Shot",
+      "pageId": 2214,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Melandru's_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Muddy Terrain",
+      "pageId": 6584,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Muddy_Terrain",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Natural Stride",
+      "pageId": 6585,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Natural_Stride",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Nature's Renewal",
+      "pageId": 6586,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Nature's_Renewal",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Needling Shot",
+      "pageId": 2228,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Needling_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Never Rampage Alone",
+      "pageId": 41113,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Never_Rampage_Alone",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Oath Shot",
+      "pageId": 2694,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Oath_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Otyugh's Cry",
+      "pageId": 2841,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Otyugh's_Cry",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Penetrating Attack",
+      "pageId": 2229,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Penetrating_Attack",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Penetrating Attack (PvP)",
+      "pageId": 136090,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Penetrating_Attack_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Pestilence",
+      "pageId": 6587,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pestilence",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Piercing Trap",
+      "pageId": 51917,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Piercing_Trap",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Pin Down",
+      "pageId": 2238,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pin_Down",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Point Blank Shot",
+      "pageId": 6521,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Poison Arrow",
+      "pageId": 4103,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Poison_Arrow",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Poison Tip Signet",
+      "pageId": 51918,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Poison_Tip_Signet",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Poisonous Bite",
+      "pageId": 3036,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Poisonous_Bite",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Pounce",
+      "pageId": 3037,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pounce",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Shot",
+      "pageId": 2239,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Practiced Stance",
+      "pageId": 4086,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Practiced_Stance",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Precision Shot",
+      "pageId": 2242,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Precision_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Predator's Pounce",
+      "pageId": 1244,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Predator's_Pounce",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Predatory Bond",
+      "pageId": 3040,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Predatory_Bond",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Predatory Bond (PvP)",
+      "pageId": 215077,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Predatory_Bond_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Predatory Season",
+      "pageId": 6502,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Predatory_Season",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Prepared Shot",
+      "pageId": 1243,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Prepared_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Primal Echoes",
+      "pageId": 6503,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Primal_Echoes",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Punishing Shot",
+      "pageId": 2412,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Punishing_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Quick Shot",
+      "pageId": 3643,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Quick_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Quickening Zephyr",
+      "pageId": 6588,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Quickening_Zephyr",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Quicksand",
+      "pageId": 4277,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Quicksand",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Rampage as One",
+      "pageId": 3950,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rampage_as_One",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Rapid Fire",
+      "pageId": 51914,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rapid_Fire",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Read the Wind",
+      "pageId": 2417,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Read_the_Wind",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Read the Wind (PvP)",
+      "pageId": 192502,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Read_the_Wind_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Revive Animal",
+      "pageId": 6504,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Revive_Animal",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Roaring Winds",
+      "pageId": 6589,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Roaring_Winds",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Run as One",
+      "pageId": 6505,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Run_as_One",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Savage Pounce",
+      "pageId": 6507,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Savage_Pounce",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Savage Shot",
+      "pageId": 2414,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Savage_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Scavenger Strike",
+      "pageId": 6509,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scavenger_Strike",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Scavenger's Focus",
+      "pageId": 4278,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Scavenger's_Focus",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Screaming Shot",
+      "pageId": 1234,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Screaming_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Seeking Arrows",
+      "pageId": 2420,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seeking_Arrows",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Serpent's Quickness",
+      "pageId": 6590,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Serpent's_Quickness",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Sloth Hunter's Shot",
+      "pageId": 51915,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sloth_Hunter's_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Sloth Hunter's Shot (PvP)",
+      "pageId": 161370,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sloth_Hunter's_Shot_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Smoke Trap",
+      "pageId": 4284,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smoke_Trap",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Snare",
+      "pageId": 2518,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Snare",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Spike Trap",
+      "pageId": 4571,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spike_Trap",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Splinter Shot",
+      "pageId": 2427,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Splinter_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Storm Chaser",
+      "pageId": 6591,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Storm_Chaser",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Storm's Embrace",
+      "pageId": 3644,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Storm's_Embrace",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Strike as One",
+      "pageId": 4267,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Strike_as_One",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Sundering Attack",
+      "pageId": 2230,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sundering_Attack",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Sundering Attack (PvP)",
+      "pageId": 136092,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sundering_Attack_(PvP)",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbiosis",
+      "pageId": 6510,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbiosis",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbiotic Bond",
+      "pageId": 6511,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbiotic_Bond",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Throw Dirt",
+      "pageId": 6522,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Throw_Dirt",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Tiger's Fury",
+      "pageId": 1630,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tiger's_Fury",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Toxicity",
+      "pageId": 6512,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Toxicity",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Tranquility",
+      "pageId": 6594,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tranquility",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Trapper's Focus",
+      "pageId": 4271,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Trapper's_Focus",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Trapper's Speed",
+      "pageId": 6523,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Trapper's_Speed",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Triple Shot",
+      "pageId": 41144,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Triple_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Tripwire",
+      "pageId": 6595,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tripwire",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Troll Unguent",
+      "pageId": 644,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Troll_Unguent",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Viper's Nest",
+      "pageId": 6515,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Viper's_Nest",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Volley",
+      "pageId": 51925,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Volley",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Whirling Defense",
+      "pageId": 6525,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Whirling_Defense",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Winnowing",
+      "pageId": 6597,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Winnowing",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Winter",
+      "pageId": 6599,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Winter",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Zojun's Haste",
+      "pageId": 6526,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zojun's_Haste",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    },
+    {
+      "title": "Zojun's Shot",
+      "pageId": 6527,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zojun's_Shot",
+      "sources": [
+        {
+          "id": "profession-ranger",
+          "title": "Ranger skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Ranger",
+          "category": "Ranger skills"
+        }
+      ]
+    }
+  ]
+}

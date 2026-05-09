@@ -1,0 +1,5487 @@
+{
+  "schema": "gw-skills.transcription-report.v1",
+  "generatedAt": "2026-05-09T01:32:09.833Z",
+  "input": {
+    "outDir": "data/wiki-skills",
+    "seedCount": 1525
+  },
+  "output": {
+    "canonical": "data/wiki-skills/skills.canonical.json",
+    "report": "data/wiki-skills/skills.report.json"
+  },
+  "totals": {
+    "seeds": 1525,
+    "transcribed": 1524,
+    "failed": 1,
+    "issues": 682,
+    "warnings": 1,
+    "infos": 681,
+    "missingIcons": 1,
+    "missingProgression": 239
+  },
+  "failures": [
+    {
+      "title": "Attunements",
+      "seedFile": "skills.seed.json",
+      "error": "Page Attunements does not contain {{Skill infobox}}"
+    }
+  ],
+  "issues": [
+    {
+      "title": "\"Brace Yourself!\" (PvP)",
+      "name": "\"Brace Yourself!\" (PvP)",
+      "pageId": 207578,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"By Ural's Hammer!\"",
+      "name": "\"By Ural's Hammer!\"",
+      "pageId": 64072,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"By Ural's Hammer!\"",
+      "name": "\"By Ural's Hammer!\"",
+      "pageId": 64072,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"By Ural's Hammer!\"",
+      "name": "\"By Ural's Hammer!\"",
+      "pageId": 64072,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Can't Touch This!\" (PvP)",
+      "name": "\"Can't Touch This!\" (PvP)",
+      "pageId": 207660,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Coward!\"",
+      "name": "\"Coward!\"",
+      "pageId": 4255,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"Coward!\"",
+      "name": "\"Coward!\"",
+      "pageId": 4255,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "\"Dodge This!\"",
+      "name": "\"Dodge This!\"",
+      "pageId": 58314,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"Dodge This!\"",
+      "name": "\"Dodge This!\"",
+      "pageId": 58314,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"Dodge This!\"",
+      "name": "\"Dodge This!\"",
+      "pageId": 58314,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Don't Trip!\"",
+      "name": "\"Don't Trip!\"",
+      "pageId": 63466,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"Don't Trip!\"",
+      "name": "\"Don't Trip!\"",
+      "pageId": 63466,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"Don't Trip!\"",
+      "name": "\"Don't Trip!\"",
+      "pageId": 63466,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Fall Back!\" (PvP)",
+      "name": "\"Fall Back!\" (PvP)",
+      "pageId": 207662,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Find Their Weakness!\" (PvP)",
+      "name": "\"Find Their Weakness!\" (PvP)",
+      "pageId": 207593,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Finish Him!\"",
+      "name": "\"Finish Him!\"",
+      "pageId": 58315,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"Finish Him!\"",
+      "name": "\"Finish Him!\"",
+      "pageId": 58315,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"Finish Him!\"",
+      "name": "\"Finish Him!\"",
+      "pageId": 58315,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"For Great Justice!\"",
+      "name": "\"For Great Justice!\"",
+      "pageId": 14644,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"For Great Justice!\"",
+      "name": "\"For Great Justice!\"",
+      "pageId": 14644,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "\"For Great Justice!\" (PvP)",
+      "name": "\"For Great Justice!\" (PvP)",
+      "pageId": 142221,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"For Great Justice!\" (PvP)",
+      "name": "\"For Great Justice!\" (PvP)",
+      "pageId": 142221,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "\"For Great Justice!\" (PvP)",
+      "name": "\"For Great Justice!\" (PvP)",
+      "pageId": 142221,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Go for the Eyes!\" (PvP)",
+      "name": "\"Go for the Eyes!\" (PvP)",
+      "pageId": 207663,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Help!\" (PvP)",
+      "name": "\"Help!\" (PvP)",
+      "pageId": 207521,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"I Am the Strongest!\"",
+      "name": "\"I Am the Strongest!\"",
+      "pageId": 58317,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"I Am the Strongest!\"",
+      "name": "\"I Am the Strongest!\"",
+      "pageId": 58317,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"I Am the Strongest!\"",
+      "name": "\"I Am the Strongest!\"",
+      "pageId": 58317,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"I Am Unstoppable!\"",
+      "name": "\"I Am Unstoppable!\"",
+      "pageId": 58318,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"I Am Unstoppable!\"",
+      "name": "\"I Am Unstoppable!\"",
+      "pageId": 58318,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"I Am Unstoppable!\"",
+      "name": "\"I Am Unstoppable!\"",
+      "pageId": 58318,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Incoming!\" (PvP)",
+      "name": "\"Incoming!\" (PvP)",
+      "pageId": 136087,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Let's Get 'Em!\"",
+      "name": "\"Let's Get 'Em!\"",
+      "pageId": 75708,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"Let's Get 'Em!\"",
+      "name": "\"Let's Get 'Em!\"",
+      "pageId": 75708,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "\"Never Give Up!\" (PvP)",
+      "name": "\"Never Give Up!\" (PvP)",
+      "pageId": 207664,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"Never Surrender!\" (PvP)",
+      "name": "\"Never Surrender!\" (PvP)",
+      "pageId": 136089,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"On Your Knees!\"",
+      "name": "\"On Your Knees!\"",
+      "pageId": 14643,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"On Your Knees!\"",
+      "name": "\"On Your Knees!\"",
+      "pageId": 14643,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "\"Save Yourselves!\"",
+      "name": "\"Save Yourselves!\"",
+      "pageId": 41143,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"Save Yourselves!\"",
+      "name": "\"Save Yourselves!\"",
+      "pageId": 41143,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Stand Your Ground!\" (PvP)",
+      "name": "\"Stand Your Ground!\" (PvP)",
+      "pageId": 207665,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"There's Nothing to Fear!\"",
+      "name": "\"There's Nothing to Fear!\"",
+      "pageId": 41125,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Together as One!\"",
+      "name": "\"Together as One!\"",
+      "pageId": 313334,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"Watch Yourself!\" (PvP)",
+      "name": "\"Watch Yourself!\" (PvP)",
+      "pageId": 136097,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"We Shall Return!\" (PvP)",
+      "name": "\"We Shall Return!\" (PvP)",
+      "pageId": 207585,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "\"You Are All Weaklings!\"",
+      "name": "\"You Are All Weaklings!\"",
+      "pageId": 58327,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"You Are All Weaklings!\"",
+      "name": "\"You Are All Weaklings!\"",
+      "pageId": 58327,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"You Are All Weaklings!\"",
+      "name": "\"You Are All Weaklings!\"",
+      "pageId": 58327,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"You Move Like a Dwarf!\"",
+      "name": "\"You Move Like a Dwarf!\"",
+      "pageId": 58320,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "\"You Move Like a Dwarf!\"",
+      "name": "\"You Move Like a Dwarf!\"",
+      "pageId": 58320,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"You Move Like a Dwarf!\"",
+      "name": "\"You Move Like a Dwarf!\"",
+      "pageId": 58320,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "\"You're All Alone!\"",
+      "name": "\"You're All Alone!\"",
+      "pageId": 4265,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "\"You're All Alone!\"",
+      "name": "\"You're All Alone!\"",
+      "pageId": 4265,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "A Touch of Guile",
+      "name": "A Touch of Guile",
+      "pageId": 58321,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "A Touch of Guile",
+      "name": "A Touch of Guile",
+      "pageId": 58321,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "A Touch of Guile",
+      "name": "A Touch of Guile",
+      "pageId": 58321,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Accumulated Pain (PvP)",
+      "name": "Accumulated Pain (PvP)",
+      "pageId": 253905,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Aegis (PvP)",
+      "name": "Aegis (PvP)",
+      "pageId": 136093,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Agony (PvP)",
+      "name": "Agony (PvP)",
+      "pageId": 207518,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Air of Superiority",
+      "name": "Air of Superiority",
+      "pageId": 58328,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Air of Superiority",
+      "name": "Air of Superiority",
+      "pageId": 58328,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Air of Superiority",
+      "name": "Air of Superiority",
+      "pageId": 58328,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Alkar's Alchemical Acid",
+      "name": "Alkar's Alchemical Acid",
+      "pageId": 63802,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Alkar's Alchemical Acid",
+      "name": "Alkar's Alchemical Acid",
+      "pageId": 63802,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Alkar's Alchemical Acid",
+      "name": "Alkar's Alchemical Acid",
+      "pageId": 63802,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ancestors' Rage (PvP)",
+      "name": "Ancestors' Rage (PvP)",
+      "pageId": 136082,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Anguish (PvP)",
+      "name": "Anguish (PvP)",
+      "pageId": 207630,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Anthem of Disruption (PvP)",
+      "name": "Anthem of Disruption (PvP)",
+      "pageId": 207666,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Anthem of Envy (PvP)",
+      "name": "Anthem of Envy (PvP)",
+      "pageId": 240758,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Anthem of Guidance",
+      "name": "Anthem of Guidance",
+      "pageId": 4460,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Antidote Signet",
+      "name": "Antidote Signet",
+      "pageId": 3639,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Antidote Signet",
+      "name": "Antidote Signet",
+      "pageId": 3639,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Arcane Echo",
+      "name": "Arcane Echo",
+      "pageId": 1681,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Arcane Echo",
+      "name": "Arcane Echo",
+      "pageId": 1681,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Arcane Mimicry",
+      "name": "Arcane Mimicry",
+      "pageId": 1680,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Arcane Mimicry",
+      "name": "Arcane Mimicry",
+      "pageId": 1680,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Armor of Unfeeling (PvP)",
+      "name": "Armor of Unfeeling (PvP)",
+      "pageId": 207738,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Assassin's Remedy (PvP)",
+      "name": "Assassin's Remedy (PvP)",
+      "pageId": 136101,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Assault Enchantments",
+      "name": "Assault Enchantments",
+      "pageId": 4428,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Assault Enchantments",
+      "name": "Assault Enchantments",
+      "pageId": 4428,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Asuran Scan",
+      "name": "Asuran Scan",
+      "pageId": 58290,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Asuran Scan",
+      "name": "Asuran Scan",
+      "pageId": 58290,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Asuran Scan",
+      "name": "Asuran Scan",
+      "pageId": 58290,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Aura of Displacement",
+      "name": "Aura of Displacement",
+      "pageId": 4427,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Aura of Displacement",
+      "name": "Aura of Displacement",
+      "pageId": 4427,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Aura of Holy Might",
+      "name": "Aura of Holy Might",
+      "pageId": 41148,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Aura of Holy Might",
+      "name": "Aura of Holy Might",
+      "pageId": 41148,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Aura of Restoration (PvP)",
+      "name": "Aura of Restoration (PvP)",
+      "pageId": 297010,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Aura of Thorns (PvP)",
+      "name": "Aura of Thorns (PvP)",
+      "pageId": 278534,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Avatar of Dwayna (PvP)",
+      "name": "Avatar of Dwayna (PvP)",
+      "pageId": 274802,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Avatar of Dwayna (snow fighting skill)",
+      "name": "Avatar of Dwayna",
+      "pageId": 60984,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Avatar of Dwayna (snow fighting skill)",
+      "name": "Avatar of Dwayna",
+      "pageId": 60984,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Avatar of Grenth (snow fighting skill)",
+      "name": "Avatar of Grenth",
+      "pageId": 60986,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Avatar of Grenth (snow fighting skill)",
+      "name": "Avatar of Grenth",
+      "pageId": 60986,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Avatar of Melandru (PvP)",
+      "name": "Avatar of Melandru (PvP)",
+      "pageId": 274757,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Ballad of Restoration (PvP)",
+      "name": "Ballad of Restoration (PvP)",
+      "pageId": 136086,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Banishing Strike (PvP)",
+      "name": "Banishing Strike (PvP)",
+      "pageId": 274794,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Black Powder Mine",
+      "name": "Black Powder Mine",
+      "pageId": 64161,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Black Powder Mine",
+      "name": "Black Powder Mine",
+      "pageId": 64161,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Black Powder Mine",
+      "name": "Black Powder Mine",
+      "pageId": 64161,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Bladeturn Refrain (PvP)",
+      "name": "Bladeturn Refrain (PvP)",
+      "pageId": 207658,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Blazing Finale (PvP)",
+      "name": "Blazing Finale (PvP)",
+      "pageId": 207560,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Blinding Snow",
+      "name": "Blinding Snow",
+      "pageId": 75702,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Blinding Snow",
+      "name": "Blinding Snow",
+      "pageId": 75702,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Bloodsong (PvP)",
+      "name": "Bloodsong (PvP)",
+      "pageId": 207854,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Brawling Headbutt",
+      "name": "Brawling Headbutt",
+      "pageId": 63119,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Brawling Headbutt",
+      "name": "Brawling Headbutt",
+      "pageId": 63119,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Brawling Headbutt",
+      "name": "Brawling Headbutt",
+      "pageId": 63119,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Breath of the Great Dwarf",
+      "name": "Breath of the Great Dwarf",
+      "pageId": 58700,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Breath of the Great Dwarf",
+      "name": "Breath of the Great Dwarf",
+      "pageId": 58700,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Breath of the Great Dwarf",
+      "name": "Breath of the Great Dwarf",
+      "pageId": 58700,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Calculated Risk (PvP)",
+      "name": "Calculated Risk (PvP)",
+      "pageId": 253918,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Call of Haste",
+      "name": "Call of Haste",
+      "pageId": 2504,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Call of Haste (PvP)",
+      "name": "Call of Haste (PvP)",
+      "pageId": 215066,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Call of Haste (PvP)",
+      "name": "Call of Haste (PvP)",
+      "pageId": 215066,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Call to the Spirit Realm",
+      "name": "Call to the Spirit Realm",
+      "pageId": 92401,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Call to the Spirit Realm",
+      "name": "Call to the Spirit Realm",
+      "pageId": 92401,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Called Shot",
+      "name": "Called Shot",
+      "pageId": 3640,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Called Shot",
+      "name": "Called Shot",
+      "pageId": 3640,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Castigation Signet (Saul D'Alessio)",
+      "name": "Castigation Signet (Saul D'Alessio)",
+      "pageId": 207603,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Cautery Signet",
+      "name": "Cautery Signet",
+      "pageId": 3953,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Cautery Signet",
+      "name": "Cautery Signet",
+      "pageId": 3953,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Celestial Haste",
+      "name": "Celestial Haste",
+      "pageId": 42423,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Celestial Haste",
+      "name": "Celestial Haste",
+      "pageId": 42423,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Celestial Haste",
+      "name": "Celestial Haste",
+      "pageId": 42423,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Celestial Stance",
+      "name": "Celestial Stance",
+      "pageId": 26422,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Celestial Stance",
+      "name": "Celestial Stance",
+      "pageId": 26422,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Celestial Stance",
+      "name": "Celestial Stance",
+      "pageId": 26422,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Celestial Storm",
+      "name": "Celestial Storm",
+      "pageId": 19125,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Celestial Storm",
+      "name": "Celestial Storm",
+      "pageId": 19125,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Celestial Storm",
+      "name": "Celestial Storm",
+      "pageId": 19125,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Celestial Summoning",
+      "name": "Celestial Summoning",
+      "pageId": 42426,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Celestial Summoning",
+      "name": "Celestial Summoning",
+      "pageId": 42426,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Celestial Summoning",
+      "name": "Celestial Summoning",
+      "pageId": 42426,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Charm Animal",
+      "name": "Charm Animal",
+      "pageId": 1490,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Charm Animal (Codex)",
+      "name": "Charm Animal (Codex)",
+      "pageId": 227503,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Charm Animal (Codex)",
+      "name": "Charm Animal (Codex)",
+      "pageId": 227503,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Club of a Thousand Bears",
+      "name": "Club of a Thousand Bears",
+      "pageId": 58322,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Club of a Thousand Bears",
+      "name": "Club of a Thousand Bears",
+      "pageId": 58322,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Club of a Thousand Bears",
+      "name": "Club of a Thousand Bears",
+      "pageId": 58322,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Comfort Animal (PvP)",
+      "name": "Comfort Animal (PvP)",
+      "pageId": 215068,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Counter Blow",
+      "name": "Counter Blow",
+      "pageId": 6726,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Crippling Anguish (PvP)",
+      "name": "Crippling Anguish (PvP)",
+      "pageId": 253947,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Critical Agility",
+      "name": "Critical Agility",
+      "pageId": 41120,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Cry of Pain",
+      "name": "Cry of Pain",
+      "pageId": 41105,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Cry of Pain",
+      "name": "Cry of Pain",
+      "pageId": 41105,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Dark Fury",
+      "name": "Dark Fury",
+      "pageId": 1744,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Dash",
+      "name": "Dash",
+      "pageId": 1658,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Dash",
+      "name": "Dash",
+      "pageId": 1658,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Death Blossom (PvP)",
+      "name": "Death Blossom (PvP)",
+      "pageId": 221975,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Death Pact Signet (PvP)",
+      "name": "Death Pact Signet (PvP)",
+      "pageId": 136079,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Defensive Anthem (PvP)",
+      "name": "Defensive Anthem (PvP)",
+      "pageId": 136088,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Deft Strike",
+      "name": "Deft Strike",
+      "pageId": 63082,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Deft Strike",
+      "name": "Deft Strike",
+      "pageId": 63082,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Deft Strike",
+      "name": "Deft Strike",
+      "pageId": 63082,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Defy Pain (PvP)",
+      "name": "Defy Pain (PvP)",
+      "pageId": 257109,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Deny Hexes",
+      "name": "Deny Hexes",
+      "pageId": 2772,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Destruction (PvP)",
+      "name": "Destruction (PvP)",
+      "pageId": 207855,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Destructive Was Glaive (PvP)",
+      "name": "Destructive Was Glaive (PvP)",
+      "pageId": 243841,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Discord (PvP)",
+      "name": "Discord (PvP)",
+      "pageId": 136084,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Disenchantment (PvP)",
+      "name": "Disenchantment (PvP)",
+      "pageId": 207636,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Disenchantment (Togo)",
+      "name": "Disenchantment (Togo)",
+      "pageId": 218671,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Displacement (PvP)",
+      "name": "Displacement (PvP)",
+      "pageId": 207627,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Disrupting Accuracy",
+      "name": "Disrupting Accuracy",
+      "pageId": 1240,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Disrupting Chop",
+      "name": "Disrupting Chop",
+      "pageId": 5231,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Disrupting Throw",
+      "name": "Disrupting Throw",
+      "pageId": 15252,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Dissonance (PvP)",
+      "name": "Dissonance (PvP)",
+      "pageId": 207730,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Distortion (Gwen)",
+      "name": "Distortion (Gwen)",
+      "pageId": 207599,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Distracting Blow",
+      "name": "Distracting Blow",
+      "pageId": 15209,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Distracting Blow",
+      "name": "Distracting Blow",
+      "pageId": 15209,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Distracting Strike",
+      "name": "Distracting Strike",
+      "pageId": 51907,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Distracting Strike",
+      "name": "Distracting Strike",
+      "pageId": 51907,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Dragon Empire Rage",
+      "name": "Dragon Empire Rage",
+      "pageId": 92410,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Dragon Empire Rage",
+      "name": "Dragon Empire Rage",
+      "pageId": 92410,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Drain Delusions",
+      "name": "Drain Delusions",
+      "pageId": 1634,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Draw Spirit",
+      "name": "Draw Spirit",
+      "pageId": 5013,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Draw Spirit",
+      "name": "Draw Spirit",
+      "pageId": 5013,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Drunken Master",
+      "name": "Drunken Master",
+      "pageId": 65948,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Drunken Master",
+      "name": "Drunken Master",
+      "pageId": 65948,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Drunken Master",
+      "name": "Drunken Master",
+      "pageId": 65948,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Dual Shot",
+      "name": "Dual Shot",
+      "pageId": 3641,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Dual Shot",
+      "name": "Dual Shot",
+      "pageId": 3641,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Dust Cloak (PvP)",
+      "name": "Dust Cloak (PvP)",
+      "pageId": 278536,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Dwarven Stability",
+      "name": "Dwarven Stability",
+      "pageId": 63422,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Dwarven Stability",
+      "name": "Dwarven Stability",
+      "pageId": 63422,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Dwarven Stability",
+      "name": "Dwarven Stability",
+      "pageId": 63422,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ear Bite",
+      "name": "Ear Bite",
+      "pageId": 63159,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ear Bite",
+      "name": "Ear Bite",
+      "pageId": 63159,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ear Bite",
+      "name": "Ear Bite",
+      "pageId": 63159,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Earth Shaker",
+      "name": "Earth Shaker",
+      "pageId": 4069,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Earthbind (PvP)",
+      "name": "Earthbind (PvP)",
+      "pageId": 208126,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Ebon Battle Standard of Courage",
+      "name": "Ebon Battle Standard of Courage",
+      "pageId": 58695,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ebon Battle Standard of Courage",
+      "name": "Ebon Battle Standard of Courage",
+      "pageId": 58695,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ebon Battle Standard of Courage",
+      "name": "Ebon Battle Standard of Courage",
+      "pageId": 58695,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ebon Battle Standard of Honor",
+      "name": "Ebon Battle Standard of Honor",
+      "pageId": 59022,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ebon Battle Standard of Honor",
+      "name": "Ebon Battle Standard of Honor",
+      "pageId": 59022,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ebon Battle Standard of Honor",
+      "name": "Ebon Battle Standard of Honor",
+      "pageId": 59022,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ebon Battle Standard of Wisdom",
+      "name": "Ebon Battle Standard of Wisdom",
+      "pageId": 59023,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ebon Battle Standard of Wisdom",
+      "name": "Ebon Battle Standard of Wisdom",
+      "pageId": 59023,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ebon Battle Standard of Wisdom",
+      "name": "Ebon Battle Standard of Wisdom",
+      "pageId": 59023,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ebon Escape",
+      "name": "Ebon Escape",
+      "pageId": 63135,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ebon Escape",
+      "name": "Ebon Escape",
+      "pageId": 63135,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ebon Escape",
+      "name": "Ebon Escape",
+      "pageId": 63135,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ebon Vanguard Assassin Support",
+      "name": "Ebon Vanguard Assassin Support",
+      "pageId": 63124,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ebon Vanguard Assassin Support",
+      "name": "Ebon Vanguard Assassin Support",
+      "pageId": 63124,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ebon Vanguard Assassin Support",
+      "name": "Ebon Vanguard Assassin Support",
+      "pageId": 63124,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ebon Vanguard Sniper Support",
+      "name": "Ebon Vanguard Sniper Support",
+      "pageId": 65953,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ebon Vanguard Sniper Support",
+      "name": "Ebon Vanguard Sniper Support",
+      "pageId": 65953,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ebon Vanguard Sniper Support",
+      "name": "Ebon Vanguard Sniper Support",
+      "pageId": 65953,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Echo",
+      "name": "Echo",
+      "pageId": 1305,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Echo",
+      "name": "Echo",
+      "pageId": 1305,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Edification",
+      "name": "Edification",
+      "pageId": 66460,
+      "severity": "info",
+      "code": "missing_cost",
+      "message": "No energy, adrenaline, upkeep, activation, recharge, or sacrifice cost was found."
+    },
+    {
+      "title": "Edification",
+      "name": "Edification",
+      "pageId": 66460,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Edification",
+      "name": "Edification",
+      "pageId": 66460,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Edification",
+      "name": "Edification",
+      "pageId": 66460,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Elemental Flame (PvP)",
+      "name": "Elemental Flame (PvP)",
+      "pageId": 302377,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Elemental Lord",
+      "name": "Elemental Lord",
+      "pageId": 41150,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Elemental Lord",
+      "name": "Elemental Lord",
+      "pageId": 41150,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Empathic Removal",
+      "name": "Empathic Removal",
+      "pageId": 2773,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Empathic Removal",
+      "name": "Empathic Removal",
+      "pageId": 2773,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Empathy (PvP)",
+      "name": "Empathy (PvP)",
+      "pageId": 253804,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Empowerment (PvP)",
+      "name": "Empowerment (PvP)",
+      "pageId": 207715,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Enchanted Haste",
+      "name": "Enchanted Haste",
+      "pageId": 14081,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Enchanted Haste",
+      "name": "Enchanted Haste",
+      "pageId": 14081,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Enchanter's Conundrum (PvP)",
+      "name": "Enchanter's Conundrum (PvP)",
+      "pageId": 253948,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Energy Burn",
+      "name": "Energy Burn",
+      "pageId": 1477,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Energy Drain",
+      "name": "Energy Drain",
+      "pageId": 1640,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Energy Surge",
+      "name": "Energy Surge",
+      "pageId": 1481,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Energy Tap",
+      "name": "Energy Tap",
+      "pageId": 1639,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Enfeeble (PvP)",
+      "name": "Enfeeble (PvP)",
+      "pageId": 136091,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Enfeebling Blood (PvP)",
+      "name": "Enfeebling Blood (PvP)",
+      "pageId": 148642,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Enraged Lunge (PvP)",
+      "name": "Enraged Lunge (PvP)",
+      "pageId": 215073,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Enraged Smash (PvP)",
+      "name": "Enraged Smash (PvP)",
+      "pageId": 294250,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Epidemic",
+      "name": "Epidemic",
+      "pageId": 1679,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Epidemic",
+      "name": "Epidemic",
+      "pageId": 1679,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Escape (PvP)",
+      "name": "Escape (PvP)",
+      "pageId": 221968,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Essence Bond",
+      "name": "Essence Bond",
+      "pageId": 2777,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Essence Bond",
+      "name": "Essence Bond",
+      "pageId": 2777,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Essence Strike (Togo)",
+      "name": "Essence Strike (Togo)",
+      "pageId": 244931,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Eternal Aura",
+      "name": "Eternal Aura",
+      "pageId": 41124,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Eternal Aura",
+      "name": "Eternal Aura",
+      "pageId": 41124,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ether Feast",
+      "name": "Ether Feast",
+      "pageId": 1638,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ether Nightmare",
+      "name": "Ether Nightmare",
+      "pageId": 41149,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ether Nightmare",
+      "name": "Ether Nightmare",
+      "pageId": 41149,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ether Renewal (PvP)",
+      "name": "Ether Renewal (PvP)",
+      "pageId": 136071,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Exhausting Assault",
+      "name": "Exhausting Assault",
+      "pageId": 14498,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Expel Hexes",
+      "name": "Expel Hexes",
+      "pageId": 1678,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Expel Hexes",
+      "name": "Expel Hexes",
+      "pageId": 1678,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Expert's Dexterity (PvP)",
+      "name": "Expert's Dexterity (PvP)",
+      "pageId": 170195,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Farmer's Scythe (PvP)",
+      "name": "Farmer's Scythe (PvP)",
+      "pageId": 320381,
+      "severity": "warning",
+      "code": "missing_icon",
+      "message": "No skill icon image was resolved from the wiki page images."
+    },
+    {
+      "title": "Farmer's Scythe (PvP)",
+      "name": "Farmer's Scythe (PvP)",
+      "pageId": 320381,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Feel No Pain",
+      "name": "Feel No Pain",
+      "pageId": 58323,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Feel No Pain",
+      "name": "Feel No Pain",
+      "pageId": 58323,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Feel No Pain",
+      "name": "Feel No Pain",
+      "pageId": 58323,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Fevered Dreams (PvP)",
+      "name": "Fevered Dreams (PvP)",
+      "pageId": 276651,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Final Thrust",
+      "name": "Final Thrust",
+      "pageId": 2026,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Finale of Restoration (PvP)",
+      "name": "Finale of Restoration (PvP)",
+      "pageId": 221974,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Flesh of My Flesh (PvP)",
+      "name": "Flesh of My Flesh (PvP)",
+      "pageId": 136077,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Flurry",
+      "name": "Flurry",
+      "pageId": 5276,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Flurry",
+      "name": "Flurry",
+      "pageId": 5276,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Flurry of Ice",
+      "name": "Flurry of Ice",
+      "pageId": 75685,
+      "severity": "info",
+      "code": "missing_cost",
+      "message": "No energy, adrenaline, upkeep, activation, recharge, or sacrifice cost was found."
+    },
+    {
+      "title": "Flurry of Ice",
+      "name": "Flurry of Ice",
+      "pageId": 75685,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Flurry of Ice",
+      "name": "Flurry of Ice",
+      "pageId": 75685,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Forked Arrow",
+      "name": "Forked Arrow",
+      "pageId": 1241,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Forked Arrow",
+      "name": "Forked Arrow",
+      "pageId": 1241,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Fox Fangs (PvP)",
+      "name": "Fox Fangs (PvP)",
+      "pageId": 270656,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Fragility (PvP)",
+      "name": "Fragility (PvP)",
+      "pageId": 1566,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Frenzied Defense",
+      "name": "Frenzied Defense",
+      "pageId": 13036,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Frenzied Defense",
+      "name": "Frenzied Defense",
+      "pageId": 13036,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Frenzy",
+      "name": "Frenzy",
+      "pageId": 1302,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Frenzy",
+      "name": "Frenzy",
+      "pageId": 1302,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Frustration (PvP)",
+      "name": "Frustration (PvP)",
+      "pageId": 253806,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Gale",
+      "name": "Gale",
+      "pageId": 1805,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Gaze of Contempt",
+      "name": "Gaze of Contempt",
+      "pageId": 7052,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Gaze of Contempt",
+      "name": "Gaze of Contempt",
+      "pageId": 7052,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Gaze of Fury (PvP)",
+      "name": "Gaze of Fury (PvP)",
+      "pageId": 207949,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Glass Arrows (PvP)",
+      "name": "Glass Arrows (PvP)",
+      "pageId": 240761,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Glyph of Concentration",
+      "name": "Glyph of Concentration",
+      "pageId": 16251,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Glyph of Concentration",
+      "name": "Glyph of Concentration",
+      "pageId": 16251,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Glyph of Elemental Power",
+      "name": "Glyph of Elemental Power",
+      "pageId": 14041,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Glyph of Elemental Power",
+      "name": "Glyph of Elemental Power",
+      "pageId": 14041,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Glyph of Essence",
+      "name": "Glyph of Essence",
+      "pageId": 16252,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Glyph of Essence",
+      "name": "Glyph of Essence",
+      "pageId": 16252,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Glyph of Renewal",
+      "name": "Glyph of Renewal",
+      "pageId": 4237,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Glyph of Renewal",
+      "name": "Glyph of Renewal",
+      "pageId": 4237,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Glyph of Sacrifice",
+      "name": "Glyph of Sacrifice",
+      "pageId": 8313,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Glyph of Sacrifice",
+      "name": "Glyph of Sacrifice",
+      "pageId": 8313,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Grapple",
+      "name": "Grapple",
+      "pageId": 51903,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Grapple",
+      "name": "Grapple",
+      "pageId": 51903,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Great Dwarf Armor",
+      "name": "Great Dwarf Armor",
+      "pageId": 59250,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Great Dwarf Armor",
+      "name": "Great Dwarf Armor",
+      "pageId": 59250,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Great Dwarf Armor",
+      "name": "Great Dwarf Armor",
+      "pageId": 59250,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Great Dwarf Weapon",
+      "name": "Great Dwarf Weapon",
+      "pageId": 59251,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Great Dwarf Weapon",
+      "name": "Great Dwarf Weapon",
+      "pageId": 59251,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Great Dwarf Weapon",
+      "name": "Great Dwarf Weapon",
+      "pageId": 59251,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Grenth's Balance",
+      "name": "Grenth's Balance",
+      "pageId": 4060,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Grenth's Balance",
+      "name": "Grenth's Balance",
+      "pageId": 4060,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Guiding Hands (PvP)",
+      "name": "Guiding Hands (PvP)",
+      "pageId": 274796,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Hammer Bash",
+      "name": "Hammer Bash",
+      "pageId": 6667,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Harrier's Toss (PvP)",
+      "name": "Harrier's Toss (PvP)",
+      "pageId": 136085,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Heal as One (PvP)",
+      "name": "Heal as One (PvP)",
+      "pageId": 243860,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Heal Party (PvP)",
+      "name": "Heal Party (PvP)",
+      "pageId": 268908,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Heart of Fury (PvP)",
+      "name": "Heart of Fury (PvP)",
+      "pageId": 280563,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Heart of the Norn",
+      "name": "Heart of the Norn",
+      "pageId": 64095,
+      "severity": "info",
+      "code": "missing_cost",
+      "message": "No energy, adrenaline, upkeep, activation, recharge, or sacrifice cost was found."
+    },
+    {
+      "title": "Heart of the Norn",
+      "name": "Heart of the Norn",
+      "pageId": 64095,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Heart of the Norn",
+      "name": "Heart of the Norn",
+      "pageId": 64095,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Heart of the Norn",
+      "name": "Heart of the Norn",
+      "pageId": 64095,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Heroic Refrain",
+      "name": "Heroic Refrain",
+      "pageId": 313308,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Hexbreaker Aria",
+      "name": "Hexbreaker Aria",
+      "pageId": 1667,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Hexbreaker Aria",
+      "name": "Hexbreaker Aria",
+      "pageId": 1667,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Holiday Blues",
+      "name": "Holiday Blues",
+      "pageId": 75373,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Holiday Blues",
+      "name": "Holiday Blues",
+      "pageId": 75373,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Holy Veil",
+      "name": "Holy Veil",
+      "pageId": 1514,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Holy Veil",
+      "name": "Holy Veil",
+      "pageId": 1514,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Hypochondria",
+      "name": "Hypochondria",
+      "pageId": 1685,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Hypochondria",
+      "name": "Hypochondria",
+      "pageId": 1685,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Ice Breaker",
+      "name": "Ice Breaker",
+      "pageId": 75366,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ice Breaker",
+      "name": "Ice Breaker",
+      "pageId": 75366,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Icicles",
+      "name": "Icicles",
+      "pageId": 75705,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Icicles",
+      "name": "Icicles",
+      "pageId": 75705,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Illusion of Haste (PvP)",
+      "name": "Illusion of Haste (PvP)",
+      "pageId": 296991,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Illusion of Pain (PvP)",
+      "name": "Illusion of Pain (PvP)",
+      "pageId": 296992,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Illusionary Weaponry (PvP)",
+      "name": "Illusionary Weaponry (PvP)",
+      "pageId": 253807,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Incendiary Arrows",
+      "name": "Incendiary Arrows",
+      "pageId": 4092,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Intensity",
+      "name": "Intensity",
+      "pageId": 41117,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Intensity",
+      "name": "Intensity",
+      "pageId": 41117,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Irresistible Sweep (PvP)",
+      "name": "Irresistible Sweep (PvP)",
+      "pageId": 274797,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Jack Frost",
+      "name": "Jack Frost",
+      "pageId": 75430,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Jack Frost",
+      "name": "Jack Frost",
+      "pageId": 75430,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Judgment Strike",
+      "name": "Judgment Strike",
+      "pageId": 313305,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Keen Arrow (PvP)",
+      "name": "Keen Arrow (PvP)",
+      "pageId": 240764,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Keen Chop",
+      "name": "Keen Chop",
+      "pageId": 51898,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Life (PvP)",
+      "name": "Life (PvP)",
+      "pageId": 208132,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Lift Enchantment",
+      "name": "Lift Enchantment",
+      "pageId": 16312,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Lift Enchantment",
+      "name": "Lift Enchantment",
+      "pageId": 16312,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Light of Deldrimor",
+      "name": "Light of Deldrimor",
+      "pageId": 18427,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Light of Deldrimor",
+      "name": "Light of Deldrimor",
+      "pageId": 18427,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Light of Deldrimor",
+      "name": "Light of Deldrimor",
+      "pageId": 18427,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Light of Deliverance (PvP)",
+      "name": "Light of Deliverance (PvP)",
+      "pageId": 136081,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Light of Dwayna",
+      "name": "Light of Dwayna",
+      "pageId": 2779,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Light of Dwayna",
+      "name": "Light of Dwayna",
+      "pageId": 2779,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Lightbringer",
+      "name": "Lightbringer",
+      "pageId": 2426,
+      "severity": "info",
+      "code": "missing_cost",
+      "message": "No energy, adrenaline, upkeep, activation, recharge, or sacrifice cost was found."
+    },
+    {
+      "title": "Lightbringer",
+      "name": "Lightbringer",
+      "pageId": 2426,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Lightbringer",
+      "name": "Lightbringer",
+      "pageId": 2426,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Lightbringer",
+      "name": "Lightbringer",
+      "pageId": 2426,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Lightbringer Signet",
+      "name": "Lightbringer Signet",
+      "pageId": 13771,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Lightbringer Signet",
+      "name": "Lightbringer Signet",
+      "pageId": 13771,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Lightbringer Signet",
+      "name": "Lightbringer Signet",
+      "pageId": 13771,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Lightbringer's Gaze",
+      "name": "Lightbringer's Gaze",
+      "pageId": 10654,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Lightbringer's Gaze",
+      "name": "Lightbringer's Gaze",
+      "pageId": 10654,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Lightbringer's Gaze",
+      "name": "Lightbringer's Gaze",
+      "pageId": 10654,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Lightning Hammer (PvP)",
+      "name": "Lightning Hammer (PvP)",
+      "pageId": 302376,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Lightning Reflexes (PvP)",
+      "name": "Lightning Reflexes (PvP)",
+      "pageId": 240765,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Low Blow",
+      "name": "Low Blow",
+      "pageId": 63161,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Low Blow",
+      "name": "Low Blow",
+      "pageId": 63161,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Low Blow",
+      "name": "Low Blow",
+      "pageId": 63161,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Lyssa's Balance",
+      "name": "Lyssa's Balance",
+      "pageId": 1684,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Lyssa's Balance",
+      "name": "Lyssa's Balance",
+      "pageId": 1684,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Lyssa's Haste (PvP)",
+      "name": "Lyssa's Haste (PvP)",
+      "pageId": 278539,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Magebane Shot",
+      "name": "Magebane Shot",
+      "pageId": 3642,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Magebane Shot",
+      "name": "Magebane Shot",
+      "pageId": 3642,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Magehunter's Smash",
+      "name": "Magehunter's Smash",
+      "pageId": 4259,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mantra of Inscriptions (Saul D'Alessio)",
+      "name": "Mantra of Inscriptions (Saul D'Alessio)",
+      "pageId": 287677,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mantra of Resolve (PvP)",
+      "name": "Mantra of Resolve (PvP)",
+      "pageId": 223517,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mantra of Signets (PvP)",
+      "name": "Mantra of Signets (PvP)",
+      "pageId": 253949,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mark of Instability",
+      "name": "Mark of Instability",
+      "pageId": 16272,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mark of Instability",
+      "name": "Mark of Instability",
+      "pageId": 16272,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Mark of Subversion",
+      "name": "Mark of Subversion",
+      "pageId": 1757,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Martyr",
+      "name": "Martyr",
+      "pageId": 1519,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Martyr",
+      "name": "Martyr",
+      "pageId": 1519,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Masochism (PvP)",
+      "name": "Masochism (PvP)",
+      "pageId": 215098,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Melandru's Assault (PvP)",
+      "name": "Melandru's Assault (PvP)",
+      "pageId": 215110,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mend Body and Soul (Togo)",
+      "name": "Mend Body and Soul (Togo)",
+      "pageId": 244933,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mending Refrain (PvP)",
+      "name": "Mending Refrain (PvP)",
+      "pageId": 240759,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mental Block",
+      "name": "Mental Block",
+      "pageId": 58301,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Mental Block",
+      "name": "Mental Block",
+      "pageId": 58301,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mental Block",
+      "name": "Mental Block",
+      "pageId": 58301,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Migraine (PvP)",
+      "name": "Migraine (PvP)",
+      "pageId": 253922,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mind Freeze (PvP)",
+      "name": "Mind Freeze (PvP)",
+      "pageId": 293538,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mind Shock (PvP)",
+      "name": "Mind Shock (PvP)",
+      "pageId": 293537,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mind Wrack (PvP)",
+      "name": "Mind Wrack (PvP)",
+      "pageId": 285394,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mindbender",
+      "name": "Mindbender",
+      "pageId": 58303,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Mindbender",
+      "name": "Mindbender",
+      "pageId": 58303,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mindbender",
+      "name": "Mindbender",
+      "pageId": 58303,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Mirror of Disenchantment",
+      "name": "Mirror of Disenchantment",
+      "pageId": 1487,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mirror of Disenchantment",
+      "name": "Mirror of Disenchantment",
+      "pageId": 1487,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Mirror of Disenchantment (PvP)",
+      "name": "Mirror of Disenchantment (PvP)",
+      "pageId": 253808,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mirror of Disenchantment (PvP)",
+      "name": "Mirror of Disenchantment (PvP)",
+      "pageId": 253808,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Mirror of Disenchantment (PvP)",
+      "name": "Mirror of Disenchantment (PvP)",
+      "pageId": 253808,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mist Form (PvP)",
+      "name": "Mist Form (PvP)",
+      "pageId": 293542,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mistrust",
+      "name": "Mistrust",
+      "pageId": 1488,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mistrust (PvP)",
+      "name": "Mistrust (PvP)",
+      "pageId": 253916,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Mistrust (PvP)",
+      "name": "Mistrust (PvP)",
+      "pageId": 253916,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mystic Healing (PvP)",
+      "name": "Mystic Healing (PvP)",
+      "pageId": 274798,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Mystic Regeneration (PvP)",
+      "name": "Mystic Regeneration (PvP)",
+      "pageId": 142229,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Necrosis",
+      "name": "Necrosis",
+      "pageId": 41103,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Necrosis",
+      "name": "Necrosis",
+      "pageId": 41103,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Never Rampage Alone",
+      "name": "Never Rampage Alone",
+      "pageId": 41113,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Never Rampage Alone",
+      "name": "Never Rampage Alone",
+      "pageId": 41113,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Obsidian Flame (PvP)",
+      "name": "Obsidian Flame (PvP)",
+      "pageId": 294245,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Onslaught (PvP)",
+      "name": "Onslaught (PvP)",
+      "pageId": 280568,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Over the Limit",
+      "name": "Over the Limit",
+      "pageId": 313293,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Pain (PvP)",
+      "name": "Pain (PvP)",
+      "pageId": 207533,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Pain Inverter",
+      "name": "Pain Inverter",
+      "pageId": 58305,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Pain Inverter",
+      "name": "Pain Inverter",
+      "pageId": 58305,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Pain Inverter",
+      "name": "Pain Inverter",
+      "pageId": 58305,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Penetrating Attack (PvP)",
+      "name": "Penetrating Attack (PvP)",
+      "pageId": 136090,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Pious Assault (PvP)",
+      "name": "Pious Assault (PvP)",
+      "pageId": 274799,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Pious Fury (PvP)",
+      "name": "Pious Fury (PvP)",
+      "pageId": 280565,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Poisoned Heart",
+      "name": "Poisoned Heart",
+      "pageId": 14862,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Predatory Bond (PvP)",
+      "name": "Predatory Bond (PvP)",
+      "pageId": 215077,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Preservation (PvP)",
+      "name": "Preservation (PvP)",
+      "pageId": 207683,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Psychic Instability (PvP)",
+      "name": "Psychic Instability (PvP)",
+      "pageId": 253946,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Purge Conditions",
+      "name": "Purge Conditions",
+      "pageId": 1525,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Purge Conditions",
+      "name": "Purge Conditions",
+      "pageId": 1525,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Purge Signet",
+      "name": "Purge Signet",
+      "pageId": 1528,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Purge Signet",
+      "name": "Purge Signet",
+      "pageId": 1528,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Quick Shot",
+      "name": "Quick Shot",
+      "pageId": 3643,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Quick Shot",
+      "name": "Quick Shot",
+      "pageId": 3643,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Quivering Blade",
+      "name": "Quivering Blade",
+      "pageId": 3611,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Radiation Field",
+      "name": "Radiation Field",
+      "pageId": 58306,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Radiation Field",
+      "name": "Radiation Field",
+      "pageId": 58306,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Radiation Field",
+      "name": "Radiation Field",
+      "pageId": 58306,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Raven Blessing",
+      "name": "Raven Blessing",
+      "pageId": 58324,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Raven Blessing",
+      "name": "Raven Blessing",
+      "pageId": 58324,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Raven Blessing",
+      "name": "Raven Blessing",
+      "pageId": 58324,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Raven Flight",
+      "name": "Raven Flight",
+      "pageId": 64046,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Raven Flight",
+      "name": "Raven Flight",
+      "pageId": 64046,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Raven Flight",
+      "name": "Raven Flight",
+      "pageId": 64046,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Raven Shriek",
+      "name": "Raven Shriek",
+      "pageId": 64045,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Raven Shriek",
+      "name": "Raven Shriek",
+      "pageId": 64045,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Raven Shriek",
+      "name": "Raven Shriek",
+      "pageId": 64045,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Raven Swoop",
+      "name": "Raven Swoop",
+      "pageId": 64044,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Raven Swoop",
+      "name": "Raven Swoop",
+      "pageId": 64044,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Raven Swoop",
+      "name": "Raven Swoop",
+      "pageId": 64044,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Raven Talons",
+      "name": "Raven Talons",
+      "pageId": 64042,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Raven Talons",
+      "name": "Raven Talons",
+      "pageId": 64042,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Raven Talons",
+      "name": "Raven Talons",
+      "pageId": 64042,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Read the Wind (PvP)",
+      "name": "Read the Wind (PvP)",
+      "pageId": 192502,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Read the Wind (PvP)",
+      "name": "Read the Wind (PvP)",
+      "pageId": 192502,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Rebel Yell",
+      "name": "Rebel Yell",
+      "pageId": 66523,
+      "severity": "info",
+      "code": "missing_cost",
+      "message": "No energy, adrenaline, upkeep, activation, recharge, or sacrifice cost was found."
+    },
+    {
+      "title": "Rebel Yell",
+      "name": "Rebel Yell",
+      "pageId": 66523,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Rebel Yell",
+      "name": "Rebel Yell",
+      "pageId": 66523,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Rebel Yell",
+      "name": "Rebel Yell",
+      "pageId": 66523,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Recall",
+      "name": "Recall",
+      "pageId": 14847,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Recall",
+      "name": "Recall",
+      "pageId": 14847,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Recovery (PvP)",
+      "name": "Recovery (PvP)",
+      "pageId": 207698,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Recuperation (PvP)",
+      "name": "Recuperation (PvP)",
+      "pageId": 207696,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Rejuvenation (PvP)",
+      "name": "Rejuvenation (PvP)",
+      "pageId": 207694,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Remedy Signet",
+      "name": "Remedy Signet",
+      "pageId": 15263,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Remedy Signet",
+      "name": "Remedy Signet",
+      "pageId": 15263,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Remove Hex",
+      "name": "Remove Hex",
+      "pageId": 1530,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Remove Hex",
+      "name": "Remove Hex",
+      "pageId": 1530,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Renewing Smash (PvP)",
+      "name": "Renewing Smash (PvP)",
+      "pageId": 243867,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Restoration (PvP)",
+      "name": "Restoration (PvP)",
+      "pageId": 207631,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Resurrect",
+      "name": "Resurrect",
+      "pageId": 1532,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Resurrect",
+      "name": "Resurrect",
+      "pageId": 1532,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Ride the Lightning (PvP)",
+      "name": "Ride the Lightning (PvP)",
+      "pageId": 293543,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Rising Bile",
+      "name": "Rising Bile",
+      "pageId": 16018,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Savannah Heat (PvP)",
+      "name": "Savannah Heat (PvP)",
+      "pageId": 207517,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Second Wind",
+      "name": "Second Wind",
+      "pageId": 4334,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Second Wind",
+      "name": "Second Wind",
+      "pageId": 4334,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Seed of Life",
+      "name": "Seed of Life",
+      "pageId": 41109,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Selfless Spirit",
+      "name": "Selfless Spirit",
+      "pageId": 41146,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Selfless Spirit",
+      "name": "Selfless Spirit",
+      "pageId": 41146,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Seven Weapons Stance",
+      "name": "Seven Weapons Stance",
+      "pageId": 313298,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Shadow Form (PvP)",
+      "name": "Shadow Form (PvP)",
+      "pageId": 136070,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Shadow Meld",
+      "name": "Shadow Meld",
+      "pageId": 4442,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Shadow Meld",
+      "name": "Shadow Meld",
+      "pageId": 4442,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Shadow Sanctuary",
+      "name": "Shadow Sanctuary",
+      "pageId": 41154,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Shadow Sanctuary",
+      "name": "Shadow Sanctuary",
+      "pageId": 41154,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Shadow Theft",
+      "name": "Shadow Theft",
+      "pageId": 313303,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Shadow Walk",
+      "name": "Shadow Walk",
+      "pageId": 13709,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Shadow Walk",
+      "name": "Shadow Walk",
+      "pageId": 13709,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Shadowsong (PvP)",
+      "name": "Shadowsong (PvP)",
+      "pageId": 207635,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Shame",
+      "name": "Shame",
+      "pageId": 1498,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Shared Burden (PvP)",
+      "name": "Shared Burden (PvP)",
+      "pageId": 253810,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Shatter Delusions (PvP)",
+      "name": "Shatter Delusions (PvP)",
+      "pageId": 253950,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Shatter Storm",
+      "name": "Shatter Storm",
+      "pageId": 1683,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Shatter Storm",
+      "name": "Shatter Storm",
+      "pageId": 1683,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Shelter (PvP)",
+      "name": "Shelter (PvP)",
+      "pageId": 207628,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Shove",
+      "name": "Shove",
+      "pageId": 4252,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Shroud of Distress (PvP)",
+      "name": "Shroud of Distress (PvP)",
+      "pageId": 215064,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Side Step",
+      "name": "Side Step",
+      "pageId": 75711,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Side Step",
+      "name": "Side Step",
+      "pageId": 75711,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Aggression",
+      "name": "Signet of Aggression",
+      "pageId": 15264,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Aggression",
+      "name": "Signet of Aggression",
+      "pageId": 15264,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Agony (PvP)",
+      "name": "Signet of Agony (PvP)",
+      "pageId": 221973,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Binding",
+      "name": "Signet of Binding",
+      "pageId": 6409,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Capture",
+      "name": "Signet of Capture",
+      "pageId": 1005,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Signet of Capture",
+      "name": "Signet of Capture",
+      "pageId": 1005,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Capture",
+      "name": "Signet of Capture",
+      "pageId": 1005,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Capture",
+      "name": "Signet of Capture",
+      "pageId": 1005,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Signet of Clumsiness (PvP)",
+      "name": "Signet of Clumsiness (PvP)",
+      "pageId": 253951,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Corruption",
+      "name": "Signet of Corruption",
+      "pageId": 41152,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Corruption",
+      "name": "Signet of Corruption",
+      "pageId": 41152,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Signet of Deadly Corruption (PvP)",
+      "name": "Signet of Deadly Corruption (PvP)",
+      "pageId": 215100,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Disenchantment",
+      "name": "Signet of Disenchantment",
+      "pageId": 1682,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Disenchantment",
+      "name": "Signet of Disenchantment",
+      "pageId": 1682,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Ghostly Might (PvP)",
+      "name": "Signet of Ghostly Might (PvP)",
+      "pageId": 176114,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Infection",
+      "name": "Signet of Infection",
+      "pageId": 65950,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Signet of Infection",
+      "name": "Signet of Infection",
+      "pageId": 65950,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Infection",
+      "name": "Signet of Infection",
+      "pageId": 65950,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Signet of Judgment (PvP)",
+      "name": "Signet of Judgment (PvP)",
+      "pageId": 148636,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Malice",
+      "name": "Signet of Malice",
+      "pageId": 6700,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Malice",
+      "name": "Signet of Malice",
+      "pageId": 6700,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Midnight",
+      "name": "Signet of Midnight",
+      "pageId": 1687,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Midnight",
+      "name": "Signet of Midnight",
+      "pageId": 1687,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Pious Restraint (PvP)",
+      "name": "Signet of Pious Restraint (PvP)",
+      "pageId": 274800,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Removal",
+      "name": "Signet of Removal",
+      "pageId": 2782,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Removal",
+      "name": "Signet of Removal",
+      "pageId": 2782,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Signet of Return (PvP)",
+      "name": "Signet of Return (PvP)",
+      "pageId": 207556,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Spirits (PvP)",
+      "name": "Signet of Spirits (PvP)",
+      "pageId": 176113,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Signet of Twilight",
+      "name": "Signet of Twilight",
+      "pageId": 16273,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Signet of Twilight",
+      "name": "Signet of Twilight",
+      "pageId": 16273,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Skull Crack",
+      "name": "Skull Crack",
+      "pageId": 4082,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Skull Crack",
+      "name": "Skull Crack",
+      "pageId": 4082,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Slippery Ground",
+      "name": "Slippery Ground",
+      "pageId": 51878,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Slippery Ground (PvP)",
+      "name": "Slippery Ground (PvP)",
+      "pageId": 302378,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Slippery Ground (PvP)",
+      "name": "Slippery Ground (PvP)",
+      "pageId": 302378,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Sloth Hunter's Shot (PvP)",
+      "name": "Sloth Hunter's Shot (PvP)",
+      "pageId": 161370,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Smiter's Boon (PvP)",
+      "name": "Smiter's Boon (PvP)",
+      "pageId": 157328,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Smooth Criminal",
+      "name": "Smooth Criminal",
+      "pageId": 58307,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Smooth Criminal",
+      "name": "Smooth Criminal",
+      "pageId": 58307,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Smooth Criminal",
+      "name": "Smooth Criminal",
+      "pageId": 58307,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Sneak Attack",
+      "name": "Sneak Attack",
+      "pageId": 66008,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Sneak Attack",
+      "name": "Sneak Attack",
+      "pageId": 66008,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Sneak Attack",
+      "name": "Sneak Attack",
+      "pageId": 66008,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Snow Storm",
+      "name": "Snow Storm",
+      "pageId": 65949,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Snow Storm",
+      "name": "Snow Storm",
+      "pageId": 65949,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Snow Storm",
+      "name": "Snow Storm",
+      "pageId": 65949,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Soldier's Stance (PvP)",
+      "name": "Soldier's Stance (PvP)",
+      "pageId": 243866,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Song of Concentration",
+      "name": "Song of Concentration",
+      "pageId": 15220,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Song of Concentration",
+      "name": "Song of Concentration",
+      "pageId": 15220,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Song of Restoration (PvP)",
+      "name": "Song of Restoration (PvP)",
+      "pageId": 136083,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Soothing (PvP)",
+      "name": "Soothing (PvP)",
+      "pageId": 207634,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Soul Taker",
+      "name": "Soul Taker",
+      "pageId": 313294,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Spear of Fury",
+      "name": "Spear of Fury",
+      "pageId": 41157,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Spear of Fury",
+      "name": "Spear of Fury",
+      "pageId": 41157,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Spirit Bond (PvP)",
+      "name": "Spirit Bond (PvP)",
+      "pageId": 154807,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Spirit Burn (Togo)",
+      "name": "Spirit Burn (Togo)",
+      "pageId": 244930,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Spirit Rift (Togo)",
+      "name": "Spirit Rift (Togo)",
+      "pageId": 244932,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Spirit Walk",
+      "name": "Spirit Walk",
+      "pageId": 16274,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Spirit Walk",
+      "name": "Spirit Walk",
+      "pageId": 16274,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Spiritual Pain (PvP)",
+      "name": "Spiritual Pain (PvP)",
+      "pageId": 253938,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Splinter Weapon (PvP)",
+      "name": "Splinter Weapon (PvP)",
+      "pageId": 136074,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Spoil Victor (PvP)",
+      "name": "Spoil Victor (PvP)",
+      "pageId": 268912,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Star Servant",
+      "name": "Star Servant",
+      "pageId": 42424,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Star Servant",
+      "name": "Star Servant",
+      "pageId": 42424,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Star Servant",
+      "name": "Star Servant",
+      "pageId": 42424,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Star Shine",
+      "name": "Star Shine",
+      "pageId": 42422,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Star Shine",
+      "name": "Star Shine",
+      "pageId": 42422,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Star Shine",
+      "name": "Star Shine",
+      "pageId": 42422,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Star Strike",
+      "name": "Star Strike",
+      "pageId": 42425,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Star Strike",
+      "name": "Star Strike",
+      "pageId": 42425,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Star Strike",
+      "name": "Star Strike",
+      "pageId": 42425,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Steady Aim",
+      "name": "Steady Aim",
+      "pageId": 75375,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Steady Aim",
+      "name": "Steady Aim",
+      "pageId": 75375,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Stolen Speed (PvP)",
+      "name": "Stolen Speed (PvP)",
+      "pageId": 253953,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Storm of Swords",
+      "name": "Storm of Swords",
+      "pageId": 42417,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Storm of Swords",
+      "name": "Storm of Swords",
+      "pageId": 42417,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Storm of Swords",
+      "name": "Storm of Swords",
+      "pageId": 42417,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Storm's Embrace",
+      "name": "Storm's Embrace",
+      "pageId": 3644,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Storm's Embrace",
+      "name": "Storm's Embrace",
+      "pageId": 3644,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Stout-Hearted",
+      "name": "Stout-Hearted",
+      "pageId": 64094,
+      "severity": "info",
+      "code": "missing_cost",
+      "message": "No energy, adrenaline, upkeep, activation, recharge, or sacrifice cost was found."
+    },
+    {
+      "title": "Stout-Hearted",
+      "name": "Stout-Hearted",
+      "pageId": 64094,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Stout-Hearted",
+      "name": "Stout-Hearted",
+      "pageId": 64094,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Stout-Hearted",
+      "name": "Stout-Hearted",
+      "pageId": 64094,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Strength of Honor (PvP)",
+      "name": "Strength of Honor (PvP)",
+      "pageId": 202637,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Succor",
+      "name": "Succor",
+      "pageId": 2783,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Succor",
+      "name": "Succor",
+      "pageId": 2783,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Sum of All Fears (Gwen)",
+      "name": "Sum of All Fears (Gwen)",
+      "pageId": 207598,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Summon Ice Imp",
+      "name": "Summon Ice Imp",
+      "pageId": 58308,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Summon Ice Imp",
+      "name": "Summon Ice Imp",
+      "pageId": 58308,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Summon Ice Imp",
+      "name": "Summon Ice Imp",
+      "pageId": 58308,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Summon Mursaat",
+      "name": "Summon Mursaat",
+      "pageId": 58310,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Summon Mursaat",
+      "name": "Summon Mursaat",
+      "pageId": 58310,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Summon Mursaat",
+      "name": "Summon Mursaat",
+      "pageId": 58310,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Summon Naga Shaman",
+      "name": "Summon Naga Shaman",
+      "pageId": 58309,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Summon Naga Shaman",
+      "name": "Summon Naga Shaman",
+      "pageId": 58309,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Summon Naga Shaman",
+      "name": "Summon Naga Shaman",
+      "pageId": 58309,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Summon Ruby Djinn",
+      "name": "Summon Ruby Djinn",
+      "pageId": 58311,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Summon Ruby Djinn",
+      "name": "Summon Ruby Djinn",
+      "pageId": 58311,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Summon Ruby Djinn",
+      "name": "Summon Ruby Djinn",
+      "pageId": 58311,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Summon Spirits",
+      "name": "Summon Spirits",
+      "pageId": 41156,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Summon Spirits",
+      "name": "Summon Spirits",
+      "pageId": 41156,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Sun and Moon Slash",
+      "name": "Sun and Moon Slash",
+      "pageId": 14750,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Sundering Attack (PvP)",
+      "name": "Sundering Attack (PvP)",
+      "pageId": 136092,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Sunspear Rebirth Signet",
+      "name": "Sunspear Rebirth Signet",
+      "pageId": 17633,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Sunspear Rebirth Signet",
+      "name": "Sunspear Rebirth Signet",
+      "pageId": 17633,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Sunspear Rebirth Signet",
+      "name": "Sunspear Rebirth Signet",
+      "pageId": 17633,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Swap",
+      "name": "Swap",
+      "pageId": 16275,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Swap",
+      "name": "Swap",
+      "pageId": 16275,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Symbolic Strike",
+      "name": "Symbolic Strike",
+      "pageId": 51908,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Symbolic Strike",
+      "name": "Symbolic Strike",
+      "pageId": 51908,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Technobabble",
+      "name": "Technobabble",
+      "pageId": 58312,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Technobabble",
+      "name": "Technobabble",
+      "pageId": 58312,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Technobabble",
+      "name": "Technobabble",
+      "pageId": 58312,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Time Ward",
+      "name": "Time Ward",
+      "pageId": 313296,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Totem of Man",
+      "name": "Totem of Man",
+      "pageId": 63158,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Totem of Man",
+      "name": "Totem of Man",
+      "pageId": 63158,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Totem of Man",
+      "name": "Totem of Man",
+      "pageId": 63158,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Triple Shot",
+      "name": "Triple Shot",
+      "pageId": 41144,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Triple Shot",
+      "name": "Triple Shot",
+      "pageId": 41144,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Tryptophan Signet",
+      "name": "Tryptophan Signet",
+      "pageId": 65952,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Tryptophan Signet",
+      "name": "Tryptophan Signet",
+      "pageId": 65952,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Tryptophan Signet",
+      "name": "Tryptophan Signet",
+      "pageId": 65952,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Twin Moon Sweep (PvP)",
+      "name": "Twin Moon Sweep (PvP)",
+      "pageId": 274801,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Unholy Feast (PvP)",
+      "name": "Unholy Feast (PvP)",
+      "pageId": 221970,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Union (PvP)",
+      "name": "Union (PvP)",
+      "pageId": 207632,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Unnatural Signet (PvP)",
+      "name": "Unnatural Signet (PvP)",
+      "pageId": 253814,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Unnatural Signet (Saul D'Alessio)",
+      "name": "Unnatural Signet (Saul D'Alessio)",
+      "pageId": 207601,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Unseen Fury (PvP)",
+      "name": "Unseen Fury (PvP)",
+      "pageId": 215101,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Unyielding Aura (PvP)",
+      "name": "Unyielding Aura (PvP)",
+      "pageId": 154794,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Unyielding Aura (PvP)",
+      "name": "Unyielding Aura (PvP)",
+      "pageId": 154794,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Ursan Blessing",
+      "name": "Ursan Blessing",
+      "pageId": 58325,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ursan Blessing",
+      "name": "Ursan Blessing",
+      "pageId": 58325,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ursan Blessing",
+      "name": "Ursan Blessing",
+      "pageId": 58325,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ursan Force",
+      "name": "Ursan Force",
+      "pageId": 63599,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ursan Force",
+      "name": "Ursan Force",
+      "pageId": 63599,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ursan Force",
+      "name": "Ursan Force",
+      "pageId": 63599,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ursan Rage",
+      "name": "Ursan Rage",
+      "pageId": 63596,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ursan Rage",
+      "name": "Ursan Rage",
+      "pageId": 63596,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ursan Rage",
+      "name": "Ursan Rage",
+      "pageId": 63596,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ursan Roar",
+      "name": "Ursan Roar",
+      "pageId": 63597,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ursan Roar",
+      "name": "Ursan Roar",
+      "pageId": 63597,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ursan Roar",
+      "name": "Ursan Roar",
+      "pageId": 63597,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Ursan Strike",
+      "name": "Ursan Strike",
+      "pageId": 63595,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Ursan Strike",
+      "name": "Ursan Strike",
+      "pageId": 63595,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Ursan Strike",
+      "name": "Ursan Strike",
+      "pageId": 63595,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Vampirism",
+      "name": "Vampirism",
+      "pageId": 41123,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Vampirism",
+      "name": "Vampirism",
+      "pageId": 41123,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Vampirism (attack)",
+      "name": "Vampirism",
+      "pageId": 75110,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Vampirism (attack)",
+      "name": "Vampirism",
+      "pageId": 75110,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Vengeance",
+      "name": "Vengeance",
+      "pageId": 2785,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Vengeance",
+      "name": "Vengeance",
+      "pageId": 2785,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Verata's Gaze",
+      "name": "Verata's Gaze",
+      "pageId": 16190,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Visions of Regret (PvP)",
+      "name": "Visions of Regret (PvP)",
+      "pageId": 268907,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Volfen Agility",
+      "name": "Volfen Agility",
+      "pageId": 63549,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Volfen Agility",
+      "name": "Volfen Agility",
+      "pageId": 63549,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Volfen Agility",
+      "name": "Volfen Agility",
+      "pageId": 63549,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Volfen Blessing",
+      "name": "Volfen Blessing",
+      "pageId": 58326,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Volfen Blessing",
+      "name": "Volfen Blessing",
+      "pageId": 58326,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Volfen Blessing",
+      "name": "Volfen Blessing",
+      "pageId": 58326,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Volfen Bloodlust",
+      "name": "Volfen Bloodlust",
+      "pageId": 63546,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Volfen Bloodlust",
+      "name": "Volfen Bloodlust",
+      "pageId": 63546,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Volfen Bloodlust",
+      "name": "Volfen Bloodlust",
+      "pageId": 63546,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Volfen Claw",
+      "name": "Volfen Claw",
+      "pageId": 63541,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Volfen Claw",
+      "name": "Volfen Claw",
+      "pageId": 63541,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Volfen Claw",
+      "name": "Volfen Claw",
+      "pageId": 63541,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Volfen Pounce",
+      "name": "Volfen Pounce",
+      "pageId": 63544,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Volfen Pounce",
+      "name": "Volfen Pounce",
+      "pageId": 63544,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Volfen Pounce",
+      "name": "Volfen Pounce",
+      "pageId": 63544,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Vow of Revolution",
+      "name": "Vow of Revolution",
+      "pageId": 313306,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Wandering Eye (PvP)",
+      "name": "Wandering Eye (PvP)",
+      "pageId": 253954,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Wanderlust (PvP)",
+      "name": "Wanderlust (PvP)",
+      "pageId": 207633,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Ward Against Harm (PvP)",
+      "name": "Ward Against Harm (PvP)",
+      "pageId": 293522,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Warrior's Endurance (PvP)",
+      "name": "Warrior's Endurance (PvP)",
+      "pageId": 202639,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Wastrel's Collapse",
+      "name": "Wastrel's Collapse",
+      "pageId": 4445,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Wastrel's Collapse",
+      "name": "Wastrel's Collapse",
+      "pageId": 4445,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Wastrel's Demise",
+      "name": "Wastrel's Demise",
+      "pageId": 1513,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Weakness Trap",
+      "name": "Weakness Trap",
+      "pageId": 65951,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Weakness Trap",
+      "name": "Weakness Trap",
+      "pageId": 65951,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Weakness Trap",
+      "name": "Weakness Trap",
+      "pageId": 65951,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Weapon of Warding (PvP)",
+      "name": "Weapon of Warding (PvP)",
+      "pageId": 154809,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Weapons of Three Forges",
+      "name": "Weapons of Three Forges",
+      "pageId": 313297,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Web of Disruption",
+      "name": "Web of Disruption",
+      "pageId": 1686,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Web of Disruption",
+      "name": "Web of Disruption",
+      "pageId": 1686,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Web of Disruption (PvP)",
+      "name": "Web of Disruption (PvP)",
+      "pageId": 300167,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Web of Disruption (PvP)",
+      "name": "Web of Disruption (PvP)",
+      "pageId": 300167,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Web of Disruption (PvP)",
+      "name": "Web of Disruption (PvP)",
+      "pageId": 300167,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Whirlwind Attack",
+      "name": "Whirlwind Attack",
+      "pageId": 41097,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Whirlwind Attack",
+      "name": "Whirlwind Attack",
+      "pageId": 41097,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Wild Blow",
+      "name": "Wild Blow",
+      "pageId": 12413,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Wild Blow",
+      "name": "Wild Blow",
+      "pageId": 12413,
+      "severity": "info",
+      "code": "no_attribute_skill",
+      "message": "This skill is categorized as a No Attribute skill."
+    },
+    {
+      "title": "Wild Strike (PvP)",
+      "name": "Wild Strike (PvP)",
+      "pageId": 270655,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Winds",
+      "name": "Winds",
+      "pageId": 63118,
+      "severity": "info",
+      "code": "missing_profession",
+      "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
+    },
+    {
+      "title": "Winds",
+      "name": "Winds",
+      "pageId": 63118,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Winds",
+      "name": "Winds",
+      "pageId": 63118,
+      "severity": "info",
+      "code": "pve_only",
+      "message": "This skill is marked as PvE-only."
+    },
+    {
+      "title": "Withdraw Hexes",
+      "name": "Withdraw Hexes",
+      "pageId": 2916,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    },
+    {
+      "title": "Wounding Strike (PvP)",
+      "name": "Wounding Strike (PvP)",
+      "pageId": 280169,
+      "severity": "info",
+      "code": "pvp_variant",
+      "message": "This page appears to be a PvP variant."
+    },
+    {
+      "title": "Yeti Smash",
+      "name": "Yeti Smash",
+      "pageId": 14637,
+      "severity": "info",
+      "code": "missing_progression",
+      "message": "No skill progression table was found. This can be normal for fixed-value skills."
+    }
+  ]
+}

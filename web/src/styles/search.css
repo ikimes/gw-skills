@@ -1,0 +1,110 @@
+.search-shell {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 13px;
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 22px 24px 26px;
+  isolation: isolate;
+}
+
+.search-shell::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 8px;
+  background: rgba(0, 3, 10, 0.58);
+}
+
+.eyebrow {
+  margin: 0;
+  color: #d6ad63;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  color: rgba(255, 249, 233, 0.78);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.35rem, 5.4vw, 4.45rem);
+  font-weight: 600;
+  line-height: 0.94;
+  text-align: center;
+  text-shadow: 0 2px 16px rgba(215, 109, 28, 0.32), 0 1px 0 #000;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  width: 100%;
+  min-height: 86px;
+  padding: 8px;
+  border: 1px solid rgba(248, 220, 150, 0.86);
+  border-radius: 10px;
+  background: rgba(0, 5, 12, 0.94);
+  box-shadow: 0 0 0 3px rgba(240, 195, 107, 0.12), 0 18px 52px rgba(0, 0, 0, 0.36), inset 0 1px 0 rgba(255, 255, 255, 0.13);
+}
+
+.search-form:focus-within {
+  border-color: #f0c36b;
+  box-shadow: 0 0 0 3px rgba(240, 195, 107, 0.18), 0 18px 52px rgba(0, 0, 0, 0.36), inset 0 1px 0 rgba(255, 255, 255, 0.13);
+}
+
+.search-form input {
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  padding: 0 24px;
+  color: #fffaf0;
+  background: transparent;
+  font-size: 1.28rem;
+}
+
+.search-form input::placeholder {
+  color: #928d84;
+}
+
+.search-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.search-form button,
+.pager button {
+  border: 1px solid rgba(246, 191, 93, 0.5);
+  border-radius: 6px;
+  min-width: 108px;
+  padding: 0 28px;
+  color: #fff8e7;
+  background: linear-gradient(180deg, #9b5420, #5d2b13);
+  box-shadow: inset 0 1px 0 rgba(255, 244, 196, 0.22);
+}
+
+.search-form button:hover:not(:disabled),
+.pager button:hover:not(:disabled) {
+  background: linear-gradient(180deg, #b86a2b, #6c3318);
+}
+
+.search-form .button--secondary {
+  min-width: 92px;
+  color: #d8d1c2;
+  background: rgba(0, 0, 0, 0.44);
+}
+
+.search-form .button--secondary:hover:not(:disabled) {
+  color: #fff4d8;
+  background: rgba(82, 50, 25, 0.72);
+}
+
+.summary {
+  min-height: 20px;
+  margin: 0;
+  color: rgba(185, 196, 210, 0.74);
+  font-size: 0.96rem;
+}

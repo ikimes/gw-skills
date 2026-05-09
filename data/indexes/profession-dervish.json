@@ -1,0 +1,1747 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:47.369Z",
+  "sources": [
+    {
+      "id": "profession-dervish",
+      "kind": "category",
+      "title": "Dervish skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ADervish_skills",
+      "category": "Dervish skills",
+      "group": "profession",
+      "profession": "Dervish",
+      "fetchedAt": "2026-05-09T00:57:47.369Z",
+      "count": 108
+    }
+  ],
+  "skills": [
+    {
+      "title": "Arcane Zeal",
+      "pageId": 4541,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Zeal",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Armor of Sanctity",
+      "pageId": 1362,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Armor_of_Sanctity",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Attacker's Insight",
+      "pageId": 14075,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Attacker's_Insight",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Holy Might",
+      "pageId": 41148,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Holy_Might",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Thorns",
+      "pageId": 1365,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Thorns",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Thorns (PvP)",
+      "pageId": 278534,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Thorns_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura Slicer",
+      "pageId": 51913,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_Slicer",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Balthazar",
+      "pageId": 2216,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Balthazar",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Dwayna",
+      "pageId": 1308,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Dwayna (PvP)",
+      "pageId": 274802,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Dwayna (snow fighting skill)",
+      "pageId": 60984,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna_(snow_fighting_skill)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Grenth",
+      "pageId": 2024,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Grenth (snow fighting skill)",
+      "pageId": 60986,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth_(snow_fighting_skill)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Lyssa",
+      "pageId": 2217,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Melandru",
+      "pageId": 2218,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Avatar of Melandru (PvP)",
+      "pageId": 274757,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Balthazar's Rage",
+      "pageId": 12852,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Balthazar's_Rage",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Banishing Strike",
+      "pageId": 13414,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Banishing_Strike",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Banishing Strike (PvP)",
+      "pageId": 274794,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Banishing_Strike_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Chilling Victory",
+      "pageId": 6698,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chilling_Victory",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Conviction",
+      "pageId": 1374,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conviction",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Sweep",
+      "pageId": 12240,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Victory",
+      "pageId": 51899,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Victory",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Dust Cloak",
+      "pageId": 1378,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dust_Cloak",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Dust Cloak (PvP)",
+      "pageId": 278536,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dust_Cloak_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Dwayna's Touch",
+      "pageId": 14077,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dwayna's_Touch",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Dust Aura",
+      "pageId": 1380,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Enchanted Haste",
+      "pageId": 14081,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enchanted_Haste",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Eremite's Attack",
+      "pageId": 13454,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Eremite's_Attack",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Eremite's Zeal",
+      "pageId": 12845,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Eremite's_Zeal",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Eternal Aura",
+      "pageId": 41124,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Eternal_Aura",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Extend Enchantments",
+      "pageId": 12826,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Extend_Enchantments",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Faithful Intervention",
+      "pageId": 12820,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Faithful_Intervention",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Farmer's Scythe",
+      "pageId": 51904,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Farmer's_Scythe",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Farmer's Scythe (PvP)",
+      "pageId": 320381,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Farmer's_Scythe_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Featherfoot Grace",
+      "pageId": 14082,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Featherfoot_Grace",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Fleeting Stability",
+      "pageId": 1381,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fleeting_Stability",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Grenth's Aura",
+      "pageId": 51909,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grenth's_Aura",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Grenth's Fingers",
+      "pageId": 14084,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grenth's_Fingers",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Grenth's Grasp",
+      "pageId": 4553,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grenth's_Grasp",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Guiding Hands",
+      "pageId": 14380,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Guiding_Hands",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Guiding Hands (PvP)",
+      "pageId": 274796,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Guiding_Hands_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Harrier's Grasp",
+      "pageId": 14381,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Harrier's_Grasp",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Harrier's Haste",
+      "pageId": 14382,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Harrier's_Haste",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Heart of Fury",
+      "pageId": 11236,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Heart of Fury (PvP)",
+      "pageId": 280563,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heart_of_Fury_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Heart of Holy Flame",
+      "pageId": 12262,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heart_of_Holy_Flame",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Imbue Health",
+      "pageId": 6710,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Imbue_Health",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Intimidating Aura",
+      "pageId": 14398,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Intimidating_Aura",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Irresistible Sweep",
+      "pageId": 13500,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Irresistible_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Irresistible Sweep (PvP)",
+      "pageId": 274797,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyssa's Assault",
+      "pageId": 13460,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyssa's_Assault",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyssa's Haste",
+      "pageId": 14384,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyssa's_Haste",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyssa's Haste (PvP)",
+      "pageId": 278539,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyssa's_Haste_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Meditation",
+      "pageId": 12855,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Meditation",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mirage Cloak",
+      "pageId": 1384,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Corruption",
+      "pageId": 12857,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Healing",
+      "pageId": 14385,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Healing",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Healing (PvP)",
+      "pageId": 274798,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Healing_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Regeneration",
+      "pageId": 1385,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Regeneration",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Regeneration (PvP)",
+      "pageId": 142229,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Sandstorm",
+      "pageId": 1386,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Sweep",
+      "pageId": 14068,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Twister",
+      "pageId": 14386,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Twister",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Mystic Vigor",
+      "pageId": 12258,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mystic_Vigor",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Natural Healing",
+      "pageId": 14387,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Natural_Healing",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Onslaught",
+      "pageId": 4559,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Onslaught",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Onslaught (PvP)",
+      "pageId": 280568,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Onslaught_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Assault",
+      "pageId": 12253,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Assault",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Assault (PvP)",
+      "pageId": 274799,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Assault_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Concentration",
+      "pageId": 1390,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Concentration",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Fury",
+      "pageId": 51901,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Fury",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Fury (PvP)",
+      "pageId": 280565,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Fury_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Haste",
+      "pageId": 12825,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Haste",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Renewal",
+      "pageId": 4547,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Renewal",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Pious Restoration",
+      "pageId": 14390,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pious_Restoration",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Radiant Scythe",
+      "pageId": 51916,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Radiant_Scythe",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Reap Impurities",
+      "pageId": 14070,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Reaper's Sweep",
+      "pageId": 4550,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Reaper's_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Rending Aura",
+      "pageId": 14391,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rending_Aura",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Rending Sweep",
+      "pageId": 14071,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rending_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Rending Touch",
+      "pageId": 14399,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rending_Touch",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Sand Shards",
+      "pageId": 1396,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sand_Shards",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield of Force",
+      "pageId": 51894,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_of_Force",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Mystic Speed",
+      "pageId": 51897,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Speed",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Pious Light",
+      "pageId": 12234,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Light",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Pious Restraint",
+      "pageId": 51906,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Pious Restraint (PvP)",
+      "pageId": 274800,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Staggering Force",
+      "pageId": 12256,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Staggering_Force",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Test of Faith",
+      "pageId": 14393,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Test_of_Faith",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Twin Moon Sweep",
+      "pageId": 14072,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Twin Moon Sweep (PvP)",
+      "pageId": 274801,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Veil of Thorns",
+      "pageId": 12255,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Veil_of_Thorns",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Victorious Sweep",
+      "pageId": 11234,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Victorious_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Vital Boon",
+      "pageId": 11225,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vital_Boon",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Vow of Piety",
+      "pageId": 14396,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Vow of Revolution",
+      "pageId": 313306,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vow_of_Revolution",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Vow of Silence",
+      "pageId": 4549,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vow_of_Silence",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Vow of Strength",
+      "pageId": 4539,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vow_of_Strength",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Watchful Intervention",
+      "pageId": 12409,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Watchful_Intervention",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Wearying Strike",
+      "pageId": 14074,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wearying_Strike",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Whirling Charge",
+      "pageId": 14397,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Whirling_Charge",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Winds of Disenchantment",
+      "pageId": 14400,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Winds_of_Disenchantment",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Wounding Strike",
+      "pageId": 4551,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wounding_Strike",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Wounding Strike (PvP)",
+      "pageId": 280169,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wounding_Strike_(PvP)",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Zealous Renewal",
+      "pageId": 12822,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zealous_Renewal",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Zealous Sweep",
+      "pageId": 51911,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zealous_Sweep",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    },
+    {
+      "title": "Zealous Vow",
+      "pageId": 4564,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+      "sources": [
+        {
+          "id": "profession-dervish",
+          "title": "Dervish skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Dervish",
+          "category": "Dervish skills"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2787 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:47.832Z",
+  "sources": [
+    {
+      "id": "profession-mesmer",
+      "kind": "category",
+      "title": "Mesmer skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AMesmer_skills",
+      "category": "Mesmer skills",
+      "group": "profession",
+      "profession": "Mesmer",
+      "fetchedAt": "2026-05-09T00:57:47.832Z",
+      "count": 173
+    }
+  ],
+  "skills": [
+    {
+      "title": "Accumulated Pain",
+      "pageId": 1540,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Accumulated Pain (PvP)",
+      "pageId": 253905,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Accumulated_Pain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Air of Disenchantment",
+      "pageId": 1538,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ancestor's Visage",
+      "pageId": 1541,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ancestor's_Visage",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Aneurysm",
+      "pageId": 51841,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aneurysm",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcane Conundrum",
+      "pageId": 1554,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Conundrum",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcane Echo",
+      "pageId": 1681,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Echo",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcane Languor",
+      "pageId": 1516,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Languor",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcane Larceny",
+      "pageId": 1466,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Larceny",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcane Mimicry",
+      "pageId": 1680,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Mimicry",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Arcane Thievery",
+      "pageId": 1465,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Auspicious Incantation",
+      "pageId": 1637,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Auspicious_Incantation",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Backfire",
+      "pageId": 1470,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Backfire",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blackout",
+      "pageId": 1469,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blackout",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Blinding Snow",
+      "pageId": 75702,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blinding_Snow",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Calculated Risk",
+      "pageId": 51838,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Calculated_Risk",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Calculated Risk (PvP)",
+      "pageId": 253918,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Calculated_Risk_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Celestial Haste",
+      "pageId": 42423,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Celestial_Haste",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Channeling",
+      "pageId": 1636,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Channeling",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Chaos Storm",
+      "pageId": 1468,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Clumsiness",
+      "pageId": 1556,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Clumsiness",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Complicate",
+      "pageId": 1472,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Complicate",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Confusing Images",
+      "pageId": 51853,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Confusing_Images",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Conjure Nightmare",
+      "pageId": 1557,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conjure_Nightmare",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Conjure Phantasm",
+      "pageId": 1563,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Conjure_Phantasm",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Anguish",
+      "pageId": 1562,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Anguish (PvP)",
+      "pageId": 253947,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Cry of Frustration",
+      "pageId": 1473,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cry_of_Frustration",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Cry of Pain",
+      "pageId": 41105,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cry_of_Pain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Discharge Enchantment",
+      "pageId": 1635,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Discharge_Enchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Distortion",
+      "pageId": 1560,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Distortion",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Distortion (Gwen)",
+      "pageId": 207599,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Distortion_(Gwen)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Diversion",
+      "pageId": 1474,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Diversion",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Drain Delusions",
+      "pageId": 1634,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Drain_Delusions",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Drain Enchantment",
+      "pageId": 1633,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Drain_Enchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Echo",
+      "pageId": 1305,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Echo",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Elemental Resistance",
+      "pageId": 1641,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Elemental_Resistance",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Empathy",
+      "pageId": 1475,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Empathy",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Empathy (PvP)",
+      "pageId": 253804,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Empathy_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enchanter's Conundrum",
+      "pageId": 1476,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enchanter's_Conundrum",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Enchanter's Conundrum (PvP)",
+      "pageId": 253948,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enchanter's_Conundrum_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Energy Burn",
+      "pageId": 1477,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energy_Burn",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Energy Drain",
+      "pageId": 1640,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energy_Drain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Energy Surge",
+      "pageId": 1481,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energy_Surge",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Energy Tap",
+      "pageId": 1639,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energy_Tap",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Epidemic",
+      "pageId": 1679,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Epidemic",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Feast",
+      "pageId": 1638,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Feast",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Lord",
+      "pageId": 1645,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Lord",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Nightmare",
+      "pageId": 41149,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Nightmare",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Phantom",
+      "pageId": 1644,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Phantom",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Signet",
+      "pageId": 1643,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Signet",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ethereal Burden",
+      "pageId": 1569,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ethereal_Burden",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Expel Hexes",
+      "pageId": 1678,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Expel_Hexes",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Extend Conditions",
+      "pageId": 1642,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Extend_Conditions",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Feedback",
+      "pageId": 1649,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feedback",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Fevered Dreams",
+      "pageId": 1568,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fevered_Dreams",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Fevered Dreams (PvP)",
+      "pageId": 276651,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Fragility",
+      "pageId": 202641,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fragility",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Fragility (PvP)",
+      "pageId": 1566,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fragility_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Frustration",
+      "pageId": 1573,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frustration",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Frustration (PvP)",
+      "pageId": 253806,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frustration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Guilt",
+      "pageId": 1480,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Guilt",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Hex Breaker",
+      "pageId": 1479,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Hex Eater Signet",
+      "pageId": 1648,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Hex Eater Vortex",
+      "pageId": 1484,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Hypochondria",
+      "pageId": 1685,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hypochondria",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ignorance",
+      "pageId": 1482,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ignorance",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusion of Haste",
+      "pageId": 1574,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusion of Haste (PvP)",
+      "pageId": 296991,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusion of Pain",
+      "pageId": 1576,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Pain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusion of Pain (PvP)",
+      "pageId": 296992,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusion of Weakness",
+      "pageId": 1584,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Weakness",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusionary Weaponry",
+      "pageId": 1583,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Illusionary Weaponry (PvP)",
+      "pageId": 253807,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Images of Remorse",
+      "pageId": 1582,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Images_of_Remorse",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Imagined Burden",
+      "pageId": 1594,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Imagined_Burden",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Ineptitude",
+      "pageId": 1593,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ineptitude",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Inspired Enchantment",
+      "pageId": 1647,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Inspired Hex",
+      "pageId": 1646,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Inspired_Hex",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Keystone Signet",
+      "pageId": 1653,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Keystone_Signet",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Kitah's Burden",
+      "pageId": 1592,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Kitah's_Burden",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Leech Signet",
+      "pageId": 1652,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Leech_Signet",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyssa's Aura",
+      "pageId": 1651,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyssa's_Aura",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyssa's Balance",
+      "pageId": 1684,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyssa's_Balance",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Concentration",
+      "pageId": 1650,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Concentration",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Earth",
+      "pageId": 1657,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Earth",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Flame",
+      "pageId": 1656,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Flame",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Frost",
+      "pageId": 1655,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Frost",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Inscriptions",
+      "pageId": 1654,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Inscriptions (Saul D'Alessio)",
+      "pageId": 287677,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions_(Saul_D'Alessio)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Lightning",
+      "pageId": 1660,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Lightning",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Persistence",
+      "pageId": 1659,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Recall",
+      "pageId": 1661,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Recall",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Recovery",
+      "pageId": 1518,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Recovery",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Resolve",
+      "pageId": 1662,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Resolve (PvP)",
+      "pageId": 223517,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Signets",
+      "pageId": 1663,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Signets",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mantra of Signets (PvP)",
+      "pageId": 253949,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Migraine",
+      "pageId": 1610,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Migraine",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Migraine (PvP)",
+      "pageId": 253922,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Migraine_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Wrack",
+      "pageId": 1483,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Wrack",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mind Wrack (PvP)",
+      "pageId": 285394,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mirror of Disenchantment",
+      "pageId": 1487,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mirror of Disenchantment (PvP)",
+      "pageId": 253808,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mistrust",
+      "pageId": 1488,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mistrust",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Mistrust (PvP)",
+      "pageId": 253916,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mistrust_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Overload",
+      "pageId": 1489,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Overload",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Panic",
+      "pageId": 1494,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Panic",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Persistence of Memory",
+      "pageId": 1517,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Phantom Pain",
+      "pageId": 1609,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Physical Resistance",
+      "pageId": 1664,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Physical_Resistance",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Block",
+      "pageId": 1493,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Block",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Drain",
+      "pageId": 1666,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Drain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Flux",
+      "pageId": 1492,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Flux",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Leak",
+      "pageId": 1497,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Leak",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Leech",
+      "pageId": 1668,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Leech",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Lock",
+      "pageId": 51848,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Lock",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Return",
+      "pageId": 1524,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Return",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Spike",
+      "pageId": 1496,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Spike",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Price of Pride",
+      "pageId": 1495,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Price_of_Pride",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Psychic Distraction",
+      "pageId": 1500,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Psychic_Distraction",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Psychic Instability",
+      "pageId": 1499,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Psychic_Instability",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Psychic Instability (PvP)",
+      "pageId": 253946,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Recurring Insecurity",
+      "pageId": 1608,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Recurring_Insecurity",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Revealed Enchantment",
+      "pageId": 1669,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Revealed_Enchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Revealed Hex",
+      "pageId": 1670,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Revealed_Hex",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shame",
+      "pageId": 1498,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shame",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shared Burden",
+      "pageId": 1606,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shared_Burden",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shared Burden (PvP)",
+      "pageId": 253810,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shatter Delusions",
+      "pageId": 1504,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shatter_Delusions",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shatter Delusions (PvP)",
+      "pageId": 253950,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shatter Enchantment",
+      "pageId": 1503,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shatter Hex",
+      "pageId": 1502,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shatter_Hex",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shatter Storm",
+      "pageId": 1683,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shatter_Storm",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Shrinking Armor",
+      "pageId": 51840,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shrinking_Armor",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Clumsiness",
+      "pageId": 1605,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Clumsiness (PvP)",
+      "pageId": 253951,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Disenchantment",
+      "pageId": 1682,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Disenchantment",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Disruption",
+      "pageId": 1505,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Disruption",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Distraction",
+      "pageId": 51844,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Distraction",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Humility",
+      "pageId": 1676,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Humility",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Illusions",
+      "pageId": 1335,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Illusions",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Midnight",
+      "pageId": 1687,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Midnight",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Recall",
+      "pageId": 51846,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Weariness",
+      "pageId": 1506,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Weariness",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Simple Thievery",
+      "pageId": 1507,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Simple_Thievery",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Soothing Images",
+      "pageId": 1604,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soothing_Images",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit of Failure",
+      "pageId": 1673,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_of_Failure",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spirit Shackles",
+      "pageId": 1675,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spirit_Shackles",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spiritual Pain",
+      "pageId": 1508,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Spiritual Pain (PvP)",
+      "pageId": 253938,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spiritual_Pain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Stolen Speed",
+      "pageId": 1523,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stolen_Speed",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Stolen Speed (PvP)",
+      "pageId": 253953,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Sum of All Fears",
+      "pageId": 51851,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Sum of All Fears (Gwen)",
+      "pageId": 207598,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears_(Gwen)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbolic Celerity",
+      "pageId": 1522,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbolic_Celerity",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbolic Posture",
+      "pageId": 1521,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbolic_Posture",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbols of Inspiration",
+      "pageId": 1520,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Sympathetic Visage",
+      "pageId": 1603,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sympathetic_Visage",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Tease",
+      "pageId": 1672,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tease",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Time Ward",
+      "pageId": 313296,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Time_Ward",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Unnatural Signet",
+      "pageId": 1509,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unnatural_Signet",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Unnatural Signet (PvP)",
+      "pageId": 253814,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Unnatural Signet (Saul D'Alessio)",
+      "pageId": 207601,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(Saul_D'Alessio)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Visions of Regret",
+      "pageId": 1510,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Visions_of_Regret",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Visions of Regret (PvP)",
+      "pageId": 268907,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wandering Eye",
+      "pageId": 51843,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wandering_Eye",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wandering Eye (PvP)",
+      "pageId": 253954,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Waste Not, Want Not",
+      "pageId": 51850,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Waste_Not%2C_Want_Not",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wastrel's Demise",
+      "pageId": 1513,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wastrel's_Demise",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Wastrel's Worry",
+      "pageId": 1511,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wastrel's_Worry",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Web of Disruption",
+      "pageId": 1686,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Web_of_Disruption",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    },
+    {
+      "title": "Web of Disruption (PvP)",
+      "pageId": 300167,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)",
+      "sources": [
+        {
+          "id": "profession-mesmer",
+          "title": "Mesmer skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Mesmer",
+          "category": "Mesmer skills"
+        }
+      ]
+    }
+  ]
+}

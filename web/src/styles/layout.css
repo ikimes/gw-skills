@@ -1,0 +1,11 @@
+.app {
+  position: relative;
+  width: min(1320px, calc(100% - 32px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 11vh 0 48px;
+}
+
+.app--results {
+  padding-top: 11vh;
+}

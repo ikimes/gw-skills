@@ -1,0 +1,1795 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:48.508Z",
+  "sources": [
+    {
+      "id": "profession-paragon",
+      "kind": "category",
+      "title": "Paragon skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AParagon_skills",
+      "category": "Paragon skills",
+      "group": "profession",
+      "profession": "Paragon",
+      "fetchedAt": "2026-05-09T00:57:48.508Z",
+      "count": 111
+    }
+  ],
+  "skills": [
+    {
+      "title": "\"Brace Yourself!\"",
+      "pageId": 6414,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Brace Yourself!\" (PvP)",
+      "pageId": 207578,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Can't Touch This!\"",
+      "pageId": 6688,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Can't_Touch_This!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Can't Touch This!\" (PvP)",
+      "pageId": 207660,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Can't_Touch_This!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Fall Back!\"",
+      "pageId": 14943,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Fall Back!\" (PvP)",
+      "pageId": 207662,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Find Their Weakness!\"",
+      "pageId": 14942,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Find Their Weakness!\" (PvP)",
+      "pageId": 207593,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Go for the Eyes!\"",
+      "pageId": 14934,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Go for the Eyes!\" (PvP)",
+      "pageId": 207663,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Help!\"",
+      "pageId": 14931,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Help!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Help!\" (PvP)",
+      "pageId": 207521,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Help!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Incoming!\"",
+      "pageId": 2616,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Incoming!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Incoming!\" (PvP)",
+      "pageId": 136087,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Incoming!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"It's Just a Flesh Wound.\"",
+      "pageId": 4512,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22It's_Just_a_Flesh_Wound.%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Lead the Way!\"",
+      "pageId": 14916,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Lead_the_Way!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Make Haste!\"",
+      "pageId": 14929,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Make_Haste!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Make Your Time!\"",
+      "pageId": 14905,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Make_Your_Time!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Never Give Up!\"",
+      "pageId": 14926,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Never Give Up!\" (PvP)",
+      "pageId": 207664,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Never Surrender!\"",
+      "pageId": 14923,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Never Surrender!\" (PvP)",
+      "pageId": 136089,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Stand Your Ground!\"",
+      "pageId": 2630,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Stand Your Ground!\" (PvP)",
+      "pageId": 207665,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"The Power Is Yours!\"",
+      "pageId": 4520,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22The_Power_Is_Yours!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"There's Nothing to Fear!\"",
+      "pageId": 41125,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22There's_Nothing_to_Fear!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"They're on Fire!\"",
+      "pageId": 14867,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22They're_on_Fire!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"We Shall Return!\"",
+      "pageId": 14921,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "\"We Shall Return!\" (PvP)",
+      "pageId": 207585,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Aggressive Refrain",
+      "pageId": 15222,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aggressive_Refrain",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Angelic Bond",
+      "pageId": 5111,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Angelic_Bond",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Angelic Protection",
+      "pageId": 15225,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Angelic_Protection",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Disruption",
+      "pageId": 51847,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Disruption (PvP)",
+      "pageId": 207666,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Envy",
+      "pageId": 14869,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Envy (PvP)",
+      "pageId": 240758,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Envy_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Flame",
+      "pageId": 14871,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Flame",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Fury",
+      "pageId": 4508,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Fury",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Guidance",
+      "pageId": 4460,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Guidance",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Anthem of Weariness",
+      "pageId": 51852,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Weariness",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Aria of Restoration",
+      "pageId": 15233,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aria_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Aria of Zeal",
+      "pageId": 15234,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aria_of_Zeal",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Awe",
+      "pageId": 15227,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Awe",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Ballad of Restoration",
+      "pageId": 15235,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Ballad of Restoration (PvP)",
+      "pageId": 136086,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Barbed Spear",
+      "pageId": 15249,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barbed_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Bladeturn Refrain",
+      "pageId": 13473,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Bladeturn Refrain (PvP)",
+      "pageId": 207658,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Blazing Finale",
+      "pageId": 15228,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blazing_Finale",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Blazing Finale (PvP)",
+      "pageId": 207560,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blazing_Finale_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Blazing Spear",
+      "pageId": 15250,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Blazing_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Burning Refrain",
+      "pageId": 15229,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Burning_Refrain",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Burning Shield",
+      "pageId": 51835,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Burning_Shield",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Cautery Signet",
+      "pageId": 3953,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cautery_Signet",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Chest Thumper",
+      "pageId": 51849,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chest_Thumper",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Chorus of Restoration",
+      "pageId": 15236,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Chorus_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Anthem",
+      "pageId": 4468,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Anthem",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Cruel Spear",
+      "pageId": 2626,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cruel_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Defensive Anthem",
+      "pageId": 4509,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defensive_Anthem",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Defensive Anthem (PvP)",
+      "pageId": 136088,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defensive_Anthem_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Throw",
+      "pageId": 15252,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Throw",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Enduring Harmony",
+      "pageId": 15230,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enduring_Harmony",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Energizing Chorus",
+      "pageId": 15237,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energizing_Chorus",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Energizing Finale",
+      "pageId": 15238,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Energizing_Finale",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Finale of Restoration",
+      "pageId": 15239,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Finale_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Finale of Restoration (PvP)",
+      "pageId": 221974,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Finale_of_Restoration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Focused Anger",
+      "pageId": 4510,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Focused_Anger",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Glowing Signet",
+      "pageId": 15231,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Glowing_Signet",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Godspeed",
+      "pageId": 15218,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Godspeed",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Harrier's Toss",
+      "pageId": 15253,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Harrier's_Toss",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Harrier's Toss (PvP)",
+      "pageId": 136085,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Harrier's_Toss_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Hasty Refrain",
+      "pageId": 51845,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hasty_Refrain",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Heroic Refrain",
+      "pageId": 313308,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heroic_Refrain",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Hexbreaker Aria",
+      "pageId": 1667,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hexbreaker_Aria",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Holy Spear",
+      "pageId": 51831,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Holy_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Inspirational Speech",
+      "pageId": 51837,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Inspirational_Speech",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Leader's Comfort",
+      "pageId": 13482,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Leader's_Comfort",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Leader's Zeal",
+      "pageId": 15240,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Leader's_Zeal",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyric of Purification",
+      "pageId": 15241,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyric_of_Purification",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Lyric of Zeal",
+      "pageId": 15242,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lyric_of_Zeal",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Maiming Spear",
+      "pageId": 51842,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Maiming_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Mending Refrain",
+      "pageId": 15244,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mending_Refrain",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Mending Refrain (PvP)",
+      "pageId": 240759,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mending_Refrain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Merciless Spear",
+      "pageId": 15254,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Merciless_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Mighty Throw",
+      "pageId": 15255,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mighty_Throw",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Natural Temper",
+      "pageId": 15232,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Natural_Temper",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Purifying Finale",
+      "pageId": 15245,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Purifying_Finale",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Remedy Signet",
+      "pageId": 15263,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Remedy_Signet",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Aggression",
+      "pageId": 15264,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Aggression",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Return",
+      "pageId": 13944,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Return",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Return (PvP)",
+      "pageId": 207556,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Return_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Synergy",
+      "pageId": 15246,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Synergy",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Slayer's Spear",
+      "pageId": 2634,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Slayer's_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Soldier's Fury",
+      "pageId": 4511,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soldier's_Fury",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Song of Concentration",
+      "pageId": 15220,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Song_of_Concentration",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Song of Power",
+      "pageId": 15247,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Song_of_Power",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Song of Purification",
+      "pageId": 4525,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Song_of_Purification",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Song of Restoration",
+      "pageId": 4529,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Song_of_Restoration",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Song of Restoration (PvP)",
+      "pageId": 136083,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Song_of_Restoration_(PvP)",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Spear of Fury",
+      "pageId": 41157,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spear_of_Fury",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Spear of Lightning",
+      "pageId": 15256,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spear_of_Lightning",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Spear of Redemption",
+      "pageId": 51824,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spear_of_Redemption",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Spear Swipe",
+      "pageId": 51826,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spear_Swipe",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Steady Aim",
+      "pageId": 75375,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Steady_Aim",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Stunning Strike",
+      "pageId": 4536,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stunning_Strike",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Swift Javelin",
+      "pageId": 15258,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Swift_Javelin",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Unblockable Throw",
+      "pageId": 15259,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Unblockable_Throw",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Vicious Attack",
+      "pageId": 2628,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vicious_Attack",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Wearying Spear",
+      "pageId": 15260,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wearying_Spear",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Wild Throw",
+      "pageId": 15262,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wild_Throw",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    },
+    {
+      "title": "Zealous Anthem",
+      "pageId": 15248,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Zealous_Anthem",
+      "sources": [
+        {
+          "id": "profession-paragon",
+          "title": "Paragon skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Paragon",
+          "category": "Paragon skills"
+        }
+      ]
+    }
+  ]
+}

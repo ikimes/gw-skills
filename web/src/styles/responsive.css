@@ -1,0 +1,102 @@
+@media (max-width: 1040px) {
+  .skill-effect {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-costs {
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .app,
+  .app--results {
+    width: min(100% - 20px, 1120px);
+    padding-top: 28px;
+  }
+
+  .search-shell::before {
+    height: 650px;
+  }
+
+  .search-form {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .search-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .search-form input {
+    min-height: 46px;
+  }
+
+  .search-form button {
+    min-height: 42px;
+  }
+
+  .mode-filter {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .profession-filter {
+    grid-template-columns: 1fr;
+  }
+
+  .profession-rows {
+    width: 100%;
+  }
+
+  .profession-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .chip--all {
+    height: 40px;
+  }
+
+  .skill-row {
+    grid-template-columns: 48px minmax(0, 1fr);
+    align-items: start;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .skill-header {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .skill-meta {
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+
+  .skill-costs {
+    justify-content: flex-start;
+  }
+
+  .skill-effect {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-icon-wrap {
+    width: 48px;
+    height: 48px;
+  }
+
+  .skill-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

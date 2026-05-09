@@ -1,0 +1,36 @@
+{
+  "name": "gw-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:import": "tsx server/scripts/import-skills.ts",
+    "dev": "tsx watch server/src/index.ts",
+    "icons:sync": "tsx tools/sync-skill-icons.ts",
+    "start": "tsx server/src/index.ts",
+    "typecheck": "tsc --noEmit && npm run web:typecheck",
+    "web:dev": "vite --config web/vite.config.ts",
+    "web:typecheck": "tsc --project web/tsconfig.json",
+    "web:build": "npm run web:typecheck && vite build --config web/vite.config.ts",
+    "web:preview": "vite preview --config web/vite.config.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "better-sqlite3": "^12.4.6",
+    "fastify": "^5.6.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.11",
+    "vitest": "^4.0.14"
+  }
+}

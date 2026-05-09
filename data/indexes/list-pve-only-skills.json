@@ -1,0 +1,1684 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:58:09.341Z",
+  "sources": [
+    {
+      "id": "list-pve-only-skills",
+      "kind": "list-page",
+      "title": "List of PvE-only skills",
+      "page": "List of PvE-only skills",
+      "wiki": "https://wiki.guildwars.com/wiki/List_of_PvE-only_skills",
+      "group": "pve-only",
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 103
+    },
+    {
+      "id": "pve-core-pve-only-skills",
+      "kind": "category",
+      "title": "Core PvE-only skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ACore_PvE-only_skills",
+      "category": "Core PvE-only skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [],
+      "fetchedAt": "2026-05-09T00:58:09.340Z",
+      "count": 1
+    },
+    {
+      "id": "pve-allegiance-rank-skills",
+      "kind": "category",
+      "title": "Allegiance rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AAllegiance_rank_skills",
+      "category": "Allegiance rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 10
+    },
+    {
+      "id": "pve-lightbringer-rank-skills",
+      "kind": "category",
+      "title": "Lightbringer rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ALightbringer_rank_skills",
+      "category": "Lightbringer rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [
+        "Title skills"
+      ],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 3
+    },
+    {
+      "id": "pve-sunspear-rank-skills",
+      "kind": "category",
+      "title": "Sunspear rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ASunspear_rank_skills",
+      "category": "Sunspear rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [
+        "Spirit monster skills"
+      ],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 12
+    },
+    {
+      "id": "pve-asura-rank-skills",
+      "kind": "category",
+      "title": "Asura rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AAsura_rank_skills",
+      "category": "Asura rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [
+        "Title skills"
+      ],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 13
+    },
+    {
+      "id": "pve-deldrimor-rank-skills",
+      "kind": "category",
+      "title": "Deldrimor rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ADeldrimor_rank_skills",
+      "category": "Deldrimor rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [
+        "Title skills"
+      ],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 15
+    },
+    {
+      "id": "pve-ebon-vanguard-rank-skills",
+      "kind": "category",
+      "title": "Ebon Vanguard rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AEbon_Vanguard_rank_skills",
+      "category": "Ebon Vanguard rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [
+        "Title skills"
+      ],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 13
+    },
+    {
+      "id": "pve-norn-rank-skills",
+      "kind": "category",
+      "title": "Norn rank skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3ANorn_rank_skills",
+      "category": "Norn rank skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [
+        "Title skills",
+        "Norn Blessing skills"
+      ],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 26
+    },
+    {
+      "id": "pve-anniversary-celebration-elite-skills",
+      "kind": "category",
+      "title": "Anniversary Celebration elite skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AAnniversary_Celebration_elite_skills",
+      "category": "Anniversary Celebration elite skills",
+      "page": "List of PvE-only skills",
+      "group": "pve-only",
+      "filters": [],
+      "fetchedAt": "2026-05-09T00:58:09.341Z",
+      "count": 10
+    }
+  ],
+  "skills": [
+    {
+      "title": "\"By Ural's Hammer!\"",
+      "pageId": 64072,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22By_Ural's_Hammer!%22",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Dodge This!\"",
+      "pageId": 58314,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Dodge_This!%22",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Don't Trip!\"",
+      "pageId": 63466,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Don't_Trip!%22",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Finish Him!\"",
+      "pageId": 58315,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Finish_Him!%22",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"I Am the Strongest!\"",
+      "pageId": 58317,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22I_Am_the_Strongest!%22",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"I Am Unstoppable!\"",
+      "pageId": 58318,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22I_Am_Unstoppable!%22",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Save Yourselves!\"",
+      "pageId": 41143,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Save_Yourselves!%22",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"There's Nothing to Fear!\"",
+      "pageId": 41125,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22There's_Nothing_to_Fear!%22",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Together as One!\"",
+      "pageId": 313334,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Together_as_One!%22",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "\"You Are All Weaklings!\"",
+      "pageId": 58327,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22You_Are_All_Weaklings!%22",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "\"You Move Like a Dwarf!\"",
+      "pageId": 58320,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22You_Move_Like_a_Dwarf!%22",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "A Touch of Guile",
+      "pageId": 58321,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/A_Touch_of_Guile",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Air of Superiority",
+      "pageId": 58328,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Air_of_Superiority",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Alkar's Alchemical Acid",
+      "pageId": 63802,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Alkar's_Alchemical_Acid",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Asuran Scan",
+      "pageId": 58290,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Asuran_Scan",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Aura of Holy Might",
+      "pageId": 41148,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Aura_of_Holy_Might",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Black Powder Mine",
+      "pageId": 64161,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Black_Powder_Mine",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Brawling Headbutt",
+      "pageId": 63119,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Brawling_Headbutt",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Breath of the Great Dwarf",
+      "pageId": 58700,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Breath_of_the_Great_Dwarf",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Club of a Thousand Bears",
+      "pageId": 58322,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Critical Agility",
+      "pageId": 41120,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Critical_Agility",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Cry of Pain",
+      "pageId": 41105,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cry_of_Pain",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Deft Strike",
+      "pageId": 63082,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deft_Strike",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Drunken Master",
+      "pageId": 65948,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Drunken_Master",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Dwarven Stability",
+      "pageId": 63422,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dwarven_Stability",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ear Bite",
+      "pageId": 63159,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ear_Bite",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Battle Standard of Courage",
+      "pageId": 58695,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Courage",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Battle Standard of Honor",
+      "pageId": 59022,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Honor",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Battle Standard of Wisdom",
+      "pageId": 59023,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Wisdom",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Escape",
+      "pageId": 63135,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Escape",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Vanguard Assassin Support",
+      "pageId": 63124,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ebon Vanguard Sniper Support",
+      "pageId": 65953,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Sniper_Support",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Edification",
+      "pageId": 66460,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Edification",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Elemental Lord",
+      "pageId": 41150,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Elemental_Lord",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Eternal Aura",
+      "pageId": 41124,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Eternal_Aura",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ether Nightmare",
+      "pageId": 41149,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ether_Nightmare",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Feel No Pain",
+      "pageId": 58323,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Great Dwarf Armor",
+      "pageId": 59250,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Great_Dwarf_Armor",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Great Dwarf Weapon",
+      "pageId": 59251,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Great_Dwarf_Weapon",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Heart of the Norn",
+      "pageId": 64095,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heart_of_the_Norn",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Heroic Refrain",
+      "pageId": 313308,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heroic_Refrain",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Intensity",
+      "pageId": 41117,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Intensity",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Judgment Strike",
+      "pageId": 313305,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Judgment_Strike",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Light of Deldrimor",
+      "pageId": 18427,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Light_of_Deldrimor",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightbringer",
+      "pageId": 2426,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightbringer",
+      "sources": [
+        {
+          "id": "pve-lightbringer-rank-skills",
+          "title": "Lightbringer rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Lightbringer rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightbringer Signet",
+      "pageId": 13771,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightbringer_Signet",
+      "sources": [
+        {
+          "id": "pve-lightbringer-rank-skills",
+          "title": "Lightbringer rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Lightbringer rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Lightbringer's Gaze",
+      "pageId": 10654,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lightbringer's_Gaze",
+      "sources": [
+        {
+          "id": "pve-lightbringer-rank-skills",
+          "title": "Lightbringer rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Lightbringer rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Low Blow",
+      "pageId": 63161,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Low_Blow",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Mental Block",
+      "pageId": 58301,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mental_Block",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Mindbender",
+      "pageId": 58303,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mindbender",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Necrosis",
+      "pageId": 41103,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Necrosis",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Never Rampage Alone",
+      "pageId": 41113,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Never_Rampage_Alone",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Over the Limit",
+      "pageId": 313293,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Over_the_Limit",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Pain Inverter",
+      "pageId": 58305,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pain_Inverter",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Radiation Field",
+      "pageId": 58306,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Radiation_Field",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Raven Blessing",
+      "pageId": 58324,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Raven_Blessing",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Raven Flight",
+      "pageId": 64046,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Raven_Flight",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Raven Shriek",
+      "pageId": 64045,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Raven_Shriek",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Raven Swoop",
+      "pageId": 64044,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Raven_Swoop",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Raven Talons",
+      "pageId": 64042,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Raven_Talons",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Rebel Yell",
+      "pageId": 66523,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rebel_Yell",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Seed of Life",
+      "pageId": 41109,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seed_of_Life",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Selfless Spirit",
+      "pageId": 41146,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Selfless_Spirit",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Seven Weapons Stance",
+      "pageId": 313298,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Sanctuary",
+      "pageId": 41154,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Shadow Theft",
+      "pageId": 313303,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shadow_Theft",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Capture",
+      "pageId": 1005,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
+      "sources": [
+        {
+          "id": "pve-core-pve-only-skills",
+          "title": "Core PvE-only skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Core PvE-only skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Corruption",
+      "pageId": 41152,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Corruption",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Infection",
+      "pageId": 65950,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Infection",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Smooth Criminal",
+      "pageId": 58307,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Smooth_Criminal",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Sneak Attack",
+      "pageId": 66008,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sneak_Attack",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Snow Storm",
+      "pageId": 65949,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Snow_Storm",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Soul Taker",
+      "pageId": 313294,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soul_Taker",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Spear of Fury",
+      "pageId": 41157,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Spear_of_Fury",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Stout-Hearted",
+      "pageId": 64094,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Stout-Hearted",
+      "sources": [
+        {
+          "id": "pve-deldrimor-rank-skills",
+          "title": "Deldrimor rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Deldrimor rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Summon Ice Imp",
+      "pageId": 58308,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Summon_Ice_Imp",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Summon Mursaat",
+      "pageId": 58310,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Summon_Mursaat",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Summon Naga Shaman",
+      "pageId": 58309,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Summon_Naga_Shaman",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Summon Ruby Djinn",
+      "pageId": 58311,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Summon_Ruby_Djinn",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Summon Spirits",
+      "pageId": 41156,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Summon_Spirits",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Sunspear Rebirth Signet",
+      "pageId": 17633,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sunspear_Rebirth_Signet",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Technobabble",
+      "pageId": 58312,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Technobabble",
+      "sources": [
+        {
+          "id": "pve-asura-rank-skills",
+          "title": "Asura rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Asura rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Time Ward",
+      "pageId": 313296,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Time_Ward",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Totem of Man",
+      "pageId": 63158,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Totem_of_Man",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Triple Shot",
+      "pageId": 41144,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Triple_Shot",
+      "sources": [
+        {
+          "id": "pve-allegiance-rank-skills",
+          "title": "Allegiance rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Allegiance rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Tryptophan Signet",
+      "pageId": 65952,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tryptophan_Signet",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ursan Blessing",
+      "pageId": 58325,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ursan Force",
+      "pageId": 63599,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ursan_Force",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ursan Rage",
+      "pageId": 63596,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ursan_Rage",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ursan Roar",
+      "pageId": 63597,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ursan_Roar",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Ursan Strike",
+      "pageId": 63595,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Ursan_Strike",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampirism",
+      "pageId": 41123,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampirism",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Vampirism (attack)",
+      "pageId": 75110,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vampirism_(attack)",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Volfen Agility",
+      "pageId": 63549,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Volfen_Agility",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Volfen Blessing",
+      "pageId": 58326,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Volfen_Blessing",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Volfen Bloodlust",
+      "pageId": 63546,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Volfen_Bloodlust",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Volfen Claw",
+      "pageId": 63541,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Volfen_Claw",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Volfen Pounce",
+      "pageId": 63544,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Volfen_Pounce",
+      "sources": [
+        {
+          "id": "pve-norn-rank-skills",
+          "title": "Norn rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Norn rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Vow of Revolution",
+      "pageId": 313306,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Vow_of_Revolution",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Weakness Trap",
+      "pageId": 65951,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weakness_Trap",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Weapons of Three Forges",
+      "pageId": 313297,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges",
+      "sources": [
+        {
+          "id": "pve-anniversary-celebration-elite-skills",
+          "title": "Anniversary Celebration elite skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Anniversary Celebration elite skills"
+        }
+      ]
+    },
+    {
+      "title": "Whirlwind Attack",
+      "pageId": 41097,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Whirlwind_Attack",
+      "sources": [
+        {
+          "id": "pve-sunspear-rank-skills",
+          "title": "Sunspear rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Sunspear rank skills"
+        }
+      ]
+    },
+    {
+      "title": "Winds",
+      "pageId": 63118,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Winds",
+      "sources": [
+        {
+          "id": "pve-ebon-vanguard-rank-skills",
+          "title": "Ebon Vanguard rank skills",
+          "kind": "category",
+          "group": "pve-only",
+          "category": "Ebon Vanguard rank skills"
+        }
+      ]
+    }
+  ]
+}

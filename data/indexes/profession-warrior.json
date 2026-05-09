@@ -1,0 +1,2451 @@
+{
+  "schema": "gw-skills.skill-index.v1",
+  "generatedAt": "2026-05-09T00:57:49.210Z",
+  "sources": [
+    {
+      "id": "profession-warrior",
+      "kind": "category",
+      "title": "Warrior skills",
+      "wiki": "https://wiki.guildwars.com/wiki/Category%3AWarrior_skills",
+      "category": "Warrior skills",
+      "group": "profession",
+      "profession": "Warrior",
+      "fetchedAt": "2026-05-09T00:57:49.210Z",
+      "count": 152
+    }
+  ],
+  "skills": [
+    {
+      "title": "\"Charge!\"",
+      "pageId": 2031,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Charge!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Coward!\"",
+      "pageId": 4255,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Coward!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Fear Me!\"",
+      "pageId": 2033,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"For Great Justice!\"",
+      "pageId": 14644,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"For Great Justice!\" (PvP)",
+      "pageId": 142221,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"I Meant to Do That!\"",
+      "pageId": 51905,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22I_Meant_to_Do_That!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"I Will Avenge You!\"",
+      "pageId": 14892,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22I_Will_Avenge_You!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"I Will Survive!\"",
+      "pageId": 1228,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Let's Get 'Em!\"",
+      "pageId": 75708,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Let's_Get_'Em!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"None Shall Pass!\"",
+      "pageId": 14748,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"On Your Knees!\"",
+      "pageId": 14643,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22On_Your_Knees!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Retreat!\"",
+      "pageId": 14883,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Retreat!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Save Yourselves!\"",
+      "pageId": 41143,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Save_Yourselves!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Shields Up!\"",
+      "pageId": 13467,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"To the Limit!\"",
+      "pageId": 14888,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Victory Is Mine!\"",
+      "pageId": 4434,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Watch Yourself!\"",
+      "pageId": 13477,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"Watch Yourself!\" (PvP)",
+      "pageId": 136097,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"You Will Die!\"",
+      "pageId": 14885,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22You_Will_Die!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "\"You're All Alone!\"",
+      "pageId": 4265,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/%22You're_All_Alone!%22",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Agonizing Chop",
+      "pageId": 7823,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Auspicious Blow",
+      "pageId": 8041,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Auspicious Parry",
+      "pageId": 4249,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Axe Rake",
+      "pageId": 5226,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Axe_Rake",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Axe Twist",
+      "pageId": 7824,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Axe_Twist",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Backbreaker",
+      "pageId": 3960,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Backbreaker",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Balanced Stance",
+      "pageId": 6701,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Barbarous Slice",
+      "pageId": 14872,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Barbarous_Slice",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Battle Rage",
+      "pageId": 4052,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Battle_Rage",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Belly Smash",
+      "pageId": 8042,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Belly_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Berserker Stance",
+      "pageId": 15210,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Berserker_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Body Blow",
+      "pageId": 51912,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Body_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Bonetti's Defense",
+      "pageId": 15204,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bonetti's_Defense",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Bull's Charge",
+      "pageId": 4070,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bull's_Charge",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Bull's Strike",
+      "pageId": 6728,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Bull's_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Burst of Aggression",
+      "pageId": 16021,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Burst_of_Aggression",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Charging Strike",
+      "pageId": 4260,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Charging_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Cleave",
+      "pageId": 4050,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cleave",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Counter Blow",
+      "pageId": 6726,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Counter_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Counterattack",
+      "pageId": 13521,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Counterattack",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Crippling Slash",
+      "pageId": 4264,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crippling_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Critical Chop",
+      "pageId": 7825,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Critical_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Crude Swing",
+      "pageId": 13068,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crude_Swing",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Crushing Blow",
+      "pageId": 6696,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Cyclone Axe",
+      "pageId": 5227,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Cyclone_Axe",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Deadly Riposte",
+      "pageId": 16232,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deadly_Riposte",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Decapitate",
+      "pageId": 4256,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Decapitate",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Defensive Stance",
+      "pageId": 16233,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defensive_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Deflect Arrows",
+      "pageId": 15206,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Deflect_Arrows",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Defy Pain",
+      "pageId": 4072,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defy_Pain",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Defy Pain (PvP)",
+      "pageId": 257109,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Desperation Blow",
+      "pageId": 16234,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Desperation_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Devastating Hammer",
+      "pageId": 3949,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Disarm",
+      "pageId": 51902,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disarm",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Disciplined Stance",
+      "pageId": 6702,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disciplined_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Dismember",
+      "pageId": 5228,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dismember",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Disrupting Chop",
+      "pageId": 5231,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Disrupting_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Distracting Blow",
+      "pageId": 15209,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Distracting_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Distracting Strike",
+      "pageId": 51907,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Distracting_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Dolyak Signet",
+      "pageId": 5864,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dolyak_Signet",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Dragon Slash",
+      "pageId": 4247,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dragon_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Drunken Blow",
+      "pageId": 16235,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Drunken_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Dwarven Battle Stance",
+      "pageId": 4074,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Dwarven_Battle_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Earth Shaker",
+      "pageId": 4069,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Endure Pain",
+      "pageId": 10303,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Endure_Pain",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Enraged Smash",
+      "pageId": 4241,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Enraged Smash (PvP)",
+      "pageId": 294250,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Enraging Charge",
+      "pageId": 16020,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Eviscerate",
+      "pageId": 4067,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Eviscerate",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Executioner's Strike",
+      "pageId": 5232,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Executioner's_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Fierce Blow",
+      "pageId": 14639,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Final Thrust",
+      "pageId": 2026,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Final_Thrust",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Flail",
+      "pageId": 5281,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flail",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Flourish",
+      "pageId": 4076,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flourish",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Flurry",
+      "pageId": 5276,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Flurry",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Forceful Blow",
+      "pageId": 4242,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Frenzied Defense",
+      "pageId": 13036,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frenzied_Defense",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Frenzy",
+      "pageId": 1302,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Frenzy",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Furious Axe",
+      "pageId": 7826,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Furious_Axe",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Galrath Slash",
+      "pageId": 16227,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Galrath_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Gash",
+      "pageId": 13124,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Gladiator's Defense",
+      "pageId": 4079,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Gladiator's_Defense",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Grapple",
+      "pageId": 51903,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Grapple",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Griffon's Sweep",
+      "pageId": 13447,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Griffon's_Sweep",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Hammer Bash",
+      "pageId": 6667,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Hamstring",
+      "pageId": 14069,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hamstring",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Headbutt",
+      "pageId": 4261,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Headbutt",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Healing Signet",
+      "pageId": 4146,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Healing_Signet",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Heavy Blow",
+      "pageId": 6671,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Heavy_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Hundred Blades",
+      "pageId": 3282,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Irresistible Blow",
+      "pageId": 6697,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Jaizhenju Strike",
+      "pageId": 16228,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Jaizhenju_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Keen Chop",
+      "pageId": 51898,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Keen_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Knee Cutter",
+      "pageId": 51900,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Knee_Cutter",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Lacerating Chop",
+      "pageId": 7828,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lacerating_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Leviathan's Sweep",
+      "pageId": 13450,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Leviathan's_Sweep",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Lion's Comfort",
+      "pageId": 15783,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Lion's_Comfort",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Magehunter Strike",
+      "pageId": 4262,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Magehunter_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Magehunter's Smash",
+      "pageId": 4259,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Magehunter's_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Mighty Blow",
+      "pageId": 13941,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mighty_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Mokele Smash",
+      "pageId": 16179,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Mokele_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Overbearing Smash",
+      "pageId": 16219,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Penetrating Blow",
+      "pageId": 7830,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Penetrating_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Penetrating Chop",
+      "pageId": 7829,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Penetrating_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Power Attack",
+      "pageId": 12410,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Power_Attack",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Primal Rage",
+      "pageId": 4244,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Primal_Rage",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Protector's Defense",
+      "pageId": 16236,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Protector's_Defense",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Protector's Strike",
+      "pageId": 16224,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Protector's_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Pulverizing Smash",
+      "pageId": 51896,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pulverizing_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Pure Strike",
+      "pageId": 16229,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Pure_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Quivering Blade",
+      "pageId": 3611,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Quivering_Blade",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Rage of the Ntouka",
+      "pageId": 4263,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rage_of_the_Ntouka",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Renewing Smash",
+      "pageId": 16222,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Renewing_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Renewing Smash (PvP)",
+      "pageId": 243867,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Renewing_Smash_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Riposte",
+      "pageId": 16237,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Riposte",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Rush",
+      "pageId": 15219,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Rush",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Savage Slash",
+      "pageId": 14878,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Savage_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Seeking Blade",
+      "pageId": 13457,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seeking_Blade",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Seven Weapons Stance",
+      "pageId": 313298,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Sever Artery",
+      "pageId": 12400,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sever_Artery",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield Bash",
+      "pageId": 6704,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_Bash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Shield Stance",
+      "pageId": 13937,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shield_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Shove",
+      "pageId": 4252,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Shove",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Stamina",
+      "pageId": 16225,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Stamina",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Signet of Strength",
+      "pageId": 12702,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Signet_of_Strength",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Silverwing Slash",
+      "pageId": 5275,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Silverwing_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Skull Crack",
+      "pageId": 4082,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Skull_Crack",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Soldier's Defense",
+      "pageId": 6703,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soldier's_Defense",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Soldier's Speed",
+      "pageId": 51910,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soldier's_Speed",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Soldier's Stance",
+      "pageId": 1694,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soldier's_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Soldier's Stance (PvP)",
+      "pageId": 243866,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soldier's_Stance_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Soldier's Strike",
+      "pageId": 15208,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Soldier's_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Sprint",
+      "pageId": 3979,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sprint",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Staggering Blow",
+      "pageId": 14642,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Staggering_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Standing Slash",
+      "pageId": 2028,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Standing_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Steady Stance",
+      "pageId": 2035,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Steady_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Steelfang Slash",
+      "pageId": 16230,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Steelfang_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Storm of Swords",
+      "pageId": 42417,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Storm_of_Swords",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Sun and Moon Slash",
+      "pageId": 14750,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Swift Chop",
+      "pageId": 5239,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Swift_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Symbolic Strike",
+      "pageId": 51908,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Thrill of Victory",
+      "pageId": 11722,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Thrill_of_Victory",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Tiger Stance",
+      "pageId": 16226,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Tiger_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Triple Chop",
+      "pageId": 4239,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Triple_Chop",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Warrior's Cunning",
+      "pageId": 11133,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Warrior's_Cunning",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Warrior's Endurance",
+      "pageId": 4077,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Warrior's_Endurance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Warrior's Endurance (PvP)",
+      "pageId": 202639,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Warrior's_Endurance_(PvP)",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Wary Stance",
+      "pageId": 16238,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wary_Stance",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Whirling Axe",
+      "pageId": 4240,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Whirling_Axe",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Whirlwind Attack",
+      "pageId": 41097,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Whirlwind_Attack",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Wild Blow",
+      "pageId": 12413,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Wild_Blow",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    },
+    {
+      "title": "Yeti Smash",
+      "pageId": 14637,
+      "ns": 0,
+      "wiki": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+      "sources": [
+        {
+          "id": "profession-warrior",
+          "title": "Warrior skills",
+          "kind": "category",
+          "group": "profession",
+          "profession": "Warrior",
+          "category": "Warrior skills"
+        }
+      ]
+    }
+  ]
+}
