@@ -69,6 +69,18 @@ type SkillProgression = {
   ranks?: Array<Record<string, number | string>>;
 };
 
+type ExtractedTemplate = {
+  name: string;
+  body: string;
+};
+
+type ProgressionSource = {
+  name?: string;
+  attribute?: string;
+  description?: string;
+  conciseDescription?: string;
+};
+
 type WikiSkill = {
   name: string;
   pageId: number;
@@ -306,7 +318,11 @@ function buildReport(
   };
 }
 
-function toReportPath(file: string): string {
+function toReportPath(file?: string): string | undefined {
+  if (!file) {
+    return undefined;
+  }
+
   const absolutePath = resolve(file);
   const relativePath = relative(process.cwd(), absolutePath);
 
@@ -605,19 +621,27 @@ function transcribeSkill(data: WikiParseResponse, seedFile?: string, icon?: Skil
   }
 
   const infobox = parseTemplateParams(infoboxTemplate);
-  const progressionTemplate = extractTemplate(wikitext, "Skill progression");
-  const progression = progressionTemplate ? parseProgression(parseTemplateParams(progressionTemplate)) : undefined;
-
   const categories = (data.parse.categories ?? [])
     .filter((category) => !category.hidden)
     .map((category) => category.category.replaceAll("_", " "))
     .sort();
 
   const name = cleanWikiText(infobox.name ?? data.parse.title);
-  const type = cleanOptional(infobox.type);
+  const type = normalizeType(cleanOptional(infobox.type));
   const attribute = normalizeAttribute(cleanOptional(infobox.attribute), categories);
   const pveOnly = isPveOnly(type, categories, infobox);
   const gameMode = getGameMode(name, data.parse.title, categories, pveOnly);
+  const progressionTemplates = extractTemplatesByPrefix(wikitext, "Skill progression");
+  const progression = (
+    progressionTemplates.length > 0
+      ? mergeProgressions(progressionTemplates.map(parseProgression))
+      : parseRawProgression(wikitext, {
+        name,
+        attribute,
+        description: cleanOptional(infobox.description),
+        conciseDescription: cleanOptional(infobox["concise description"]),
+      })
+  );
 
   return {
     name,
@@ -647,27 +671,52 @@ function transcribeSkill(data: WikiParseResponse, seedFile?: string, icon?: Skil
 }
 
 function extractTemplate(wikitext: string, templateName: string): string | undefined {
-  const normalizedName = templateName.toLocaleLowerCase();
+  return extractTemplateWithPredicate(wikitext, (foundName) => foundName === templateName.toLocaleLowerCase())?.body;
+}
+
+function extractTemplatesByPrefix(wikitext: string, templateNamePrefix: string): ExtractedTemplate[] {
+  const normalizedPrefix = templateNamePrefix.toLocaleLowerCase();
+  return extractTemplatesWithPredicate(wikitext, (foundName) => foundName.startsWith(normalizedPrefix));
+}
+
+function extractTemplateWithPredicate(
+  wikitext: string,
+  matches: (templateName: string) => boolean,
+): ExtractedTemplate | undefined {
+  return extractTemplatesWithPredicate(wikitext, matches)[0];
+}
+
+function extractTemplatesWithPredicate(
+  wikitext: string,
+  matches: (templateName: string) => boolean,
+): ExtractedTemplate[] {
+  const templates: ExtractedTemplate[] = [];
   let index = 0;
 
   while (index < wikitext.length) {
     const start = wikitext.indexOf("{{", index);
     if (start === -1) {
-      return undefined;
+      break;
     }
 
     const nameStart = start + 2;
     const nameEnd = findTemplateNameEnd(wikitext, nameStart);
     const foundName = wikitext.slice(nameStart, nameEnd).trim().toLocaleLowerCase();
 
-    if (foundName === normalizedName) {
-      return readBalancedTemplate(wikitext, start);
+    if (matches(foundName)) {
+      const body = readBalancedTemplate(wikitext, start);
+      templates.push({
+        name: foundName,
+        body,
+      });
+      index = start + body.length;
+      continue;
     }
 
     index = start + 2;
   }
 
-  return undefined;
+  return templates;
 }
 
 function findTemplateNameEnd(text: string, start: number): number {
@@ -780,15 +829,21 @@ function splitFirstTopLevel(text: string, delimiter: string): [string, string] |
   return undefined;
 }
 
-function parseProgression(params: TemplateParams): SkillProgression {
+function parseProgression(template: ExtractedTemplate): SkillProgression {
+  const params = parseTemplateParams(template.body);
   const columns: ProgressionColumn[] = [];
+  const variableIndexes = [...new Set(
+    Object.keys(params)
+      .map((key) => key.match(/^var(\d+)\s+name$/)?.[1])
+      .filter((value): value is string => value !== undefined)
+      .map(Number),
+  )].sort((a, b) => a - b);
 
-  for (let index = 1; ; index += 1) {
+  for (const index of variableIndexes) {
     const prefix = `var${index}`;
     const name = params[`${prefix} name`];
-
     if (!name) {
-      break;
+      continue;
     }
 
     const points: Record<string, number | string> = {};
@@ -807,11 +862,11 @@ function parseProgression(params: TemplateParams): SkillProgression {
   }
 
   const progression: SkillProgression = {
-    attribute: cleanOptional(params.attribute),
+    attribute: cleanOptional(params.attribute ?? params["title track"]),
     columns,
   };
 
-  const ranks = buildProgressionRanks(columns);
+  const ranks = buildProgressionRanks(columns, getProgressionMaxRank(template.name));
   if (ranks.length > 0) {
     progression.ranks = ranks;
   }
@@ -819,12 +874,320 @@ function parseProgression(params: TemplateParams): SkillProgression {
   return progression;
 }
 
-function buildProgressionRanks(columns: ProgressionColumn[]): Array<Record<string, number | string>> {
+function mergeProgressions(progressions: SkillProgression[]): SkillProgression | undefined {
+  const candidates = progressions.filter((progression) => progression.columns.length > 0);
+  if (candidates.length === 0) {
+    return undefined;
+  }
+
+  const attribute = candidates.find((progression) => progression.attribute)?.attribute;
+  const columnMap = new Map<string, ProgressionColumn>();
+  const rankMap = new Map<number, Record<string, number | string>>();
+
+  for (const progression of candidates) {
+    for (const column of progression.columns) {
+      if (!columnMap.has(column.key)) {
+        columnMap.set(column.key, column);
+      }
+    }
+
+    for (const rank of progression.ranks ?? []) {
+      const rankNumber = typeof rank.rank === "number" ? rank.rank : Number(rank.rank);
+      if (!Number.isFinite(rankNumber)) {
+        continue;
+      }
+
+      const existing = rankMap.get(rankNumber) ?? { rank: rankNumber };
+      for (const [key, value] of Object.entries(rank)) {
+        if (key !== "rank") {
+          existing[key] = value;
+        }
+      }
+      rankMap.set(rankNumber, existing);
+    }
+  }
+
+  const columns = [...columnMap.values()];
+  const ranks = [...rankMap.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([, rank]) => rank);
+
+  return {
+    attribute,
+    columns,
+    ranks,
+  };
+}
+
+function parseRawProgression(wikitext: string, source: ProgressionSource): SkillProgression | undefined {
+  const progressionSection = extractSection(wikitext, "Progression");
+  const table = progressionSection ? extractFirstWikiTable(progressionSection) : findProgressionTable(wikitext);
+  const tableProgression = table ? parseRawProgressionTable(table, source.attribute) : undefined;
+  if (tableProgression && tableProgression.columns.length > 0) {
+    return tableProgression;
+  }
+
+  return inferProgressionFromDescription(source);
+}
+
+function extractSection(wikitext: string, heading: string): string | undefined {
+  const escapedHeading = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = wikitext.match(new RegExp(`==\\s*${escapedHeading}\\s*==\\s*([\\s\\S]*?)(?=\\n==[^=]+==|$)`, "i"));
+  return match?.[1];
+}
+
+function extractFirstWikiTable(text: string): string | undefined {
+  return extractWikiTables(text)[0];
+}
+
+function extractWikiTables(text: string): string[] {
+  const tables: string[] = [];
+  if (text.indexOf("{|") === -1) {
+    return tables;
+  }
+
+  let searchIndex = 0;
+  while (searchIndex < text.length) {
+    const tableStart = text.indexOf("{|", searchIndex);
+    if (tableStart === -1) {
+      break;
+    }
+
+    let depth = 0;
+    let foundEnd = -1;
+    for (let index = tableStart; index < text.length - 1; index += 1) {
+      const pair = text.slice(index, index + 2);
+      if (pair === "{|") {
+        depth += 1;
+        index += 1;
+      } else if (pair === "|}") {
+        depth -= 1;
+        index += 1;
+        if (depth === 0) {
+          foundEnd = index + 1;
+          tables.push(text.slice(tableStart, foundEnd));
+          searchIndex = foundEnd;
+          break;
+        }
+      }
+    }
+
+    if (foundEnd === -1) {
+      break;
+    }
+  }
+
+  return tables;
+}
+
+function findProgressionTable(wikitext: string): string | undefined {
+  return extractWikiTables(wikitext).find((table) => (
+    /skill-progression/i.test(table)
+    || /'''Progression'''/i.test(table)
+    || /! colspan="2" \| Progression/i.test(table)
+  ));
+}
+
+function parseRawProgressionTable(table: string, fallbackAttribute?: string): SkillProgression | undefined {
+  if (table.includes("class=\"skill-progression\"")) {
+    return parseDivProgressionTable(table, fallbackAttribute);
+  }
+
+  if (table.includes("'''Progression'''")) {
+    return parseSimpleProgressionTable(table, fallbackAttribute);
+  }
+
+  return undefined;
+}
+
+function parseDivProgressionTable(table: string, fallbackAttribute?: string): SkillProgression | undefined {
+  const columnsStart = table.indexOf("<div class=\"column\"");
+  if (columnsStart === -1) {
+    return undefined;
+  }
+
+  const leftPart = table.slice(0, columnsStart);
+  const columnBlocks = extractClassDivBlocks(table, "column");
+  if (columnBlocks.length === 0) {
+    return undefined;
+  }
+
+  const attributeMatches = [...leftPart.matchAll(/<div class="attr">([\s\S]*?)<\/div>/g)];
+  const labelMatches = [...leftPart.matchAll(/<div class="var">([\s\S]*?)<\/div>/g)];
+  const attribute = cleanOptional(attributeMatches[0]?.[1]) ?? fallbackAttribute;
+  const columns = labelMatches.map((match) => ({
+    key: toKey(cleanWikiText(match[1])),
+    name: cleanWikiText(match[1]),
+    points: {},
+  }));
+
+  const ranks: Array<Record<string, number | string>> = [];
+  for (const block of columnBlocks) {
+    const rankMatch = block.match(/<div class="attr">([\s\S]*?)<\/div>/);
+    const rank = Number(cleanWikiText(rankMatch?.[1] ?? ""));
+    if (!Number.isFinite(rank)) {
+      continue;
+    }
+
+    const values = [...block.matchAll(/<div class="var">([\s\S]*?)<\/div>/g)];
+    const row: Record<string, number | string> = { rank };
+    values.forEach((match, index) => {
+      const column = columns[index];
+      if (column) {
+        row[column.key] = parseNumberOrString(cleanWikiText(match[1]));
+      }
+    });
+    ranks.push(row);
+  }
+
+  return columns.length > 0 && ranks.length > 0 ? { attribute, columns, ranks } : undefined;
+}
+
+function extractClassDivBlocks(text: string, className: string): string[] {
+  const blocks: string[] = [];
+  const marker = `<div class="${className}"`;
+  let index = 0;
+
+  while (index < text.length) {
+    const start = text.indexOf(marker, index);
+    if (start === -1) {
+      break;
+    }
+
+    let depth = 0;
+    for (let cursor = start; cursor < text.length; cursor += 1) {
+      if (text.startsWith("<div", cursor)) {
+        depth += 1;
+      } else if (text.startsWith("</div>", cursor)) {
+        depth -= 1;
+        cursor += "</div>".length - 1;
+        if (depth === 0) {
+          blocks.push(text.slice(start, cursor + 1));
+          index = cursor + 1;
+          break;
+        }
+      }
+    }
+
+    if (index <= start) {
+      break;
+    }
+  }
+
+  return blocks;
+}
+
+function parseSimpleProgressionTable(table: string, fallbackAttribute?: string): SkillProgression | undefined {
+  const lines = table.split("\n").map((line) => line.trim()).filter(Boolean);
+  const headerIndex = lines.findIndex((line) => line.startsWith("!"));
+  if (headerIndex === -1 || headerIndex + 1 >= lines.length) {
+    return undefined;
+  }
+
+  const attribute = cleanOptional(lines[headerIndex].replace(/^!\s*/, "")) ?? fallbackAttribute;
+  const rankValues = parseTableCells(lines[headerIndex + 1]).map((value) => Number(value)).filter((value) => Number.isFinite(value));
+  if (rankValues.length === 0) {
+    return undefined;
+  }
+
+  const columns: ProgressionColumn[] = [];
+  const rowValues: string[][] = [];
+
+  for (let index = headerIndex + 2; index < lines.length - 1; index += 1) {
+    if (!lines[index].startsWith("!")) {
+      continue;
+    }
+
+    const label = cleanOptional(lines[index].replace(/^!\s*/, ""));
+    const valuesLine = lines[index + 1];
+    if (!label || !valuesLine?.startsWith("|")) {
+      continue;
+    }
+
+    columns.push({
+      key: toKey(label),
+      name: label,
+      points: {},
+    });
+    rowValues.push(parseTableCells(valuesLine));
+    index += 1;
+  }
+
+  const ranks = rankValues.map((rank, rankIndex) => {
+    const row: Record<string, number | string> = { rank };
+    columns.forEach((column, columnIndex) => {
+      row[column.key] = parseNumberOrString(rowValues[columnIndex]?.[rankIndex] ?? "");
+    });
+    return row;
+  });
+
+  return columns.length > 0 ? { attribute, columns, ranks } : undefined;
+}
+
+function parseTableCells(line: string): string[] {
+  return line
+    .replace(/^[|!]\s*/, "")
+    .split("||")
+    .map((cell) => cleanWikiText(cell.replace(/^([|!])\s*/, "").replace(/'''/g, "").trim()))
+    .filter(Boolean);
+}
+
+function inferProgressionFromDescription(source: ProgressionSource): SkillProgression | undefined {
+  const description = `${source.description ?? ""} ${source.conciseDescription ?? ""}`.toLocaleLowerCase();
+  const maxRank = source.attribute ? getTrackMaxRank(source.attribute) : undefined;
+
+  if (!maxRank) {
+    return undefined;
+  }
+
+  if (/one additional foe .* for each rank/.test(description)) {
+    return {
+      attribute: source.attribute,
+      columns: [
+        {
+          key: "additional_foes_hit",
+          name: "Additional foes hit",
+          points: {},
+        },
+      ],
+      ranks: Array.from({ length: maxRank + 1 }, (_, rank) => ({
+        rank,
+        additional_foes_hit: rank,
+      })),
+    };
+  }
+
+  return undefined;
+}
+
+function getTrackMaxRank(attribute: string): number | undefined {
+  const normalized = attribute.toLocaleLowerCase();
+  if (normalized === "lightbringer rank") {
+    return 8;
+  }
+
+  if (normalized.endsWith("rank")) {
+    return 10;
+  }
+
+  return undefined;
+}
+
+function getProgressionMaxRank(templateName: string): number {
+  const explicitMax = templateName.match(/\bmax(\d+)\b/i)?.[1];
+  if (explicitMax) {
+    return Number(explicitMax);
+  }
+
+  return MAX_ATTRIBUTE_RANK;
+}
+
+function buildProgressionRanks(columns: ProgressionColumn[], maxRank: number): Array<Record<string, number | string>> {
   if (columns.length === 0) {
     return [];
   }
 
-  return Array.from({ length: MAX_ATTRIBUTE_RANK + 1 }, (_, rank) => {
+  return Array.from({ length: maxRank + 1 }, (_, rank) => {
     const row: Record<string, number | string> = { rank };
 
     for (const column of columns) {
@@ -903,18 +1266,45 @@ function normalizeAttribute(attribute: string | undefined, categories: string[])
   return hasCategory(categories, "No Attribute skills") ? "No Attribute" : undefined;
 }
 
+function normalizeType(type: string | undefined): string | undefined {
+  if (!type) {
+    return undefined;
+  }
+
+  return type
+    .split(" ")
+    .map((word) => normalizeTypeWord(word))
+    .join(" ");
+}
+
+function normalizeTypeWord(word: string): string {
+  return word
+    .split("-")
+    .map((segment) => {
+      if (segment.length === 0) {
+        return segment;
+      }
+
+      const lower = segment.toLocaleLowerCase();
+      return `${lower[0]?.toLocaleUpperCase() ?? ""}${lower.slice(1)}`;
+    })
+    .join("-");
+}
+
 function cleanWikiText(value: string): string {
   return value
     .replace(/<!--[\s\S]*?-->/g, "")
-    .replace(/\{\{gr\|([^|{}]+)\|([^|{}]+)\}\}/g, (_match, start, end) => {
+    .replace(/\{\{gr\|([^|{}]+)\|([^|{}]+)(?:\|([^|{}]*))?\}\}/gi, (_match, start, end, negativeMarker) => {
       const startValue = Number(start);
       const endValue = Number(end);
+      const prefix = negativeMarker !== undefined && String(negativeMarker).trim().length > 0 ? "-" : "";
       if (Number.isFinite(startValue) && Number.isFinite(endValue)) {
         const rank12 = Math.round(startValue + ((endValue - startValue) * 12) / 15);
-        return `${start}...${rank12}...${end}`;
+        return `${prefix}${start}...${rank12}...${end}`;
       }
-      return `${start}...${end}`;
+      return `${prefix}${start}...${end}`;
     })
+    .replace(/\{\{gr2\|([^|{}]+)\|([^|{}]+)\}\}/gi, (_match, start, end) => `${start}...${end}`)
     .replace(/\{\{grey\|([^{}]+)\}\}/g, "$1")
     .replace(/\{\{sic\}\}/gi, "[sic]")
     .replace(/\{\{sic\|([^{}]+)\}\}/gi, "$1 [sic]")

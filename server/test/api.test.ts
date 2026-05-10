@@ -159,6 +159,18 @@ describe("skills API", () => {
     expect(body.results.every((skill) => skill.gameMode === "pvp")).toBe(true);
   });
 
+  it("can hide PvP variants from the result set", async () => {
+    const response = await app.inject({
+      method: "GET",
+      url: "/api/search?q=touch&hidePvp=true&limit=100",
+    });
+    const body = response.json() as { results: SummarySkill[] };
+
+    expect(response.statusCode).toBe(200);
+    expect(body.results.length).toBeGreaterThan(0);
+    expect(body.results.every((skill) => skill.gameMode !== "pvp")).toBe(true);
+  });
+
   it("filters by multiple comma-delimited professions", async () => {
     const response = await app.inject({
       method: "GET",
@@ -169,6 +181,18 @@ describe("skills API", () => {
     expect(response.statusCode).toBe(200);
     expect(body.results.length).toBeGreaterThan(0);
     expect(body.results.every((skill) => skill.profession === "Mesmer" || skill.profession === "Monk")).toBe(true);
+  });
+
+  it("keeps profession-bearing PvE title skills under their profession", async () => {
+    const response = await app.inject({
+      method: "GET",
+      url: "/api/skills?profession=Warrior&pveOnly=true&limit=25",
+    });
+    const body = response.json() as { results: SummarySkill[] };
+    const names = body.results.map((skill) => skill.name);
+
+    expect(response.statusCode).toBe(200);
+    expect(names).toContain("\"Save Yourselves!\"");
   });
 
   it("filters by semantic intent", async () => {
@@ -196,6 +220,19 @@ describe("skills API", () => {
     expect(response.statusCode).toBe(200);
     expect(names).toContain("Strength of Honor");
     expect(names).not.toContain("Triple Chop");
+  });
+
+  it("returns curated results for no progression searches", async () => {
+    const response = await app.inject({
+      method: "GET",
+      url: "/api/search?q=no%20progression&limit=100",
+    });
+    const body = response.json() as { results: SummarySkill[]; total: number };
+
+    expect(response.statusCode).toBe(200);
+    expect(body.total).toBeGreaterThan(0);
+    expect(body.results.length).toBeGreaterThan(0);
+    expect(body.results.every((skill) => skill.progression.hasProgression === false)).toBe(true);
   });
 
   it("returns the weapon damage preset with primary results and related chips", async () => {
@@ -261,5 +298,18 @@ describe("skills API", () => {
     expect(body.gameMode.some((facet) => facet.value === "pvp")).toBe(true);
     expect(body.intent.some((facet) => facet.value === "buff_weapon_damage")).toBe(true);
     expect(body.area.some((facet) => facet.value === "earshot")).toBe(true);
+  });
+
+  it("returns contextual type, attribute, and campaign facets", async () => {
+    const response = await app.inject({
+      method: "GET",
+      url: "/api/facets?profession=Warrior&pveOnly=true",
+    });
+    const body = response.json() as Record<string, Array<{ value: string | boolean; count: number }>>;
+
+    expect(response.statusCode).toBe(200);
+    expect(body.attribute.some((facet) => facet.value === "Allegiance rank")).toBe(true);
+    expect(body.type.some((facet) => facet.value === "Shout")).toBe(true);
+    expect(body.campaign.some((facet) => facet.value === "Factions")).toBe(true);
   });
 });

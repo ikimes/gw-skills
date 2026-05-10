@@ -66,7 +66,29 @@ code data/wiki-skills/skills.report.json
 
 The report is where you look for missing icons, missing progression tables, failed pages, PvP variants, and other cleanup notes.
 
-For most app/search work, load `data/wiki-skills/skills.summary.json`. It keeps the display and filter fields, icon URLs, compact progression metadata, and prebuilt `searchText`. Use `skills.canonical.json` when you need full wiki details or full progression rows.
+For most app/search work, load `data/wiki-skills/skills.summary.json`. It keeps the display and filter fields, icon URLs, interpolated progression rows for UI display, and prebuilt `searchText`. Use `skills.canonical.json` when you need full wiki details or raw wiki fields.
+
+When you want the app database to reflect fresh wiki data, run the final steps in this order:
+
+```powershell
+npx -y tsx tools/build-skills-summary.ts
+npm run db:import
+```
+
+Do not run summary generation and DB import in parallel. `db:import` reads `data/wiki-skills/skills.summary.json`, so running both at once can import stale summary data even when transcription already succeeded.
+
+### Data Normalization Notes
+
+The wiki infobox is not perfectly consistent. Some pages use slightly different capitalization for `type`, such as:
+
+- `Melee attack` vs `Melee Attack`
+- `Scythe attack` vs `Scythe Attack`
+- `Enchantment spell` vs `Enchantment Spell`
+- `Touch skill` vs `Touch Skill`
+
+The transcription step normalizes the canonical `skill.type` field before it is written to `skills.canonical.json`. This keeps summary filters and SQLite facets from splitting into near-duplicate values.
+
+Raw infobox values are still preserved under `wikiFields.type` for debugging, but the app-facing `type` field should be treated as the canonical normalized value.
 
 ### Sync Skill Icons
 
@@ -156,7 +178,7 @@ Writes:
 data/wiki-skills/skills.summary.json
 ```
 
-The summary file is designed for the app/search layer. It excludes raw `wikiFields` and full progression rank rows.
+The summary file is designed for the app/search layer. It excludes raw `wikiFields`, while still carrying the interpolated progression ranks needed by the UI.
 
 It also merges optional semantic overlays from:
 

@@ -66,6 +66,7 @@ Search examples:
 /api/search?q=weapon%20damage
 /api/search?q=touch&gameMode=pvp
 /api/search?q=weapon%20damage&gameMode=pve_only
+/api/search?q=touch&hidePvp=true
 /api/search?intent=buff_weapon_damage
 /api/search?area=nearby
 ```
@@ -78,6 +79,7 @@ attribute
 type
 campaign
 gameMode
+hidePvp
 elite
 pveOnly
 intent

@@ -7,5 +7,6 @@
 }
 
 .app--results {
+  width: min(1760px, calc(100% - 32px));
   padding-top: 11vh;
 }

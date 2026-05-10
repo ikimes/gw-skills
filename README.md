@@ -41,3 +41,12 @@ npm run web:dev
 npm run web:build
 npm test
 ```
+
+When refreshing wiki-derived skill data, rebuild the summary before importing SQLite:
+
+```powershell
+npx -y tsx tools/build-skills-summary.ts
+npm run db:import
+```
+
+Run those sequentially, not in parallel, so the DB import always reads the latest summary file.

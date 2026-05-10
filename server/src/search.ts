@@ -17,6 +17,11 @@ type RelevanceOrder = {
 
 type SearchMode = "name_first" | "metadata_first" | "effect_first";
 
+type CuratedSearch = {
+  sql: string;
+  params: Record<string, string | number>;
+};
+
 const DEFAULT_LIMIT = 25;
 const MAX_LIMIT = 100;
 const METADATA_FIRST_QUERIES = new Set([
@@ -87,6 +92,39 @@ export function listSkills(db: SkillDatabase, input: QueryInput): SkillListRespo
 
 export function searchSkills(db: SkillDatabase, input: QueryInput): SkillSearchResponse {
   const query = getString(input.q);
+  const curatedSearch = getCuratedSearch(query);
+  const pagination = parsePagination(input);
+  const filters = parseFilters(input);
+  const parts = buildFilterWhere(filters);
+
+  if (curatedSearch) {
+    const where = [...parts.where, curatedSearch.sql];
+    const whereSql = where.length > 0 ? `WHERE ${where.join(" AND ")}` : "";
+    const params = { ...parts.params, ...curatedSearch.params };
+
+    const total = db.prepare(`
+      SELECT COUNT(*) AS total
+      FROM skills s
+      ${whereSql}
+    `).get(params) as { total: number };
+
+    const rows = db.prepare(`
+      SELECT s.json
+      FROM skills s
+      ${whereSql}
+      ORDER BY s.name COLLATE NOCASE
+      LIMIT @limit OFFSET @offset
+    `).all({ ...params, limit: pagination.limit, offset: pagination.offset }) as Array<{ json: string }>;
+
+    return {
+      query,
+      total: total.total,
+      limit: pagination.limit,
+      offset: pagination.offset,
+      results: rows.map(parseSkill),
+    };
+  }
+
   const ftsQuery = buildFtsQuery(query);
 
   if (!ftsQuery) {
@@ -96,9 +134,6 @@ export function searchSkills(db: SkillDatabase, input: QueryInput): SkillSearchR
     };
   }
 
-  const pagination = parsePagination(input);
-  const filters = parseFilters(input);
-  const parts = buildFilterWhere(filters);
   const conceptPhrase = getRequiredConceptPhrase(query);
   const conceptWhere = conceptPhrase ? buildConceptPhraseWhere(conceptPhrase) : undefined;
   const where = ["skills_fts MATCH @fts", ...parts.where, ...(conceptWhere ? [conceptWhere.sql] : [])];
@@ -130,6 +165,19 @@ export function searchSkills(db: SkillDatabase, input: QueryInput): SkillSearchR
     offset: pagination.offset,
     results: rows.map(parseSkill),
   };
+}
+
+function getCuratedSearch(query: string): CuratedSearch | undefined {
+  const normalizedQuery = normalizeSearchPhrase(query);
+
+  if (normalizedQuery === "no progression" || normalizedQuery === "without progression") {
+    return {
+      sql: "json_extract(s.json, '$.progression.hasProgression') = 0",
+      params: {},
+    };
+  }
+
+  return undefined;
 }
 
 export function getSkillByPageId(db: SkillDatabase, pageId: number): SummarySkill | undefined {
@@ -192,19 +240,21 @@ export function getWeaponDamagePreset(db: SkillDatabase, input: QueryInput): Sea
   };
 }
 
-export function getFacets(db: SkillDatabase): Record<string, Array<{ value: string | boolean; count: number }>> {
+export function getFacets(db: SkillDatabase, input: QueryInput = {}): Record<string, Array<{ value: string | boolean; count: number }>> {
+  const filters = parseFilters(input);
+
   return {
-    profession: textFacet(db, "profession"),
-    attribute: textFacet(db, "attribute"),
-    type: textFacet(db, "type"),
-    campaign: textFacet(db, "campaign"),
-    gameMode: textFacet(db, "game_mode"),
-    elite: booleanFacet(db, "elite"),
-    pveOnly: booleanFacet(db, "pve_only"),
-    intent: tagFacet(db, "intent"),
-    mechanic: tagFacet(db, "mechanic"),
-    appliesTo: tagFacet(db, "applies_to"),
-    area: tagFacet(db, "area"),
+    profession: textFacet(db, "profession", omitFilters(filters, ["profession"])),
+    attribute: textFacet(db, "attribute", omitFilters(filters, ["attribute"])),
+    type: textFacet(db, "type", omitFilters(filters, ["type"])),
+    campaign: textFacet(db, "campaign", omitFilters(filters, ["campaign"])),
+    gameMode: textFacet(db, "game_mode", omitFilters(filters, ["gameMode"])),
+    elite: booleanFacet(db, "elite", omitFilters(filters, ["elite"])),
+    pveOnly: booleanFacet(db, "pve_only", omitFilters(filters, ["pveOnly"])),
+    intent: tagFacet(db, "intent", filters),
+    mechanic: tagFacet(db, "mechanic", filters),
+    appliesTo: tagFacet(db, "applies_to", filters),
+    area: tagFacet(db, "area", filters),
   };
 }
 
@@ -212,7 +262,7 @@ function presetBaseInput(input: QueryInput): {
   raw: QueryInput;
   query: Record<string, string>;
 } {
-  const keys = ["q", "profession", "attribute", "type", "campaign", "gameMode", "elite", "pveOnly", "limit", "offset"];
+  const keys = ["q", "profession", "attribute", "type", "campaign", "gameMode", "hidePvp", "elite", "pveOnly", "limit", "offset"];
   const raw: QueryInput = {};
   const query: Record<string, string> = {};
 
@@ -246,6 +296,11 @@ function buildFilterWhere(filters: SkillFilters): SqlParts {
   addTagFilter("mechanic", "mechanic", filters.mechanic, where, params);
   addTagFilter("applies_to", "appliesTo", filters.appliesTo, where, params);
   addTagFilter("area", "area", filters.area, where, params);
+
+  if (filters.hidePvp) {
+    where.push("s.game_mode != @hiddenGameMode");
+    params.hiddenGameMode = GameModes.Pvp;
+  }
 
   if (filters.elite !== undefined) {
     where.push("s.elite = @elite");
@@ -323,6 +378,7 @@ function parseFilters(input: QueryInput): SkillFilters {
     type: getStringOrUndefined(input.type),
     campaign: getStringOrUndefined(input.campaign),
     gameMode: parseGameMode(input.gameMode),
+    hidePvp: parseBoolean(input.hidePvp),
     elite: parseBoolean(input.elite),
     pveOnly: parseBoolean(input.pveOnly),
     intent: normalizeTagInput(input.intent),
@@ -568,34 +624,55 @@ function clampInteger(value: unknown, fallback: number, min: number, max: number
   return Math.min(max, Math.max(min, number));
 }
 
-function textFacet(db: SkillDatabase, column: string): Array<{ value: string; count: number }> {
-  return db.prepare(`
-    SELECT ${column} AS value, COUNT(*) AS count
-    FROM skills
-    WHERE ${column} IS NOT NULL AND ${column} != ''
-    GROUP BY ${column}
-    ORDER BY value COLLATE NOCASE
-  `).all() as Array<{ value: string; count: number }>;
+function omitFilters(filters: SkillFilters, keys: Array<keyof SkillFilters>): SkillFilters {
+  const next = { ...filters };
+  for (const key of keys) {
+    delete next[key];
+  }
+  return next;
 }
 
-function booleanFacet(db: SkillDatabase, column: string): Array<{ value: boolean; count: number }> {
+function textFacet(db: SkillDatabase, column: string, filters?: SkillFilters): Array<{ value: string; count: number }> {
+  const parts = buildFilterWhere(filters ?? {});
+  const where = [...parts.where, `s.${column} IS NOT NULL`, `s.${column} != ''`];
+  const whereSql = where.length > 0 ? `WHERE ${where.join(" AND ")}` : "";
+
+  return db.prepare(`
+    SELECT s.${column} AS value, COUNT(*) AS count
+    FROM skills s
+    ${whereSql}
+    GROUP BY s.${column}
+    ORDER BY value COLLATE NOCASE
+  `).all(parts.params) as Array<{ value: string; count: number }>;
+}
+
+function booleanFacet(db: SkillDatabase, column: string, filters?: SkillFilters): Array<{ value: boolean; count: number }> {
+  const parts = buildFilterWhere(filters ?? {});
+  const whereSql = parts.where.length > 0 ? `WHERE ${parts.where.join(" AND ")}` : "";
+
   return (db.prepare(`
-    SELECT ${column} AS value, COUNT(*) AS count
-    FROM skills
-    GROUP BY ${column}
-    ORDER BY ${column}
-  `).all() as Array<{ value: number; count: number }>).map((row) => ({
+    SELECT s.${column} AS value, COUNT(*) AS count
+    FROM skills s
+    ${whereSql}
+    GROUP BY s.${column}
+    ORDER BY s.${column}
+  `).all(parts.params) as Array<{ value: number; count: number }>).map((row) => ({
     value: row.value === 1,
     count: row.count,
   }));
 }
 
-function tagFacet(db: SkillDatabase, kind: string): Array<{ value: string; count: number }> {
+function tagFacet(db: SkillDatabase, kind: string, filters?: SkillFilters): Array<{ value: string; count: number }> {
+  const parts = buildFilterWhere(filters ?? {});
+  const whereSql = parts.where.length > 0 ? `AND ${parts.where.join(" AND ")}` : "";
+
   return db.prepare(`
-    SELECT value, COUNT(*) AS count
-    FROM skill_tags
-    WHERE kind = ?
-    GROUP BY value
+    SELECT st.value AS value, COUNT(*) AS count
+    FROM skill_tags st
+    JOIN skills s ON s.page_id = st.page_id
+    WHERE st.kind = @kind
+    ${whereSql}
+    GROUP BY st.value
     ORDER BY value COLLATE NOCASE
-  `).all(kind) as Array<{ value: string; count: number }>;
+  `).all({ ...parts.params, kind }) as Array<{ value: string; count: number }>;
 }

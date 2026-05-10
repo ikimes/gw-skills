@@ -2,7 +2,16 @@
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
-import { GameModes, type GameMode, type SkillArea, type SkillCost, type SkillSemantic, type SummarySkill } from "../shared/skills.js";
+import {
+  GameModes,
+  type GameMode,
+  type SkillArea,
+  type SkillCost,
+  type SkillProgressionSummary,
+  type SkillProgressionValue,
+  type SkillSemantic,
+  type SummarySkill,
+} from "../shared/skills.js";
 
 const DEFAULT_INPUT = "data/wiki-skills/skills.canonical.json";
 const DEFAULT_OUTPUT = "data/wiki-skills/skills.summary.json";
@@ -35,6 +44,7 @@ type CanonicalSkill = {
       key: string;
       name: string;
     }>;
+    ranks?: Array<Record<string, SkillProgressionValue>>;
   };
   wikiFields?: Record<string, string | number | boolean | null>;
 };
@@ -145,10 +155,7 @@ async function readOverlays(file: string): Promise<SkillOverlays> {
 
 function toSummarySkill(skill: CanonicalSkill, overlays: SkillOverlays, iconFallbacks: Map<string, string>): SummarySkill {
   const categories = skill.source?.categories ?? [];
-  const columns = skill.progression?.columns?.map((column) => ({
-    key: column.key,
-    name: column.name,
-  })) ?? [];
+  const progression = buildProgressionSummary(skill.progression);
   const gameMode = skill.gameMode ?? inferGameMode(skill, categories);
   const overlay = mergeOverlays(overlays.byName[skill.name], overlays.byPageId[String(skill.pageId)]);
   const areas = mergeAreas(getAreasFromCategories(categories), overlay.areas ?? []);
@@ -170,11 +177,7 @@ function toSummarySkill(skill: CanonicalSkill, overlays: SkillOverlays, iconFall
     description: skill.description,
     conciseDescription: skill.conciseDescription,
     target: skill.target,
-    progression: {
-      hasProgression: columns.length > 0,
-      attribute: skill.progression?.attribute,
-      columns,
-    },
+    progression,
     areas,
     semantic,
     categories,
@@ -183,6 +186,40 @@ function toSummarySkill(skill: CanonicalSkill, overlays: SkillOverlays, iconFall
 
   summary.searchText = buildSearchText(skill, summary);
   return summary;
+}
+
+function buildProgressionSummary(skillProgression: CanonicalSkill["progression"]): SkillProgressionSummary {
+  const columns = skillProgression?.columns?.map((column) => ({
+    key: column.key,
+    name: column.name,
+  })) ?? [];
+  const ranks = (skillProgression?.ranks ?? [])
+    .map((rank) => {
+      const rankNumber = typeof rank.rank === "number" ? rank.rank : Number(rank.rank);
+      if (!Number.isFinite(rankNumber)) {
+        return undefined;
+      }
+
+      const values = Object.fromEntries(
+        columns.flatMap((column) => {
+          const value = rank[column.key];
+          return value !== undefined ? [[column.key, value]] : [];
+        }),
+      );
+
+      return {
+        rank: rankNumber,
+        values,
+      };
+    })
+    .filter((rank): rank is SkillProgressionSummary["ranks"][number] => rank !== undefined);
+
+  return {
+    hasProgression: columns.length > 0,
+    attribute: skillProgression?.attribute,
+    columns,
+    ranks,
+  };
 }
 
 function buildIconFallbacks(skills: CanonicalSkill[]): Map<string, string> {

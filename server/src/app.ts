@@ -45,6 +45,7 @@ export async function buildApp(options: AppOptions = {}): Promise<FastifyInstanc
       searchWeaponDamage: "/api/search?q=weapon%20damage",
       searchPvpTouch: "/api/search?q=touch&gameMode=pvp",
       searchPveOnlyWeaponDamage: "/api/search?q=weapon%20damage&gameMode=pve_only",
+      hidePvpVariants: "/api/search?q=touch&hidePvp=true",
       semanticWeaponDamageBuffs: "/api/search?intent=buff_weapon_damage",
       weaponDamagePreset: "/api/presets/weapon-damage",
       nearbyAreaSkills: "/api/search?area=nearby",
@@ -57,6 +58,7 @@ export async function buildApp(options: AppOptions = {}): Promise<FastifyInstanc
       type: "Exact skill type, e.g. Weapon Spell",
       campaign: "Exact campaign name, e.g. Factions",
       gameMode: [GameModes.Default, GameModes.Pvp, GameModes.PveOnly],
+      hidePvp: ["true", "false"],
       elite: ["true", "false"],
       pveOnly: ["true", "false"],
       intent: "Semantic intent, e.g. buff_weapon_damage",
@@ -92,7 +94,7 @@ export async function buildApp(options: AppOptions = {}): Promise<FastifyInstanc
     getWeaponDamagePreset(db, request.query as Record<string, unknown>)
   ));
 
-  app.get("/api/facets", async () => getFacets(db));
+  app.get("/api/facets", async (request) => getFacets(db, request.query as Record<string, unknown>));
 
   return app;
 }

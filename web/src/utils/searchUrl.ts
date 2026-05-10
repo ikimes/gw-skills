@@ -9,9 +9,12 @@ export function readStateFromUrl(): SearchState {
     professions: parseProfessions(params.getAll("profession")),
     mode: parseMode(params.get("mode")),
     eliteOnly: parseBoolean(params.get("elite")),
+    type: params.get("type")?.trim() || undefined,
+    attribute: params.get("attribute")?.trim() || undefined,
+    campaign: params.get("campaign")?.trim() || undefined,
     submitted: params.get("browse") === "all",
     limit: parseBoundedInteger(params.get("limit"), DEFAULT_LIMIT, 1, 100),
-    offset: parseBoundedInteger(params.get("offset"), 0, 0, Number.MAX_SAFE_INTEGER),
+    offset: 0,
   };
 }
 
@@ -21,6 +24,9 @@ export function getDefaultState(): SearchState {
     professions: [],
     mode: SearchModes.All,
     eliteOnly: false,
+    type: undefined,
+    attribute: undefined,
+    campaign: undefined,
     submitted: false,
     limit: DEFAULT_LIMIT,
     offset: 0,
@@ -39,7 +45,10 @@ export function buildUrl(state: SearchState): string {
     state.q.trim() === "" &&
     state.professions.length === 0 &&
     state.mode === SearchModes.All &&
-    !state.eliteOnly
+    !state.eliteOnly &&
+    !state.type &&
+    !state.attribute &&
+    !state.campaign
   ) {
     params.set("browse", "all");
   }
@@ -56,12 +65,20 @@ export function buildUrl(state: SearchState): string {
     params.set("elite", "true");
   }
 
-  if (state.limit !== DEFAULT_LIMIT) {
-    params.set("limit", String(state.limit));
+  if (state.type) {
+    params.set("type", state.type);
   }
 
-  if (state.offset > 0) {
-    params.set("offset", String(state.offset));
+  if (state.attribute) {
+    params.set("attribute", state.attribute);
+  }
+
+  if (state.campaign) {
+    params.set("campaign", state.campaign);
+  }
+
+  if (state.limit !== DEFAULT_LIMIT) {
+    params.set("limit", String(state.limit));
   }
 
   const query = params.toString();
@@ -69,7 +86,15 @@ export function buildUrl(state: SearchState): string {
 }
 
 function parseMode(value: string | null): SearchMode {
-  return value === SearchModes.PveOnly || value === SearchModes.PvpUsable ? value : SearchModes.All;
+  if (value === SearchModes.PveOnly || value === SearchModes.HidePvp) {
+    return value;
+  }
+
+  if (value === "pvp_usable") {
+    return SearchModes.HidePvp;
+  }
+
+  return SearchModes.All;
 }
 
 function parseProfessions(values: string[]): string[] {

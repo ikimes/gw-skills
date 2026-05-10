@@ -1,7 +1,8 @@
 {
   "schema": "gw-skills.transcription-report.v1",
-  "generatedAt": "2026-05-09T01:32:09.833Z",
+  "generatedAt": "2026-05-10T03:10:20.294Z",
   "input": {
+    "input": "data/indexes/skills.seed.json",
     "outDir": "data/wiki-skills",
     "seedCount": 1525
   },
@@ -13,11 +14,11 @@
     "seeds": 1525,
     "transcribed": 1524,
     "failed": 1,
-    "issues": 682,
+    "issues": 570,
     "warnings": 1,
-    "infos": 681,
+    "infos": 569,
     "missingIcons": 1,
-    "missingProgression": 239
+    "missingProgression": 127
   },
   "failures": [
     {
@@ -42,14 +43,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "\"By Ural's Hammer!\"",
-      "name": "\"By Ural's Hammer!\"",
-      "pageId": 64072,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "\"By Ural's Hammer!\"",
@@ -96,14 +89,6 @@
       "name": "\"Dodge This!\"",
       "pageId": 58314,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "\"Dodge This!\"",
-      "name": "\"Dodge This!\"",
-      "pageId": 58314,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -114,14 +99,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "\"Don't Trip!\"",
-      "name": "\"Don't Trip!\"",
-      "pageId": 63466,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "\"Don't Trip!\"",
@@ -154,14 +131,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "\"Finish Him!\"",
-      "name": "\"Finish Him!\"",
-      "pageId": 58315,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "\"Finish Him!\"",
@@ -240,14 +209,6 @@
       "name": "\"I Am the Strongest!\"",
       "pageId": 58317,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "\"I Am the Strongest!\"",
-      "name": "\"I Am the Strongest!\"",
-      "pageId": 58317,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -258,14 +219,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "\"I Am Unstoppable!\"",
-      "name": "\"I Am Unstoppable!\"",
-      "pageId": 58318,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "\"I Am Unstoppable!\"",
@@ -336,14 +289,6 @@
       "name": "\"Save Yourselves!\"",
       "pageId": 41143,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "\"Save Yourselves!\"",
-      "name": "\"Save Yourselves!\"",
-      "pageId": 41143,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -400,14 +345,6 @@
       "name": "\"You Are All Weaklings!\"",
       "pageId": 58327,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "\"You Are All Weaklings!\"",
-      "name": "\"You Are All Weaklings!\"",
-      "pageId": 58327,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -418,14 +355,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "\"You Move Like a Dwarf!\"",
-      "name": "\"You Move Like a Dwarf!\"",
-      "pageId": 58320,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "\"You Move Like a Dwarf!\"",
@@ -458,14 +387,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "A Touch of Guile",
-      "name": "A Touch of Guile",
-      "pageId": 58321,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "A Touch of Guile",
@@ -512,14 +433,6 @@
       "name": "Air of Superiority",
       "pageId": 58328,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Air of Superiority",
-      "name": "Air of Superiority",
-      "pageId": 58328,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -530,14 +443,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Alkar's Alchemical Acid",
-      "name": "Alkar's Alchemical Acid",
-      "pageId": 63802,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Alkar's Alchemical Acid",
@@ -680,14 +585,6 @@
       "name": "Asuran Scan",
       "pageId": 58290,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Asuran Scan",
-      "name": "Asuran Scan",
-      "pageId": 58290,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -706,14 +603,6 @@
       "severity": "info",
       "code": "no_attribute_skill",
       "message": "This skill is categorized as a No Attribute skill."
-    },
-    {
-      "title": "Aura of Holy Might",
-      "name": "Aura of Holy Might",
-      "pageId": 41148,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Aura of Holy Might",
@@ -816,14 +705,6 @@
       "name": "Black Powder Mine",
       "pageId": 64161,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Black Powder Mine",
-      "name": "Black Powder Mine",
-      "pageId": 64161,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -880,14 +761,6 @@
       "name": "Brawling Headbutt",
       "pageId": 63119,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Brawling Headbutt",
-      "name": "Brawling Headbutt",
-      "pageId": 63119,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -898,14 +771,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Breath of the Great Dwarf",
-      "name": "Breath of the Great Dwarf",
-      "pageId": 58700,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Breath of the Great Dwarf",
@@ -978,14 +843,6 @@
       "severity": "info",
       "code": "no_attribute_skill",
       "message": "This skill is categorized as a No Attribute skill."
-    },
-    {
-      "title": "Castigation Signet (Saul D'Alessio)",
-      "name": "Castigation Signet (Saul D'Alessio)",
-      "pageId": 207603,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Cautery Signet",
@@ -1136,14 +993,6 @@
       "name": "Club of a Thousand Bears",
       "pageId": 58322,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Club of a Thousand Bears",
-      "name": "Club of a Thousand Bears",
-      "pageId": 58322,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -1178,14 +1027,6 @@
       "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
-    },
-    {
-      "title": "Cry of Pain",
-      "name": "Cry of Pain",
-      "pageId": 41105,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Cry of Pain",
@@ -1256,14 +1097,6 @@
       "name": "Deft Strike",
       "pageId": 63082,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Deft Strike",
-      "name": "Deft Strike",
-      "pageId": 63082,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -1314,14 +1147,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Disenchantment (Togo)",
-      "name": "Disenchantment (Togo)",
-      "pageId": 218671,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Displacement (PvP)",
@@ -1420,14 +1245,6 @@
       "message": "This skill is categorized as a No Attribute skill."
     },
     {
-      "title": "Drain Delusions",
-      "name": "Drain Delusions",
-      "pageId": 1634,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Draw Spirit",
       "name": "Draw Spirit",
       "pageId": 5013,
@@ -1450,14 +1267,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Drunken Master",
-      "name": "Drunken Master",
-      "pageId": 65948,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Drunken Master",
@@ -1504,14 +1313,6 @@
       "name": "Dwarven Stability",
       "pageId": 63422,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Dwarven Stability",
-      "name": "Dwarven Stability",
-      "pageId": 63422,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -1522,14 +1323,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ear Bite",
-      "name": "Ear Bite",
-      "pageId": 63159,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ear Bite",
@@ -1568,14 +1361,6 @@
       "name": "Ebon Battle Standard of Courage",
       "pageId": 58695,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Ebon Battle Standard of Courage",
-      "name": "Ebon Battle Standard of Courage",
-      "pageId": 58695,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -1592,14 +1377,6 @@
       "name": "Ebon Battle Standard of Honor",
       "pageId": 59022,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Ebon Battle Standard of Honor",
-      "name": "Ebon Battle Standard of Honor",
-      "pageId": 59022,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -1610,14 +1387,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ebon Battle Standard of Wisdom",
-      "name": "Ebon Battle Standard of Wisdom",
-      "pageId": 59023,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ebon Battle Standard of Wisdom",
@@ -1634,14 +1403,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ebon Escape",
-      "name": "Ebon Escape",
-      "pageId": 63135,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ebon Escape",
@@ -1658,14 +1419,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ebon Vanguard Assassin Support",
-      "name": "Ebon Vanguard Assassin Support",
-      "pageId": 63124,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ebon Vanguard Assassin Support",
@@ -1682,14 +1435,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ebon Vanguard Sniper Support",
-      "name": "Ebon Vanguard Sniper Support",
-      "pageId": 65953,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ebon Vanguard Sniper Support",
@@ -1736,14 +1481,6 @@
       "name": "Edification",
       "pageId": 66460,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Edification",
-      "name": "Edification",
-      "pageId": 66460,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -1754,14 +1491,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Elemental Lord",
-      "name": "Elemental Lord",
-      "pageId": 41150,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Elemental Lord",
@@ -1826,38 +1555,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Energy Burn",
-      "name": "Energy Burn",
-      "pageId": 1477,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Energy Drain",
-      "name": "Energy Drain",
-      "pageId": 1640,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Energy Surge",
-      "name": "Energy Surge",
-      "pageId": 1481,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Energy Tap",
-      "name": "Energy Tap",
-      "pageId": 1639,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Enfeeble (PvP)",
@@ -1932,44 +1629,12 @@
       "message": "This skill is categorized as a No Attribute skill."
     },
     {
-      "title": "Essence Strike (Togo)",
-      "name": "Essence Strike (Togo)",
-      "pageId": 244931,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Eternal Aura",
-      "name": "Eternal Aura",
-      "pageId": 41124,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Eternal Aura",
       "name": "Eternal Aura",
       "pageId": 41124,
       "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
-    },
-    {
-      "title": "Ether Feast",
-      "name": "Ether Feast",
-      "pageId": 1638,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Ether Nightmare",
-      "name": "Ether Nightmare",
-      "pageId": 41149,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ether Nightmare",
@@ -2048,14 +1713,6 @@
       "name": "Feel No Pain",
       "pageId": 58323,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Feel No Pain",
-      "name": "Feel No Pain",
-      "pageId": 58323,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -2066,14 +1723,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Final Thrust",
-      "name": "Final Thrust",
-      "pageId": 2026,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Finale of Restoration (PvP)",
@@ -2352,14 +2001,6 @@
       "name": "Great Dwarf Armor",
       "pageId": 59250,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Great Dwarf Armor",
-      "name": "Great Dwarf Armor",
-      "pageId": 59250,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -2370,14 +2011,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Great Dwarf Weapon",
-      "name": "Great Dwarf Weapon",
-      "pageId": 59251,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Great Dwarf Weapon",
@@ -2466,14 +2099,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Heart of the Norn",
-      "name": "Heart of the Norn",
-      "pageId": 64095,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Heart of the Norn",
@@ -2612,22 +2237,6 @@
       "message": "This page appears to be a PvP variant."
     },
     {
-      "title": "Incendiary Arrows",
-      "name": "Incendiary Arrows",
-      "pageId": 4092,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Intensity",
-      "name": "Intensity",
-      "pageId": 41117,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Intensity",
       "name": "Intensity",
       "pageId": 41117,
@@ -2720,14 +2329,6 @@
       "name": "Light of Deldrimor",
       "pageId": 18427,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Light of Deldrimor",
-      "name": "Light of Deldrimor",
-      "pageId": 18427,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -2776,14 +2377,6 @@
       "name": "Lightbringer",
       "pageId": 2426,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Lightbringer",
-      "name": "Lightbringer",
-      "pageId": 2426,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -2800,14 +2393,6 @@
       "name": "Lightbringer Signet",
       "pageId": 13771,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Lightbringer Signet",
-      "name": "Lightbringer Signet",
-      "pageId": 13771,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -2818,14 +2403,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Lightbringer's Gaze",
-      "name": "Lightbringer's Gaze",
-      "pageId": 10654,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Lightbringer's Gaze",
@@ -2858,14 +2435,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Low Blow",
-      "name": "Low Blow",
-      "pageId": 63161,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Low Blow",
@@ -2924,14 +2493,6 @@
       "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
-      "title": "Mantra of Inscriptions (Saul D'Alessio)",
-      "name": "Mantra of Inscriptions (Saul D'Alessio)",
-      "pageId": 287677,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Mantra of Resolve (PvP)",
       "name": "Mantra of Resolve (PvP)",
       "pageId": 223517,
@@ -2962,14 +2523,6 @@
       "severity": "info",
       "code": "no_attribute_skill",
       "message": "This skill is categorized as a No Attribute skill."
-    },
-    {
-      "title": "Mark of Subversion",
-      "name": "Mark of Subversion",
-      "pageId": 1757,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Martyr",
@@ -3004,14 +2557,6 @@
       "message": "This page appears to be a PvP variant."
     },
     {
-      "title": "Mend Body and Soul (Togo)",
-      "name": "Mend Body and Soul (Togo)",
-      "pageId": 244933,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Mending Refrain (PvP)",
       "name": "Mending Refrain (PvP)",
       "pageId": 240759,
@@ -3026,14 +2571,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Mental Block",
-      "name": "Mental Block",
-      "pageId": 58301,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Mental Block",
@@ -3082,14 +2619,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Mindbender",
-      "name": "Mindbender",
-      "pageId": 58303,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Mindbender",
@@ -3148,22 +2677,6 @@
       "message": "This page appears to be a PvP variant."
     },
     {
-      "title": "Mistrust",
-      "name": "Mistrust",
-      "pageId": 1488,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Mistrust (PvP)",
-      "name": "Mistrust (PvP)",
-      "pageId": 253916,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Mistrust (PvP)",
       "name": "Mistrust (PvP)",
       "pageId": 253916,
@@ -3192,24 +2705,8 @@
       "name": "Necrosis",
       "pageId": 41103,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Necrosis",
-      "name": "Necrosis",
-      "pageId": 41103,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
-    },
-    {
-      "title": "Never Rampage Alone",
-      "name": "Never Rampage Alone",
-      "pageId": 41113,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Never Rampage Alone",
@@ -3264,14 +2761,6 @@
       "name": "Pain Inverter",
       "pageId": 58305,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Pain Inverter",
-      "name": "Pain Inverter",
-      "pageId": 58305,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -3298,14 +2787,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Poisoned Heart",
-      "name": "Poisoned Heart",
-      "pageId": 14862,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Predatory Bond (PvP)",
@@ -3400,14 +2881,6 @@
       "name": "Radiation Field",
       "pageId": 58306,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Radiation Field",
-      "name": "Radiation Field",
-      "pageId": 58306,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -3424,14 +2897,6 @@
       "name": "Raven Blessing",
       "pageId": 58324,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Raven Blessing",
-      "name": "Raven Blessing",
-      "pageId": 58324,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -3442,14 +2907,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Raven Flight",
-      "name": "Raven Flight",
-      "pageId": 64046,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Raven Flight",
@@ -3466,14 +2923,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Raven Shriek",
-      "name": "Raven Shriek",
-      "pageId": 64045,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Raven Shriek",
@@ -3490,14 +2939,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Raven Swoop",
-      "name": "Raven Swoop",
-      "pageId": 64044,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Raven Swoop",
@@ -3514,14 +2955,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Raven Talons",
-      "name": "Raven Talons",
-      "pageId": 64042,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Raven Talons",
@@ -3562,14 +2995,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Rebel Yell",
-      "name": "Rebel Yell",
-      "pageId": 66523,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Rebel Yell",
@@ -3692,14 +3117,6 @@
       "message": "This page appears to be a PvP variant."
     },
     {
-      "title": "Rising Bile",
-      "name": "Rising Bile",
-      "pageId": 16018,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Savannah Heat (PvP)",
       "name": "Savannah Heat (PvP)",
       "pageId": 207517,
@@ -3730,14 +3147,6 @@
       "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
-    },
-    {
-      "title": "Selfless Spirit",
-      "name": "Selfless Spirit",
-      "pageId": 41146,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Selfless Spirit",
@@ -3784,14 +3193,6 @@
       "name": "Shadow Sanctuary",
       "pageId": 41154,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Shadow Sanctuary",
-      "name": "Shadow Sanctuary",
-      "pageId": 41154,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -3826,14 +3227,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Shame",
-      "name": "Shame",
-      "pageId": 1498,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Shared Burden (PvP)",
@@ -3874,14 +3267,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Shove",
-      "name": "Shove",
-      "pageId": 4252,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Shroud of Distress (PvP)",
@@ -3984,14 +3369,6 @@
       "name": "Signet of Corruption",
       "pageId": 41152,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Signet of Corruption",
-      "name": "Signet of Corruption",
-      "pageId": 41152,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4034,14 +3411,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Signet of Infection",
-      "name": "Signet of Infection",
-      "pageId": 65950,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Signet of Infection",
@@ -4216,14 +3585,6 @@
       "name": "Smooth Criminal",
       "pageId": 58307,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Smooth Criminal",
-      "name": "Smooth Criminal",
-      "pageId": 58307,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4240,14 +3601,6 @@
       "name": "Sneak Attack",
       "pageId": 66008,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Sneak Attack",
-      "name": "Sneak Attack",
-      "pageId": 66008,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4258,14 +3611,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Snow Storm",
-      "name": "Snow Storm",
-      "pageId": 65949,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Snow Storm",
@@ -4328,14 +3673,6 @@
       "name": "Spear of Fury",
       "pageId": 41157,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Spear of Fury",
-      "name": "Spear of Fury",
-      "pageId": 41157,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4346,22 +3683,6 @@
       "severity": "info",
       "code": "pvp_variant",
       "message": "This page appears to be a PvP variant."
-    },
-    {
-      "title": "Spirit Burn (Togo)",
-      "name": "Spirit Burn (Togo)",
-      "pageId": 244930,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Spirit Rift (Togo)",
-      "name": "Spirit Rift (Togo)",
-      "pageId": 244932,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Spirit Walk",
@@ -4560,14 +3881,6 @@
       "name": "Stout-Hearted",
       "pageId": 64094,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Stout-Hearted",
-      "name": "Stout-Hearted",
-      "pageId": 64094,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4616,14 +3929,6 @@
       "name": "Summon Ice Imp",
       "pageId": 58308,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Summon Ice Imp",
-      "name": "Summon Ice Imp",
-      "pageId": 58308,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4634,14 +3939,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Summon Mursaat",
-      "name": "Summon Mursaat",
-      "pageId": 58310,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Summon Mursaat",
@@ -4664,14 +3961,6 @@
       "name": "Summon Naga Shaman",
       "pageId": 58309,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Summon Naga Shaman",
-      "name": "Summon Naga Shaman",
-      "pageId": 58309,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4688,24 +3977,8 @@
       "name": "Summon Ruby Djinn",
       "pageId": 58311,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Summon Ruby Djinn",
-      "name": "Summon Ruby Djinn",
-      "pageId": 58311,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
-    },
-    {
-      "title": "Summon Spirits",
-      "name": "Summon Spirits",
-      "pageId": 41156,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Summon Spirits",
@@ -4744,14 +4017,6 @@
       "name": "Sunspear Rebirth Signet",
       "pageId": 17633,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Sunspear Rebirth Signet",
-      "name": "Sunspear Rebirth Signet",
-      "pageId": 17633,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4794,14 +4059,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Technobabble",
-      "name": "Technobabble",
-      "pageId": 58312,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Technobabble",
@@ -4848,14 +4105,6 @@
       "name": "Triple Shot",
       "pageId": 41144,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Triple Shot",
-      "name": "Triple Shot",
-      "pageId": 41144,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4866,14 +4115,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Tryptophan Signet",
-      "name": "Tryptophan Signet",
-      "pageId": 65952,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Tryptophan Signet",
@@ -4916,14 +4157,6 @@
       "message": "This page appears to be a PvP variant."
     },
     {
-      "title": "Unnatural Signet (Saul D'Alessio)",
-      "name": "Unnatural Signet (Saul D'Alessio)",
-      "pageId": 207601,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Unseen Fury (PvP)",
       "name": "Unseen Fury (PvP)",
       "pageId": 215101,
@@ -4960,14 +4193,6 @@
       "name": "Ursan Blessing",
       "pageId": 58325,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Ursan Blessing",
-      "name": "Ursan Blessing",
-      "pageId": 58325,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -4984,14 +4209,6 @@
       "name": "Ursan Force",
       "pageId": 63599,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Ursan Force",
-      "name": "Ursan Force",
-      "pageId": 63599,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -5002,14 +4219,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ursan Rage",
-      "name": "Ursan Rage",
-      "pageId": 63596,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ursan Rage",
@@ -5026,14 +4235,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ursan Roar",
-      "name": "Ursan Roar",
-      "pageId": 63597,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ursan Roar",
@@ -5050,14 +4251,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Ursan Strike",
-      "name": "Ursan Strike",
-      "pageId": 63595,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Ursan Strike",
@@ -5072,24 +4265,8 @@
       "name": "Vampirism",
       "pageId": 41123,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Vampirism",
-      "name": "Vampirism",
-      "pageId": 41123,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
-    },
-    {
-      "title": "Vampirism (attack)",
-      "name": "Vampirism",
-      "pageId": 75110,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Vampirism (attack)",
@@ -5144,14 +4321,6 @@
       "name": "Volfen Agility",
       "pageId": 63549,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Volfen Agility",
-      "name": "Volfen Agility",
-      "pageId": 63549,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -5168,14 +4337,6 @@
       "name": "Volfen Blessing",
       "pageId": 58326,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Volfen Blessing",
-      "name": "Volfen Blessing",
-      "pageId": 58326,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -5186,14 +4347,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Volfen Bloodlust",
-      "name": "Volfen Bloodlust",
-      "pageId": 63546,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Volfen Bloodlust",
@@ -5210,14 +4363,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Volfen Claw",
-      "name": "Volfen Claw",
-      "pageId": 63541,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Volfen Claw",
@@ -5234,14 +4379,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Volfen Pounce",
-      "name": "Volfen Pounce",
-      "pageId": 63544,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Volfen Pounce",
@@ -5308,28 +4445,12 @@
       "message": "This skill is categorized as a No Attribute skill."
     },
     {
-      "title": "Wastrel's Demise",
-      "name": "Wastrel's Demise",
-      "pageId": 1513,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
       "title": "Weakness Trap",
       "name": "Weakness Trap",
       "pageId": 65951,
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Weakness Trap",
-      "name": "Weakness Trap",
-      "pageId": 65951,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Weakness Trap",
@@ -5400,14 +4521,6 @@
       "name": "Whirlwind Attack",
       "pageId": 41097,
       "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
-    },
-    {
-      "title": "Whirlwind Attack",
-      "name": "Whirlwind Attack",
-      "pageId": 41097,
-      "severity": "info",
       "code": "pve_only",
       "message": "This skill is marked as PvE-only."
     },
@@ -5442,14 +4555,6 @@
       "severity": "info",
       "code": "missing_profession",
       "message": "The skill infobox did not include a profession. This can be normal for PvE-only common or title-rank skills."
-    },
-    {
-      "title": "Winds",
-      "name": "Winds",
-      "pageId": 63118,
-      "severity": "info",
-      "code": "missing_progression",
-      "message": "No skill progression table was found. This can be normal for fixed-value skills."
     },
     {
       "title": "Winds",

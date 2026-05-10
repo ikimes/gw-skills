@@ -8,28 +8,33 @@ export function App() {
   return (
     <main className={search.hasCriteria ? "app app--results" : "app"}>
       <SearchShell
-        draftQuery={search.draftQuery}
+        canReset={search.canReset}
+        draftState={search.draftState}
+        facets={search.facets}
         hasCriteria={search.hasCriteria}
-        state={search.state}
+        hasDraftChanges={search.hasDraftChanges}
+        isLoadingFacets={search.isLoadingFacets}
+        onClearProfessions={search.clearProfessions}
         summaryText={search.summaryText}
-        onClearFilters={search.clearFilters}
+        onDiscardDraftChanges={search.discardDraftChanges}
         onDraftQueryChange={search.setDraftQuery}
         onResetSearch={search.resetSearch}
         onSubmit={search.submitSearch}
+        onToggleAttribute={search.toggleAttribute}
+        onToggleCampaign={search.toggleCampaign}
         onToggleEliteOnly={search.toggleEliteOnly}
         onToggleMode={search.toggleMode}
         onToggleProfession={search.toggleProfession}
+        onToggleType={search.toggleType}
       />
 
       {search.hasCriteria && (
         <SkillResults
-          currentPage={search.currentPage}
           error={search.error}
+          hasMore={search.hasMore}
           isLoading={search.isLoading}
+          onLoadMore={search.loadMore}
           response={search.response}
-          totalPages={search.totalPages}
-          onNextPage={search.goToNextPage}
-          onPreviousPage={search.goToPreviousPage}
         />
       )}
     </main>

@@ -27,6 +27,25 @@ export type SkillSemantic = {
   notes?: string;
 };
 
+export type SkillProgressionValue = number | string;
+
+export type SkillProgressionColumn = {
+  key: string;
+  name: string;
+};
+
+export type SkillProgressionRank = {
+  rank: number;
+  values: Record<string, SkillProgressionValue>;
+};
+
+export type SkillProgressionSummary = {
+  hasProgression: boolean;
+  attribute?: string;
+  columns: SkillProgressionColumn[];
+  ranks: SkillProgressionRank[];
+};
+
 export type SummarySkill = {
   name: string;
   pageId: number;
@@ -43,14 +62,7 @@ export type SummarySkill = {
   description?: string;
   conciseDescription?: string;
   target?: string;
-  progression: {
-    hasProgression: boolean;
-    attribute?: string;
-    columns: Array<{
-      key: string;
-      name: string;
-    }>;
-  };
+  progression: SkillProgressionSummary;
   areas: SkillArea[];
   semantic: SkillSemantic;
   categories: string[];
@@ -63,6 +75,7 @@ export type SkillFilters = {
   type?: string;
   campaign?: string;
   gameMode?: GameMode;
+  hidePvp?: boolean;
   elite?: boolean;
   pveOnly?: boolean;
   intent?: string;

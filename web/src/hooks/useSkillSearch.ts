@@ -1,31 +1,63 @@
-import { FormEvent, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
-import { fetchSkills } from "../api/skillsApi";
-import { SearchModes, type SearchMode, type SearchState, type SkillListResponse } from "../types";
+import { fetchFacets, fetchSkills } from "../api/skillsApi";
+import { SearchModes, type SearchDraft, type SearchFacetResponse, type SearchMode, type SearchState, type SkillListResponse } from "../types";
 import { buildUrl, getDefaultState, readStateFromUrl } from "../utils/searchUrl";
 
 export function useSkillSearch() {
   const [state, setState] = useState<SearchState>(() => readStateFromUrl());
-  const [draftQuery, setDraftQuery] = useState(state.q);
+  const [draftState, setDraftState] = useState<SearchDraft>(() => toDraft(readStateFromUrl()));
   const [response, setResponse] = useState<SkillListResponse | null>(null);
+  const [facets, setFacets] = useState<SearchFacetResponse | null>(null);
+  const [isLoadingFacets, setIsLoadingFacets] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [requestOffset, setRequestOffset] = useState(0);
 
   const hasCriteria =
-    state.submitted || state.q.trim() !== "" || state.professions.length > 0 || state.mode !== SearchModes.All || state.eliteOnly;
-  const totalPages = response ? Math.max(1, Math.ceil(response.total / response.limit)) : 1;
-  const currentPage = response ? Math.floor(response.offset / response.limit) + 1 : 1;
+    state.submitted || state.q.trim() !== "" || state.professions.length > 0 || state.mode !== SearchModes.All || state.eliteOnly
+    || Boolean(state.type) || Boolean(state.attribute) || Boolean(state.campaign);
+  const hasDraftCriteria =
+    draftState.q.trim() !== "" || draftState.professions.length > 0 || draftState.mode !== SearchModes.All || draftState.eliteOnly
+    || Boolean(draftState.type) || Boolean(draftState.attribute) || Boolean(draftState.campaign);
+  const hasDraftChanges = !isSameDraft(draftState, state);
+  const canReset = hasCriteria || hasDraftCriteria;
+  const hasMore = response ? response.results.length < response.total : false;
 
   useEffect(() => {
     const onPopState = () => {
       const next = readStateFromUrl();
       setState(next);
-      setDraftQuery(next.q);
+      setDraftState(toDraft(next));
+      setRequestOffset(0);
+      setResponse(null);
     };
 
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, []);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    setIsLoadingFacets(true);
+
+    fetchFacets(draftState, controller.signal)
+      .then((data) => setFacets(data))
+      .catch((err: unknown) => {
+        if (err instanceof DOMException && err.name === "AbortError") {
+          return;
+        }
+
+        setFacets(null);
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) {
+          setIsLoadingFacets(false);
+        }
+      });
+
+    return () => controller.abort();
+  }, [draftState]);
 
   useEffect(() => {
     if (!hasCriteria) {
@@ -39,8 +71,32 @@ export function useSkillSearch() {
     setIsLoading(true);
     setError(null);
 
-    fetchSkills(state, controller.signal)
-      .then((data) => setResponse(data))
+    fetchSkills({ ...state, offset: requestOffset }, controller.signal)
+      .then((data) => {
+        setResponse((current) => {
+          if (requestOffset === 0 || !current) {
+            return {
+              ...data,
+              offset: 0,
+            };
+          }
+
+          const results = [...current.results];
+          const seen = new Set(results.map((skill) => skill.pageId));
+          for (const skill of data.results) {
+            if (!seen.has(skill.pageId)) {
+              seen.add(skill.pageId);
+              results.push(skill);
+            }
+          }
+
+          return {
+            ...data,
+            offset: 0,
+            results,
+          };
+        });
+      })
       .catch((err: unknown) => {
         if (err instanceof DOMException && err.name === "AbortError") {
           return;
@@ -56,7 +112,7 @@ export function useSkillSearch() {
       });
 
     return () => controller.abort();
-  }, [hasCriteria, state]);
+  }, [hasCriteria, requestOffset, state]);
 
   const summaryText = useMemo(() => {
     if (!hasCriteria) {
@@ -67,83 +123,167 @@ export function useSkillSearch() {
       return isLoading ? "Searching..." : "";
     }
 
-    const shownStart = response.total === 0 ? 0 : response.offset + 1;
-    const shownEnd = Math.min(response.offset + response.limit, response.total);
+    const shownStart = response.total === 0 ? 0 : 1;
+    const shownEnd = Math.min(response.results.length, response.total);
     return `${shownStart}-${shownEnd} of ${response.total} skills`;
   }, [hasCriteria, isLoading, response]);
 
-  function applyState(next: Partial<SearchState>) {
+  function applyState(next: SearchState) {
+    setDraftState(toDraft(next));
     const merged = { ...state, ...next };
+    setRequestOffset(0);
+    setResponse(null);
     setState(merged);
     window.history.pushState(null, "", buildUrl(merged));
   }
 
-  function submitSearch(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    applyState({ q: draftQuery.trim(), submitted: true, offset: 0 });
+  function submitSearch() {
+    const next: SearchState = {
+      ...state,
+      ...draftState,
+      q: draftState.q.trim(),
+      submitted: true,
+      offset: 0,
+    };
+    applyState(next);
+    scrollToTopIfNeeded();
   }
 
   function resetSearch() {
     const next = getDefaultState();
-    setDraftQuery("");
+    setDraftState(toDraft(next));
+    setRequestOffset(0);
+    setResponse(null);
     setState(next);
     window.history.pushState(null, "", "/");
-  }
-
-  function clearFilters() {
-    applyState({ professions: [], mode: SearchModes.All, eliteOnly: false, submitted: true, offset: 0 });
+    scrollToTopIfNeeded();
   }
 
   function toggleProfession(profession: string) {
-    const professions = state.professions.includes(profession)
-      ? state.professions.filter((item) => item !== profession)
-      : [...state.professions, profession];
+    setDraftState((current) => {
+      const professions = current.professions.includes(profession)
+        ? current.professions.filter((item) => item !== profession)
+        : [...current.professions, profession];
 
-    applyState({ professions, offset: 0 });
+      return {
+        ...current,
+        professions,
+      };
+    });
+  }
+
+  function clearProfessions() {
+    setDraftState((current) => ({
+      ...current,
+      professions: [],
+    }));
   }
 
   function toggleMode(mode: Exclude<SearchMode, "all">) {
-    applyState({ mode: state.mode === mode ? SearchModes.All : mode, offset: 0 });
+    setDraftState((current) => ({
+      ...current,
+      mode: current.mode === mode ? SearchModes.All : mode,
+    }));
   }
 
   function toggleEliteOnly() {
-    applyState({ eliteOnly: !state.eliteOnly, offset: 0 });
+    setDraftState((current) => ({
+      ...current,
+      eliteOnly: !current.eliteOnly,
+    }));
   }
 
-  function goToPreviousPage() {
-    if (!response) {
+  function toggleType(type: string) {
+    setDraftState((current) => ({
+      ...current,
+      type: current.type === type ? undefined : type,
+    }));
+  }
+
+  function toggleAttribute(attribute: string) {
+    setDraftState((current) => ({
+      ...current,
+      attribute: current.attribute === attribute ? undefined : attribute,
+    }));
+  }
+
+  function toggleCampaign(campaign: string) {
+    setDraftState((current) => ({
+      ...current,
+      campaign: current.campaign === campaign ? undefined : campaign,
+    }));
+  }
+
+  function discardDraftChanges() {
+    setDraftState(toDraft(state));
+  }
+
+  function loadMore() {
+    if (!response || isLoading || !hasMore) {
       return;
     }
 
-    applyState({ offset: Math.max(0, response.offset - response.limit) });
-  }
-
-  function goToNextPage() {
-    if (!response) {
-      return;
-    }
-
-    applyState({ offset: response.offset + response.limit });
+    setRequestOffset(response.results.length);
   }
 
   return {
-    currentPage,
-    draftQuery,
+    canReset,
+    clearProfessions,
+    draftState,
     error,
+    facets,
+    hasDraftChanges,
+    hasMore,
     hasCriteria,
     isLoading,
+    isLoadingFacets,
+    loadMore,
     response,
     state,
     summaryText,
-    totalPages,
-    clearFilters,
-    goToNextPage,
-    goToPreviousPage,
+    discardDraftChanges,
     resetSearch,
-    setDraftQuery,
+    setDraftQuery: (q: string) => setDraftState((current) => ({ ...current, q })),
     submitSearch,
+    toggleAttribute,
+    toggleCampaign,
     toggleEliteOnly,
     toggleMode,
     toggleProfession,
+    toggleType,
   };
+}
+
+function toDraft(state: SearchState): SearchDraft {
+  return {
+    q: state.q,
+    professions: [...state.professions],
+    mode: state.mode,
+    eliteOnly: state.eliteOnly,
+    type: state.type,
+    attribute: state.attribute,
+    campaign: state.campaign,
+  };
+}
+
+function isSameDraft(draft: SearchDraft, state: SearchState): boolean {
+  return (
+    draft.q.trim() === state.q.trim()
+    && draft.mode === state.mode
+    && draft.eliteOnly === state.eliteOnly
+    && draft.type === state.type
+    && draft.attribute === state.attribute
+    && draft.campaign === state.campaign
+    && draft.professions.length === state.professions.length
+    && draft.professions.every((profession, index) => profession === state.professions[index])
+  );
+}
+
+function scrollToTopIfNeeded(): void {
+  if (window.scrollY > 180) {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 }
