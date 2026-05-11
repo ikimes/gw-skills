@@ -3,13 +3,22 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { basename, isAbsolute, join, relative, resolve } from "node:path";
 import { GameModes, type GameMode, type SkillCost } from "../shared/skills.js";
+import {
+  API_URL,
+  cleanWikiText,
+  encodeWikiTitle,
+  findTemplateNameEnd,
+  parseTemplateParams,
+  readBalancedTemplate,
+  sleep,
+  slugify,
+  USER_AGENT,
+  WIKI_URL,
+} from "./wiki-skill-utils.js";
 
-const API_URL = "https://wiki.guildwars.com/api.php";
-const WIKI_URL = "https://wiki.guildwars.com/wiki/";
 const DEFAULT_OUT_DIR = "data/wiki-skills";
 const DEFAULT_INPUT = "data/indexes/skills.seed.json";
 const MAX_ATTRIBUTE_RANK = 21;
-const USER_AGENT = "gw-skills-transcriber/0.1 (local data tool; https://wiki.guildwars.com)";
 
 type CategoryMember = {
   pageid: number;
@@ -719,116 +728,6 @@ function extractTemplatesWithPredicate(
   return templates;
 }
 
-function findTemplateNameEnd(text: string, start: number): number {
-  let i = start;
-  while (i < text.length && text[i] !== "|" && text[i] !== "}") {
-    i += 1;
-  }
-  return i;
-}
-
-function readBalancedTemplate(text: string, start: number): string {
-  let depth = 0;
-
-  for (let i = start; i < text.length - 1; i += 1) {
-    const pair = text.slice(i, i + 2);
-    if (pair === "{{") {
-      depth += 1;
-      i += 1;
-    } else if (pair === "}}") {
-      depth -= 1;
-      i += 1;
-      if (depth === 0) {
-        return text.slice(start, i + 1);
-      }
-    }
-  }
-
-  throw new Error("Unclosed template in wiki text");
-}
-
-function parseTemplateParams(template: string): TemplateParams {
-  const inner = template.slice(2, -2);
-  const parts = splitTopLevel(inner, "|");
-  const params: TemplateParams = {};
-
-  for (const part of parts.slice(1)) {
-    const assignment = splitFirstTopLevel(part, "=");
-    if (!assignment) {
-      continue;
-    }
-
-    const [key, value] = assignment;
-    params[key.trim()] = value.trim();
-  }
-
-  return params;
-}
-
-function splitTopLevel(text: string, delimiter: string): string[] {
-  const parts: string[] = [];
-  let current = "";
-  let templateDepth = 0;
-  let linkDepth = 0;
-
-  for (let i = 0; i < text.length; i += 1) {
-    const pair = text.slice(i, i + 2);
-
-    if (pair === "{{") {
-      templateDepth += 1;
-      current += pair;
-      i += 1;
-    } else if (pair === "}}") {
-      templateDepth = Math.max(0, templateDepth - 1);
-      current += pair;
-      i += 1;
-    } else if (pair === "[[") {
-      linkDepth += 1;
-      current += pair;
-      i += 1;
-    } else if (pair === "]]") {
-      linkDepth = Math.max(0, linkDepth - 1);
-      current += pair;
-      i += 1;
-    } else if (text[i] === delimiter && templateDepth === 0 && linkDepth === 0) {
-      parts.push(current);
-      current = "";
-    } else {
-      current += text[i];
-    }
-  }
-
-  parts.push(current);
-  return parts;
-}
-
-function splitFirstTopLevel(text: string, delimiter: string): [string, string] | undefined {
-  let templateDepth = 0;
-  let linkDepth = 0;
-
-  for (let i = 0; i < text.length; i += 1) {
-    const pair = text.slice(i, i + 2);
-
-    if (pair === "{{") {
-      templateDepth += 1;
-      i += 1;
-    } else if (pair === "}}") {
-      templateDepth = Math.max(0, templateDepth - 1);
-      i += 1;
-    } else if (pair === "[[") {
-      linkDepth += 1;
-      i += 1;
-    } else if (pair === "]]") {
-      linkDepth = Math.max(0, linkDepth - 1);
-      i += 1;
-    } else if (text[i] === delimiter && templateDepth === 0 && linkDepth === 0) {
-      return [text.slice(0, i), text.slice(i + 1)];
-    }
-  }
-
-  return undefined;
-}
-
 function parseProgression(template: ExtractedTemplate): SkillProgression {
   const params = parseTemplateParams(template.body);
   const columns: ProgressionColumn[] = [];
@@ -1291,36 +1190,6 @@ function normalizeTypeWord(word: string): string {
     .join("-");
 }
 
-function cleanWikiText(value: string): string {
-  return value
-    .replace(/<!--[\s\S]*?-->/g, "")
-    .replace(/\{\{gr\|([^|{}]+)\|([^|{}]+)(?:\|([^|{}]*))?\}\}/gi, (_match, start, end, negativeMarker) => {
-      const startValue = Number(start);
-      const endValue = Number(end);
-      const prefix = negativeMarker !== undefined && String(negativeMarker).trim().length > 0 ? "-" : "";
-      if (Number.isFinite(startValue) && Number.isFinite(endValue)) {
-        const rank12 = Math.round(startValue + ((endValue - startValue) * 12) / 15);
-        return `${prefix}${start}...${rank12}...${end}`;
-      }
-      return `${prefix}${start}...${end}`;
-    })
-    .replace(/\{\{gr2\|([^|{}]+)\|([^|{}]+)\}\}/gi, (_match, start, end) => `${start}...${end}`)
-    .replace(/\{\{grey\|([^{}]+)\}\}/g, "$1")
-    .replace(/\{\{sic\}\}/gi, "[sic]")
-    .replace(/\{\{sic\|([^{}]+)\}\}/gi, "$1 [sic]")
-    .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, "$2")
-    .replace(/\[\[([^\]]+)\]\]/g, "$1")
-    .replace(/\{\{([^|{}]+)\|([^{}]+)\}\}/g, "$2")
-    .replace(/\{\{([^{}]+)\}\}/g, "")
-    .replace(/'''?/g, "")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&quot;/g, "\"")
-    .replace(/&#39;/g, "'")
-    .replace(/&amp;/g, "&")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function parseScalar(value: string | undefined): string | number | boolean | null {
   if (value === undefined) {
     return null;
@@ -1398,22 +1267,6 @@ function toKey(value: string): string {
     .replace(/[^a-zA-Z0-9]+/g, "_")
     .replace(/^_+|_+$/g, "")
     .toLocaleLowerCase();
-}
-
-function slugify(value: string): string {
-  return toKey(value).replaceAll("_", "-");
-}
-
-function encodeWikiTitle(title: string): string {
-  return title
-    .replaceAll(" ", "_")
-    .split("/")
-    .map((part) => encodeURIComponent(part))
-    .join("/");
-}
-
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolveSleep) => setTimeout(resolveSleep, ms));
 }
 
 main().catch((error: unknown) => {

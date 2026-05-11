@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 
 import { fetchFacets, fetchSkills } from "../api/skillsApi";
 import { SearchModes, type SearchDraft, type SearchFacetResponse, type SearchMode, type SearchState, type SkillListResponse } from "../types";
+import { hasDraftCriteria, hasSearchCriteria, toFacetQueryState } from "../utils/searchParams";
+import { mergeSkillResults } from "../utils/searchResults";
 import { buildUrl, getDefaultState, readStateFromUrl } from "../utils/searchUrl";
 
 export function useSkillSearch() {
@@ -14,14 +16,18 @@ export function useSkillSearch() {
   const [error, setError] = useState<string | null>(null);
   const [requestOffset, setRequestOffset] = useState(0);
 
-  const hasCriteria =
-    state.submitted || state.q.trim() !== "" || state.professions.length > 0 || state.mode !== SearchModes.All || state.eliteOnly
-    || Boolean(state.type) || Boolean(state.attribute) || Boolean(state.campaign);
-  const hasDraftCriteria =
-    draftState.q.trim() !== "" || draftState.professions.length > 0 || draftState.mode !== SearchModes.All || draftState.eliteOnly
-    || Boolean(draftState.type) || Boolean(draftState.attribute) || Boolean(draftState.campaign);
+  const facetQueryState = useMemo(() => toFacetQueryState(draftState), [
+    draftState.professions,
+    draftState.mode,
+    draftState.eliteOnly,
+    draftState.type,
+    draftState.attribute,
+    draftState.campaign,
+  ]);
+  const hasCriteria = hasSearchCriteria(state);
+  const hasDraftCriteriaValue = hasDraftCriteria(draftState);
   const hasDraftChanges = !isSameDraft(draftState, state);
-  const canReset = hasCriteria || hasDraftCriteria;
+  const canReset = hasCriteria || hasDraftCriteriaValue;
   const hasMore = response ? response.results.length < response.total : false;
 
   useEffect(() => {
@@ -41,7 +47,7 @@ export function useSkillSearch() {
     const controller = new AbortController();
     setIsLoadingFacets(true);
 
-    fetchFacets(draftState, controller.signal)
+    fetchFacets(facetQueryState, controller.signal)
       .then((data) => setFacets(data))
       .catch((err: unknown) => {
         if (err instanceof DOMException && err.name === "AbortError") {
@@ -57,7 +63,7 @@ export function useSkillSearch() {
       });
 
     return () => controller.abort();
-  }, [draftState]);
+  }, [facetQueryState]);
 
   useEffect(() => {
     if (!hasCriteria) {
@@ -73,29 +79,7 @@ export function useSkillSearch() {
 
     fetchSkills({ ...state, offset: requestOffset }, controller.signal)
       .then((data) => {
-        setResponse((current) => {
-          if (requestOffset === 0 || !current) {
-            return {
-              ...data,
-              offset: 0,
-            };
-          }
-
-          const results = [...current.results];
-          const seen = new Set(results.map((skill) => skill.pageId));
-          for (const skill of data.results) {
-            if (!seen.has(skill.pageId)) {
-              seen.add(skill.pageId);
-              results.push(skill);
-            }
-          }
-
-          return {
-            ...data,
-            offset: 0,
-            results,
-          };
-        });
+        setResponse((current) => mergeSkillResults(current, data, requestOffset));
       })
       .catch((err: unknown) => {
         if (err instanceof DOMException && err.name === "AbortError") {

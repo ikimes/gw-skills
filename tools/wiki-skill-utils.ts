@@ -192,19 +192,39 @@ export function cleanWikiText(value: string): string {
   return value
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/\{\{pipe\}\}/gi, "|")
-    .replace(/\{\{gr\|([^|{}]+)\|([^|{}]+)\}\}/g, (_match, start, end) => `${start}...${end}`)
+    .replace(/\{\{gr\|([^|{}]+)\|([^|{}]+)(?:\|([^|{}]*))?\}\}/gi, (_match, start, end, negativeMarker) => {
+      const startValue = Number(start);
+      const endValue = Number(end);
+      const prefix = negativeMarker !== undefined && String(negativeMarker).trim().length > 0 ? "-" : "";
+      if (Number.isFinite(startValue) && Number.isFinite(endValue)) {
+        const rank12 = Math.round(startValue + ((endValue - startValue) * 12) / 15);
+        return `${prefix}${start}...${rank12}...${end}`;
+      }
+      return `${prefix}${start}...${end}`;
+    })
+    .replace(/\{\{gr2\|([^|{}]+)\|([^|{}]+)\}\}/gi, (_match, start, end) => `${start}...${end}`)
     .replace(/\{\{grey\|([^{}]+)\}\}/g, "$1")
+    .replace(/\{\{sic\}\}/gi, "[sic]")
+    .replace(/\{\{sic\|([^{}]+)\}\}/gi, "$1 [sic]")
     .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, "$2")
     .replace(/\[\[([^\]]+)\]\]/g, "$1")
     .replace(/\{\{([^|{}]+)\|([^{}]+)\}\}/g, "$2")
     .replace(/\{\{([^{}]+)\}\}/g, "")
     .replace(/'''?/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&")
     .replace(/\s+/g, " ")
     .trim();
 }
 
 export function wikiTitleUrl(title: string): string {
-  return `${WIKI_URL}${title.replaceAll(" ", "_").split("/").map(encodeURIComponent).join("/")}`;
+  return `${WIKI_URL}${encodeWikiTitle(title)}`;
+}
+
+export function encodeWikiTitle(title: string): string {
+  return title.replaceAll(" ", "_").split("/").map(encodeURIComponent).join("/");
 }
 
 export function slugify(value: string): string {
@@ -269,7 +289,7 @@ function dedupeSources(sources: SkillIndexEntry["sources"]): SkillIndexEntry["so
   return deduped;
 }
 
-function findTemplateNameEnd(text: string, start: number): number {
+export function findTemplateNameEnd(text: string, start: number): number {
   let i = start;
   while (i < text.length && text[i] !== "|" && text[i] !== "}") {
     i += 1;
@@ -277,7 +297,7 @@ function findTemplateNameEnd(text: string, start: number): number {
   return i;
 }
 
-function readBalancedTemplate(text: string, start: number): string {
+export function readBalancedTemplate(text: string, start: number): string {
   let depth = 0;
 
   for (let i = start; i < text.length - 1; i += 1) {
@@ -297,7 +317,7 @@ function readBalancedTemplate(text: string, start: number): string {
   throw new Error("Unclosed template in wiki text");
 }
 
-function splitTopLevel(text: string, delimiter: string): string[] {
+export function splitTopLevel(text: string, delimiter: string): string[] {
   const parts: string[] = [];
   let current = "";
   let templateDepth = 0;
@@ -334,7 +354,7 @@ function splitTopLevel(text: string, delimiter: string): string[] {
   return parts;
 }
 
-function splitFirstTopLevel(text: string, delimiter: string): [string, string] | undefined {
+export function splitFirstTopLevel(text: string, delimiter: string): [string, string] | undefined {
   let templateDepth = 0;
   let linkDepth = 0;
 

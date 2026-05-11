@@ -1,8 +1,13 @@
 import { ALL_PROFESSIONS, DEFAULT_LIMIT } from "../constants";
 import { SearchModes, type SearchMode, type SearchState } from "../types";
+import { buildRouteSearchParams } from "./searchParams";
 
 export function readStateFromUrl(): SearchState {
-  const params = new URLSearchParams(window.location.search);
+  return parseStateFromSearch(window.location.search);
+}
+
+export function parseStateFromSearch(search: string): SearchState {
+  const params = new URLSearchParams(search);
 
   return {
     q: params.get("q")?.trim() ?? "",
@@ -34,53 +39,7 @@ export function getDefaultState(): SearchState {
 }
 
 export function buildUrl(state: SearchState): string {
-  const params = new URLSearchParams();
-
-  if (state.q.trim()) {
-    params.set("q", state.q.trim());
-  }
-
-  if (
-    state.submitted &&
-    state.q.trim() === "" &&
-    state.professions.length === 0 &&
-    state.mode === SearchModes.All &&
-    !state.eliteOnly &&
-    !state.type &&
-    !state.attribute &&
-    !state.campaign
-  ) {
-    params.set("browse", "all");
-  }
-
-  if (state.professions.length > 0) {
-    params.set("profession", state.professions.join(","));
-  }
-
-  if (state.mode !== SearchModes.All) {
-    params.set("mode", state.mode);
-  }
-
-  if (state.eliteOnly) {
-    params.set("elite", "true");
-  }
-
-  if (state.type) {
-    params.set("type", state.type);
-  }
-
-  if (state.attribute) {
-    params.set("attribute", state.attribute);
-  }
-
-  if (state.campaign) {
-    params.set("campaign", state.campaign);
-  }
-
-  if (state.limit !== DEFAULT_LIMIT) {
-    params.set("limit", String(state.limit));
-  }
-
+  const params = buildRouteSearchParams(state);
   const query = params.toString();
   return query ? `/?${query}` : "/";
 }
