@@ -30,7 +30,7 @@ body::before {
     linear-gradient(135deg, rgba(38, 54, 110, 0.34), rgba(25, 9, 39, 0.34)),
     radial-gradient(circle at 50% 0%, rgba(109, 139, 215, 0.24), transparent 34rem),
     radial-gradient(circle at 78% 18%, rgba(210, 107, 41, 0.14), transparent 24rem),
-    url("/backgrounds/gw_loading_screen.png"),
+    var(--app-background-image),
     linear-gradient(180deg, #0b1930 0%, #08111f 48%, #03070e 100%);
   background-position: center;
   background-repeat: no-repeat;

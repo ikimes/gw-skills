@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type SyntheticEvent } from "react";
 
 import type { SummarySkill } from "../types";
+import { publicAssetUrl } from "../utils/publicAsset";
 
 type SkillRowProps = {
   skill: SummarySkill;
@@ -64,7 +65,7 @@ export function SkillRow({ skill }: SkillRowProps) {
                   <div className="skill-cost" key={cost.label}>
                     <dt>{cost.label}</dt>
                     <dd>
-                      <img alt="" className="skill-cost-icon" decoding="async" height={20} src={`/metadata-icons/${cost.icon}.png`} width={20} />
+                      <img alt="" className="skill-cost-icon" decoding="async" height={20} src={publicAssetUrl(`metadata-icons/${cost.icon}.png`)} width={20} />
                       <span>{cost.value}</span>
                     </dd>
                   </div>
@@ -218,7 +219,7 @@ function formatProgressionValue(value: string | number | undefined): string {
 }
 
 function getLocalIconUrl(skill: SummarySkill): string {
-  return `/skill-icons/${skill.pageId}.jpg`;
+  return publicAssetUrl(`skill-icons/${skill.pageId}.jpg`);
 }
 
 function useFallbackIcon(event: SyntheticEvent<HTMLImageElement>, fallbackUrl: string) {
