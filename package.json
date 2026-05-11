@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
+  },
   "scripts": {
     "db:import": "tsx server/scripts/import-skills.ts",
     "dev": "tsx watch server/src/index.ts",
