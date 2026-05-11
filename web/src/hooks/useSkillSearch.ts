@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { fetchFacets, fetchSkills } from "../api/skillsApi";
 import { SearchModes, type SearchDraft, type SearchFacetResponse, type SearchMode, type SearchState, type SkillListResponse } from "../types";
@@ -6,15 +6,21 @@ import { hasDraftCriteria, hasSearchCriteria, toFacetQueryState } from "../utils
 import { mergeSkillResults } from "../utils/searchResults";
 import { buildUrl, getDefaultState, readStateFromUrl } from "../utils/searchUrl";
 
+const FACET_LOADING_HINT_DELAY_MS = 333;
+const DEBUG_FACET_DELAY_MS = parseNonNegativeInteger(import.meta.env.VITE_DEBUG_FACET_DELAY_MS);
+
 export function useSkillSearch() {
   const [state, setState] = useState<SearchState>(() => readStateFromUrl());
   const [draftState, setDraftState] = useState<SearchDraft>(() => toDraft(readStateFromUrl()));
   const [response, setResponse] = useState<SkillListResponse | null>(null);
   const [facets, setFacets] = useState<SearchFacetResponse | null>(null);
   const [isLoadingFacets, setIsLoadingFacets] = useState(false);
+  const [showFacetLoadingHint, setShowFacetLoadingHint] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [requestOffset, setRequestOffset] = useState(0);
+  const shouldAlignResultsRef = useRef(false);
+  const pendingSearchHasResultsRef = useRef<boolean | undefined>(undefined);
 
   const facetQueryState = useMemo(() => toFacetQueryState(draftState), [
     draftState.professions,
@@ -46,23 +52,41 @@ export function useSkillSearch() {
   useEffect(() => {
     const controller = new AbortController();
     setIsLoadingFacets(true);
+    setShowFacetLoadingHint(false);
 
-    fetchFacets(facetQueryState, controller.signal)
-      .then((data) => setFacets(data))
+    const hintTimer = window.setTimeout(() => {
+      if (!controller.signal.aborted) {
+        setShowFacetLoadingHint(true);
+      }
+    }, FACET_LOADING_HINT_DELAY_MS);
+
+    fetchFacetsWithDebugDelay(facetQueryState, controller.signal)
+      .then((data) => {
+        if (!controller.signal.aborted) {
+          setFacets(data);
+        }
+      })
       .catch((err: unknown) => {
         if (err instanceof DOMException && err.name === "AbortError") {
           return;
         }
 
-        setFacets(null);
+        if (!controller.signal.aborted) {
+          setFacets(null);
+        }
       })
       .finally(() => {
+        window.clearTimeout(hintTimer);
         if (!controller.signal.aborted) {
           setIsLoadingFacets(false);
+          setShowFacetLoadingHint(false);
         }
       });
 
-    return () => controller.abort();
+    return () => {
+      window.clearTimeout(hintTimer);
+      controller.abort();
+    };
   }, [facetQueryState]);
 
   useEffect(() => {
@@ -80,6 +104,10 @@ export function useSkillSearch() {
     fetchSkills({ ...state, offset: requestOffset }, controller.signal)
       .then((data) => {
         setResponse((current) => mergeSkillResults(current, data, requestOffset));
+        if (requestOffset === 0 && shouldAlignResultsRef.current && !controller.signal.aborted) {
+          shouldAlignResultsRef.current = false;
+          pendingSearchHasResultsRef.current = data.results.length > 0;
+        }
       })
       .catch((err: unknown) => {
         if (err instanceof DOMException && err.name === "AbortError") {
@@ -88,6 +116,8 @@ export function useSkillSearch() {
 
         setError(err instanceof Error ? err.message : "Unable to load skills.");
         setResponse(null);
+        shouldAlignResultsRef.current = false;
+        pendingSearchHasResultsRef.current = undefined;
       })
       .finally(() => {
         if (!controller.signal.aborted) {
@@ -97,6 +127,16 @@ export function useSkillSearch() {
 
     return () => controller.abort();
   }, [hasCriteria, requestOffset, state]);
+
+  useEffect(() => {
+    const hasResults = pendingSearchHasResultsRef.current;
+    if (hasResults === undefined) {
+      return;
+    }
+
+    pendingSearchHasResultsRef.current = undefined;
+    alignAfterSearch(hasResults);
+  }, [response]);
 
   const summaryText = useMemo(() => {
     if (!hasCriteria) {
@@ -116,7 +156,7 @@ export function useSkillSearch() {
     setDraftState(toDraft(next));
     const merged = { ...state, ...next };
     setRequestOffset(0);
-    setResponse(null);
+    shouldAlignResultsRef.current = true;
     setState(merged);
     window.history.pushState(null, "", buildUrl(merged));
   }
@@ -130,7 +170,6 @@ export function useSkillSearch() {
       offset: 0,
     };
     applyState(next);
-    scrollToTopIfNeeded();
   }
 
   function resetSearch() {
@@ -221,8 +260,10 @@ export function useSkillSearch() {
     hasCriteria,
     isLoading,
     isLoadingFacets,
+    isRefreshingResults: isLoading && requestOffset === 0 && Boolean(response),
     loadMore,
     response,
+    showFacetLoadingHint,
     state,
     summaryText,
     discardDraftChanges,
@@ -270,4 +311,43 @@ function scrollToTopIfNeeded(): void {
       behavior: "smooth",
     });
   }
+}
+
+function alignAfterSearch(hasResults: boolean): void {
+  window.requestAnimationFrame(() => {
+    if (!hasResults) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      return;
+    }
+
+    document.querySelector<HTMLElement>(".skill-row")?.scrollIntoView({
+      block: "start",
+      behavior: "smooth",
+    });
+  });
+}
+
+async function fetchFacetsWithDebugDelay(
+  facetQueryState: Parameters<typeof fetchFacets>[0],
+  signal: AbortSignal,
+): ReturnType<typeof fetchFacets> {
+  const request = fetchFacets(facetQueryState, signal);
+  if (DEBUG_FACET_DELAY_MS === 0) {
+    return request;
+  }
+
+  const [facets] = await Promise.all([request, sleep(DEBUG_FACET_DELAY_MS)]);
+  return facets;
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
+
+function parseNonNegativeInteger(value: unknown): number {
+  const parsed = typeof value === "string" && value.trim() !== "" ? Number(value) : 0;
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : 0;
 }

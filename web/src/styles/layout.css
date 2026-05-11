@@ -10,3 +10,21 @@
   width: min(1760px, calc(100% - 32px));
   padding-top: 11vh;
 }
+
+.app-footer {
+  width: min(980px, 100%);
+  margin: 36px auto 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+.app-footer a {
+  color: var(--accent-2);
+  text-underline-offset: 3px;
+}

@@ -32,6 +32,12 @@ describe("wiki skill utils", () => {
     );
   });
 
+  it("strips wiki html tags while preserving their text", () => {
+    expect(cleanWikiText("<span style=font-size:75%;>Enchantment expiration speed (%)</span>")).toBe(
+      "Enchantment expiration speed (%)",
+    );
+  });
+
   it("preserves negative progression marker behavior", () => {
     expect(cleanWikiText("{{gr|1|16|-}}")).toBe("-1...13...16");
   });

@@ -32,7 +32,7 @@ Each skill in `data/wiki-skills/skills.canonical.json` includes:
 
 - skill name
 - wiki page URL
-- icon hotlink
+- source icon URL
 - profession
 - attribute
 - skill type
@@ -246,7 +246,8 @@ npx -y tsx tools/transcribe-wiki-skills.ts --input data/my-indexes/skills.seed.j
 
 ## Notes
 
-- Icons are hotlinked from the Guild Wars Wiki for now.
+- Icons are downloaded from the Guild Wars Wiki into `web/public/skill-icons` for local serving. The summary data still preserves source icon URLs as fallbacks.
 - The tools use the Guild Wars Wiki API, not browser scraping.
 - Some skills do not have progression tables; that can be normal.
 - The report file is expected to contain notes. It is a quality-control aid, not necessarily a failure.
+- Generated Guild Wars data and images are third-party reference material. Keep source URLs and attribution intact, and do not treat generated output as covered by the repository's MIT license.

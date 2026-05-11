@@ -21,7 +21,7 @@ The core search stack will stay deterministic and inspectable:
 3. Optional synonym/query expansion for common player language.
 4. Optional embeddings, ONNX, or LLM assistance only as a helper layer.
 
-The planned UI will be a simple React search app backed by the existing Fastify API. The UI should be search-first: prominent search box, profession toggles, PvE/PvP filtering, concise result cards, wiki links, and semantic presets such as weapon damage.
+The UI is a simple React search app backed by the Fastify API. It should remain search-first: prominent search box, profession toggles, PvE/PvP filtering, concise result cards, wiki links, and semantic presets such as weapon damage.
 
 ## Consequences
 

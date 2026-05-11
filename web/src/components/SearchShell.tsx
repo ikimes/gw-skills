@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type FormEvent } from "react";
 
+import type { AdvancedFilterLayout } from "../hooks/useAdvancedFilterLayoutPreference";
 import { SearchModes, type SearchDraft, type SearchFacetResponse } from "../types";
 import { SearchFilters } from "./SearchFilters";
 
 type SearchShellProps = {
+  advancedFilterLayout?: AdvancedFilterLayout;
   canReset: boolean;
   draftState: SearchDraft;
   facets: SearchFacetResponse | null;
@@ -11,7 +13,9 @@ type SearchShellProps = {
   hasDraftChanges: boolean;
   isLoadingFacets: boolean;
   onClearProfessions: () => void;
+  showFacetLoadingHint: boolean;
   summaryText: string;
+  onAdvancedFilterLayoutChange: (layout: AdvancedFilterLayout) => void;
   onDiscardDraftChanges: () => void;
   onDraftQueryChange: (query: string) => void;
   onResetSearch: () => void;
@@ -25,6 +29,7 @@ type SearchShellProps = {
 };
 
 export function SearchShell({
+  advancedFilterLayout,
   canReset,
   draftState,
   facets,
@@ -32,7 +37,9 @@ export function SearchShell({
   hasDraftChanges,
   isLoadingFacets,
   onClearProfessions,
+  showFacetLoadingHint,
   summaryText,
+  onAdvancedFilterLayoutChange,
   onDiscardDraftChanges,
   onDraftQueryChange,
   onResetSearch,
@@ -119,7 +126,6 @@ export function SearchShell({
   return (
     <>
       <section ref={shellRef} className="search-shell" aria-labelledby="app-title">
-        <p className="eyebrow">Guild Wars Reforged</p>
         <h1 id="app-title">Skill Search</h1>
         <form className="search-form" onSubmit={handleSubmit}>
           <input
@@ -137,12 +143,15 @@ export function SearchShell({
           </div>
         </form>
         <SearchFilters
+          advancedFilterLayout={advancedFilterLayout}
           facets={facets}
           hasDraftChanges={hasDraftChanges}
           isLoadingFacets={isLoadingFacets}
           onApply={onSubmit}
           onCancel={handleSecondaryAction}
+          onAdvancedFilterLayoutChange={onAdvancedFilterLayoutChange}
           onClearProfessions={onClearProfessions}
+          showFacetLoadingHint={showFacetLoadingHint}
           state={draftState}
           onToggleAttribute={onToggleAttribute}
           onToggleCampaign={onToggleCampaign}
@@ -161,71 +170,71 @@ export function SearchShell({
       </section>
 
       {showSticky ? (
-        <>
-          <div className="search-sticky" aria-label="Sticky search">
-            <form className="search-sticky-bar" onSubmit={handleSubmit}>
-              <input
-                aria-label="Refine search"
-                value={draftState.q}
-                onChange={(event) => onDraftQueryChange(event.target.value)}
-                placeholder="Refine search"
-                spellCheck={false}
-              />
-              <div className="search-sticky-actions">
-                <button type="submit">Search</button>
-                <button
-                  className={drawerOpen ? "button--secondary button--active" : "button--secondary"}
-                  type="button"
-                  onClick={() => setDrawerOpen((current) => !current)}
-                >
-                  Filters
-                </button>
-                <button className="button--secondary" type="button" onClick={handleScrollToTop}>
-                  Top
-                </button>
-              </div>
-            </form>
-            <div className="search-sticky-meta">
-              <div className="search-sticky-summary" aria-label="Active filters">
-                {filterTokens.map((token) => (
-                  <span key={token} className="search-sticky-token">{token}</span>
-                ))}
-              </div>
-              <span className={hasDraftChanges ? "search-sticky-status search-sticky-status--pending" : "search-sticky-status"}>
-                {hasDraftChanges ? "Draft changes ready" : summaryText}
-              </span>
+        <div className="search-sticky" aria-label="Sticky search">
+          <form className="search-sticky-bar" onSubmit={handleSubmit}>
+            <input
+              aria-label="Refine search"
+              value={draftState.q}
+              onChange={(event) => onDraftQueryChange(event.target.value)}
+              placeholder="Refine search"
+              spellCheck={false}
+            />
+            <div className="search-sticky-actions">
+              <button type="submit">Search</button>
+              <button
+                className={drawerOpen ? "button--secondary button--active" : "button--secondary"}
+                type="button"
+                onClick={() => setDrawerOpen((current) => !current)}
+              >
+                Filters
+              </button>
+              <button className="button--secondary" type="button" onClick={handleScrollToTop}>
+                Top
+              </button>
             </div>
-            {drawerOpen ? (
-              <div className="search-sticky-drawer">
-                <SearchFilters
-                  facets={facets}
-                  isLoadingFacets={isLoadingFacets}
-                  onClearProfessions={onClearProfessions}
-                  state={draftState}
-                  onToggleAttribute={onToggleAttribute}
-                  onToggleCampaign={onToggleCampaign}
-                  onToggleEliteOnly={onToggleEliteOnly}
-                  onToggleMode={onToggleMode}
-                  onToggleProfession={onToggleProfession}
-                  onToggleType={onToggleType}
-                />
-                <div className="search-sticky-drawer-actions">
-                  <button className="button--secondary" type="button" onClick={handleSecondaryAction}>
-                    {hasDraftChanges ? "Cancel" : "Reset"}
-                  </button>
-                  <button type="button" onClick={() => {
-                    setDrawerOpen(false);
-                    onSubmit();
-                  }}
-                  >
-                    Apply
-                  </button>
-                </div>
-              </div>
-            ) : null}
+          </form>
+          <div className="search-sticky-meta">
+            <div className="search-sticky-summary" aria-label="Active filters">
+              {filterTokens.map((token) => (
+                <span key={token} className="search-sticky-token">{token}</span>
+              ))}
+            </div>
+            <span className={hasDraftChanges ? "search-sticky-status search-sticky-status--pending" : "search-sticky-status"}>
+              {hasDraftChanges ? "Draft changes ready" : summaryText}
+            </span>
           </div>
-          <div className="search-sticky-spacer" aria-hidden="true" />
-        </>
+          {drawerOpen ? (
+            <div className="search-sticky-drawer">
+              <SearchFilters
+                advancedFilterLayout={advancedFilterLayout}
+                facets={facets}
+                isLoadingFacets={isLoadingFacets}
+                onAdvancedFilterLayoutChange={onAdvancedFilterLayoutChange}
+                onClearProfessions={onClearProfessions}
+                showFacetLoadingHint={showFacetLoadingHint}
+                state={draftState}
+                onToggleAttribute={onToggleAttribute}
+                onToggleCampaign={onToggleCampaign}
+                onToggleEliteOnly={onToggleEliteOnly}
+                onToggleMode={onToggleMode}
+                onToggleProfession={onToggleProfession}
+                onToggleType={onToggleType}
+              />
+              <div className="search-sticky-drawer-actions">
+                <button className="button--secondary" type="button" onClick={handleSecondaryAction}>
+                  {hasDraftChanges ? "Cancel" : "Reset"}
+                </button>
+                <button type="button" onClick={() => {
+                  setDrawerOpen(false);
+                  onSubmit();
+                }}
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+          ) : null}
+        </div>
       ) : null}
     </>
   );

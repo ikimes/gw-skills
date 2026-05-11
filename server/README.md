@@ -58,6 +58,7 @@ GET /api/skills
 GET /api/skills/:pageId
 GET /api/search
 GET /api/facets
+GET /api/presets/weapon-damage
 ```
 
 Search examples:
@@ -69,6 +70,7 @@ Search examples:
 /api/search?q=touch&hidePvp=true
 /api/search?intent=buff_weapon_damage
 /api/search?area=nearby
+/api/presets/weapon-damage
 ```
 
 Filter parameters:
@@ -111,3 +113,14 @@ area=adjacent
 ```
 
 Semantic tags come from `data/overlays/skill-tags.json`. Effective-area tags are mostly derived automatically from wiki AoE categories.
+
+## Deployment
+
+The API can be deployed to Render with the root `render.yaml` Blueprint. Render runs:
+
+```text
+npm ci && npm run db:import
+npm start
+```
+
+The service must bind to `HOST=0.0.0.0`; `render.yaml` sets this. Render provides `PORT` automatically.

@@ -210,6 +210,8 @@ export function cleanWikiText(value: string): string {
     .replace(/\[\[([^\]]+)\]\]/g, "$1")
     .replace(/\{\{([^|{}]+)\|([^{}]+)\}\}/g, "$2")
     .replace(/\{\{([^{}]+)\}\}/g, "")
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/<\/?[a-z][^>]*>/gi, "")
     .replace(/'''?/g, "")
     .replace(/&nbsp;/g, " ")
     .replace(/&quot;/g, "\"")

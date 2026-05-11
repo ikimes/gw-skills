@@ -11158,8 +11158,8 @@
           }
         },
         {
-          "key": "span_style_font_size_75_enchantment_expiration_speed_span",
-          "name": "<span style=font-size:75%;>Enchantment expiration speed (%)</span>",
+          "key": "enchantment_expiration_speed",
+          "name": "Enchantment expiration speed (%)",
           "points": {
             "0": 150,
             "15": 300
@@ -11170,112 +11170,112 @@
         {
           "rank": 0,
           "duration": 5,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 150
+          "enchantment_expiration_speed": 150
         },
         {
           "rank": 1,
           "duration": 6,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 160
+          "enchantment_expiration_speed": 160
         },
         {
           "rank": 2,
           "duration": 7,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 170
+          "enchantment_expiration_speed": 170
         },
         {
           "rank": 3,
           "duration": 8,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 180
+          "enchantment_expiration_speed": 180
         },
         {
           "rank": 4,
           "duration": 9,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 190
+          "enchantment_expiration_speed": 190
         },
         {
           "rank": 5,
           "duration": 10,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 200
+          "enchantment_expiration_speed": 200
         },
         {
           "rank": 6,
           "duration": 11,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 210
+          "enchantment_expiration_speed": 210
         },
         {
           "rank": 7,
           "duration": 12,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 220
+          "enchantment_expiration_speed": 220
         },
         {
           "rank": 8,
           "duration": 13,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 230
+          "enchantment_expiration_speed": 230
         },
         {
           "rank": 9,
           "duration": 14,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 240
+          "enchantment_expiration_speed": 240
         },
         {
           "rank": 10,
           "duration": 15,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 250
+          "enchantment_expiration_speed": 250
         },
         {
           "rank": 11,
           "duration": 16,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 260
+          "enchantment_expiration_speed": 260
         },
         {
           "rank": 12,
           "duration": 17,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 270
+          "enchantment_expiration_speed": 270
         },
         {
           "rank": 13,
           "duration": 18,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 280
+          "enchantment_expiration_speed": 280
         },
         {
           "rank": 14,
           "duration": 19,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 290
+          "enchantment_expiration_speed": 290
         },
         {
           "rank": 15,
           "duration": 20,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 300
+          "enchantment_expiration_speed": 300
         },
         {
           "rank": 16,
           "duration": 21,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 310
+          "enchantment_expiration_speed": 310
         },
         {
           "rank": 17,
           "duration": 22,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 320
+          "enchantment_expiration_speed": 320
         },
         {
           "rank": 18,
           "duration": 23,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 330
+          "enchantment_expiration_speed": 330
         },
         {
           "rank": 19,
           "duration": 24,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 340
+          "enchantment_expiration_speed": 340
         },
         {
           "rank": 20,
           "duration": 25,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 350
+          "enchantment_expiration_speed": 350
         },
         {
           "rank": 21,
           "duration": 26,
-          "span_style_font_size_75_enchantment_expiration_speed_span": 360
+          "enchantment_expiration_speed": 360
         }
       ]
     },
@@ -30812,7 +30812,7 @@
       "recharge": 12
     },
     "description": "Off-Hand Attack. Must strike a hexed foe. If it hits, this attack strikes for +5...17...20 damage and target foe is Poisoned for 5...17...20 seconds.",
-    "conciseDescription": "Off-Hand Attack. Deals +5...17...20 damage. Inflicts Poisoned condition (5...17...20 seconds). <span style=\"color:grey;\">Must strike a hexed foe.</span>",
+    "conciseDescription": "Off-Hand Attack. Deals +5...17...20 damage. Inflicts Poisoned condition (5...17...20 seconds). Must strike a hexed foe.",
     "progression": {
       "attribute": "Dagger Mastery",
       "columns": [
@@ -30957,7 +30957,7 @@
       "recharge": 12,
       "causes1": "Poison",
       "description": "Off-Hand Attack. Must strike a hexed foe. If it hits, this attack strikes for +5...17...20 damage and target foe is Poisoned for 5...17...20 seconds.",
-      "concise_description": "Off-Hand Attack. Deals +5...17...20 damage. Inflicts Poisoned condition (5...17...20 seconds). <span style=\"color:grey;\">Must strike a hexed foe.</span>",
+      "concise_description": "Off-Hand Attack. Deals +5...17...20 damage. Inflicts Poisoned condition (5...17...20 seconds). Must strike a hexed foe.",
       "requires": "hexed"
     }
   },
@@ -31162,7 +31162,7 @@
       "recharge": 8
     },
     "description": "Dual Attack. Must follow an off-hand attack. If it hits, this attack strikes for +5...14...16 damage (maximum bonus 60) for each recharging dagger attack.",
-    "conciseDescription": "Dual Attack. Deals +5...14...16 damage (maximum 60) for each recharging dagger attack. <span style=\"color:grey;\">Must follow an off-hand attack.</span>",
+    "conciseDescription": "Dual Attack. Deals +5...14...16 damage (maximum 60) for each recharging dagger attack. Must follow an off-hand attack.",
     "progression": {
       "attribute": "Dagger Mastery",
       "columns": [
@@ -31276,7 +31276,7 @@
       "energy": 5,
       "recharge": 8,
       "description": "Dual Attack. Must follow an off-hand attack. If it hits, this attack strikes for +5...14...16 damage (maximum bonus 60) for each recharging dagger attack.",
-      "concise_description": "Dual Attack. Deals +5...14...16 damage (maximum 60) for each recharging dagger attack. <span style=\"color:grey;\">Must follow an off-hand attack.</span>",
+      "concise_description": "Dual Attack. Deals +5...14...16 damage (maximum 60) for each recharging dagger attack. Must follow an off-hand attack.",
       "requires": "offhand"
     }
   },
@@ -51492,7 +51492,7 @@
       "recharge": 15
     },
     "description": "Elite Enchantment Spell. For 3...14...17 seconds, every time you successfully land a critical hit, you remove one enchantment from your target. If you remove an enchantment in this way, you lose 10...4...3 Energy or Dark Apostasy ends.",
-    "conciseDescription": "Elite Enchantment Spell. (3...14...17 seconds.) Your critical hits remove an enchantment. <span style=\"color:grey;\">Removal cost: lose 10...4...3 Energy or Dark Apostasy ends.</span>",
+    "conciseDescription": "Elite Enchantment Spell. (3...14...17 seconds.) Your critical hits remove an enchantment. Removal cost: lose 10...4...3 Energy or Dark Apostasy ends.",
     "progression": {
       "attribute": "Critical Strikes",
       "columns": [
@@ -51640,7 +51640,7 @@
       "causes1": "Energy Loss",
       "removes1": "Enchantment",
       "description": "Elite Enchantment Spell. For 3...14...17 seconds, every time you successfully land a critical hit, you remove one enchantment from your target. If you remove an enchantment in this way, you lose 10...4...3 Energy or Dark Apostasy ends.",
-      "concise_description": "Elite Enchantment Spell. (3...14...17 seconds.) Your critical hits remove an enchantment. <span style=\"color:grey;\">Removal cost: lose 10...4...3 Energy or Dark Apostasy ends.</span>"
+      "concise_description": "Elite Enchantment Spell. (3...14...17 seconds.) Your critical hits remove an enchantment. Removal cost: lose 10...4...3 Energy or Dark Apostasy ends."
     }
   },
   {
@@ -61260,7 +61260,7 @@
       "recharge": 45
     },
     "description": "Binding Ritual. Create a level 1...11...14 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...54...60 seconds.",
-    "conciseDescription": "Binding Ritual. Creates a level 1...11...14 spirit (30...54...60 second lifespan). Non-spirit allies within range have 75% chance to block. <span style=\"color:grey;\">Block effect: this spirit takes 60 damage.</span>",
+    "conciseDescription": "Binding Ritual. Creates a level 1...11...14 spirit (30...54...60 second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
     "progression": {
       "attribute": "Communing",
       "columns": [
@@ -61407,7 +61407,7 @@
       "causes1": "Spirit",
       "causes2": "Block",
       "description": "Binding Ritual. Create a level 1...11...14 spirit. All non-spirit allies within its range have a 75% chance to block incoming attacks. Every time an attack is blocked in this way, this spirit takes 60 damage. This spirit dies after 30...54...60 seconds.",
-      "concise_description": "Binding Ritual. Creates a level 1...11...14 spirit (30...54...60 second lifespan). Non-spirit allies within range have 75% chance to block. <span style=\"color:grey;\">Block effect: this spirit takes 60 damage.</span>",
+      "concise_description": "Binding Ritual. Creates a level 1...11...14 spirit (30...54...60 second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
       "has_pvp": "y",
       "aoe": "spirit"
     }
@@ -63124,8 +63124,8 @@
       "energy": 5,
       "recharge": 5
     },
-    "description": "Stance. For <font color=green>4</font> seconds, you have a 75% chance to block attacks. Whenever you block an attack this way, you lose 2 Energy or Distortion ends.",
-    "conciseDescription": "Stance. (<font color=green>4</font> seconds.) You have 75% chance to block. Block effect: you lose 2 Energy or Distortion ends.",
+    "description": "Stance. For 4 seconds, you have a 75% chance to block attacks. Whenever you block an attack this way, you lose 2 Energy or Distortion ends.",
+    "conciseDescription": "Stance. (4 seconds.) You have 75% chance to block. Block effect: you lose 2 Energy or Distortion ends.",
     "wikiFields": {
       "id": 2680,
       "image": "File:Distortion (Gwen).jpg",
@@ -63137,8 +63137,8 @@
       "special": "Bonus Mission Pack",
       "energy": 5,
       "recharge": 5,
-      "description": "Stance. For <font color=green>4</font> seconds, you have a 75% chance to block attacks. Whenever you block an attack this way, you lose 2 Energy or Distortion ends.",
-      "concise_description": "Stance. (<font color=green>4</font> seconds.) You have 75% chance to block. Block effect: you lose 2 Energy or Distortion ends."
+      "description": "Stance. For 4 seconds, you have a 75% chance to block attacks. Whenever you block an attack this way, you lose 2 Energy or Distortion ends.",
+      "concise_description": "Stance. (4 seconds.) You have 75% chance to block. Block effect: you lose 2 Energy or Distortion ends."
     }
   },
   {
@@ -71843,8 +71843,8 @@
           }
         },
         {
-          "key": "span_style_font_size_75_armor_against_physical_damage_span",
-          "name": "<span style=font-size:75%;>- Armor against physical damage</span>",
+          "key": "armor_against_physical_damage",
+          "name": "- Armor against physical damage",
           "points": {
             "0": 24,
             "15": 12
@@ -71855,112 +71855,112 @@
         {
           "rank": 0,
           "duration": 30,
-          "span_style_font_size_75_armor_against_physical_damage_span": 24
+          "armor_against_physical_damage": 24
         },
         {
           "rank": 1,
           "duration": 34,
-          "span_style_font_size_75_armor_against_physical_damage_span": 23
+          "armor_against_physical_damage": 23
         },
         {
           "rank": 2,
           "duration": 38,
-          "span_style_font_size_75_armor_against_physical_damage_span": 22
+          "armor_against_physical_damage": 22
         },
         {
           "rank": 3,
           "duration": 42,
-          "span_style_font_size_75_armor_against_physical_damage_span": 22
+          "armor_against_physical_damage": 22
         },
         {
           "rank": 4,
           "duration": 46,
-          "span_style_font_size_75_armor_against_physical_damage_span": 21
+          "armor_against_physical_damage": 21
         },
         {
           "rank": 5,
           "duration": 50,
-          "span_style_font_size_75_armor_against_physical_damage_span": 20
+          "armor_against_physical_damage": 20
         },
         {
           "rank": 6,
           "duration": 54,
-          "span_style_font_size_75_armor_against_physical_damage_span": 19
+          "armor_against_physical_damage": 19
         },
         {
           "rank": 7,
           "duration": 58,
-          "span_style_font_size_75_armor_against_physical_damage_span": 18
+          "armor_against_physical_damage": 18
         },
         {
           "rank": 8,
           "duration": 62,
-          "span_style_font_size_75_armor_against_physical_damage_span": 18
+          "armor_against_physical_damage": 18
         },
         {
           "rank": 9,
           "duration": 66,
-          "span_style_font_size_75_armor_against_physical_damage_span": 17
+          "armor_against_physical_damage": 17
         },
         {
           "rank": 10,
           "duration": 70,
-          "span_style_font_size_75_armor_against_physical_damage_span": 16
+          "armor_against_physical_damage": 16
         },
         {
           "rank": 11,
           "duration": 74,
-          "span_style_font_size_75_armor_against_physical_damage_span": 15
+          "armor_against_physical_damage": 15
         },
         {
           "rank": 12,
           "duration": 78,
-          "span_style_font_size_75_armor_against_physical_damage_span": 14
+          "armor_against_physical_damage": 14
         },
         {
           "rank": 13,
           "duration": 82,
-          "span_style_font_size_75_armor_against_physical_damage_span": 14
+          "armor_against_physical_damage": 14
         },
         {
           "rank": 14,
           "duration": 86,
-          "span_style_font_size_75_armor_against_physical_damage_span": 13
+          "armor_against_physical_damage": 13
         },
         {
           "rank": 15,
           "duration": 90,
-          "span_style_font_size_75_armor_against_physical_damage_span": 12
+          "armor_against_physical_damage": 12
         },
         {
           "rank": 16,
           "duration": 94,
-          "span_style_font_size_75_armor_against_physical_damage_span": 11
+          "armor_against_physical_damage": 11
         },
         {
           "rank": 17,
           "duration": 98,
-          "span_style_font_size_75_armor_against_physical_damage_span": 10
+          "armor_against_physical_damage": 10
         },
         {
           "rank": 18,
           "duration": 102,
-          "span_style_font_size_75_armor_against_physical_damage_span": 10
+          "armor_against_physical_damage": 10
         },
         {
           "rank": 19,
           "duration": 106,
-          "span_style_font_size_75_armor_against_physical_damage_span": 9
+          "armor_against_physical_damage": 9
         },
         {
           "rank": 20,
           "duration": 110,
-          "span_style_font_size_75_armor_against_physical_damage_span": 8
+          "armor_against_physical_damage": 8
         },
         {
           "rank": 21,
           "duration": 114,
-          "span_style_font_size_75_armor_against_physical_damage_span": 7
+          "armor_against_physical_damage": 7
         }
       ]
     },
@@ -77144,8 +77144,8 @@
           }
         },
         {
-          "key": "span_style_font_size_75_damage_on_moving_foe_span",
-          "name": "<span style=font-size:75%;>+ Damage (on moving foe)</span>",
+          "key": "plus_damage_on_moving_foe",
+          "name": "+ Damage (on moving foe)",
           "points": {
             "0": 10,
             "15": 40
@@ -77156,112 +77156,112 @@
         {
           "rank": 0,
           "adrenaline_gain": 1,
-          "span_style_font_size_75_damage_on_moving_foe_span": 10
+          "plus_damage_on_moving_foe": 10
         },
         {
           "rank": 1,
           "adrenaline_gain": 1,
-          "span_style_font_size_75_damage_on_moving_foe_span": 12
+          "plus_damage_on_moving_foe": 12
         },
         {
           "rank": 2,
           "adrenaline_gain": 1,
-          "span_style_font_size_75_damage_on_moving_foe_span": 14
+          "plus_damage_on_moving_foe": 14
         },
         {
           "rank": 3,
           "adrenaline_gain": 2,
-          "span_style_font_size_75_damage_on_moving_foe_span": 16
+          "plus_damage_on_moving_foe": 16
         },
         {
           "rank": 4,
           "adrenaline_gain": 2,
-          "span_style_font_size_75_damage_on_moving_foe_span": 18
+          "plus_damage_on_moving_foe": 18
         },
         {
           "rank": 5,
           "adrenaline_gain": 2,
-          "span_style_font_size_75_damage_on_moving_foe_span": 20
+          "plus_damage_on_moving_foe": 20
         },
         {
           "rank": 6,
           "adrenaline_gain": 2,
-          "span_style_font_size_75_damage_on_moving_foe_span": 22
+          "plus_damage_on_moving_foe": 22
         },
         {
           "rank": 7,
           "adrenaline_gain": 2,
-          "span_style_font_size_75_damage_on_moving_foe_span": 24
+          "plus_damage_on_moving_foe": 24
         },
         {
           "rank": 8,
           "adrenaline_gain": 3,
-          "span_style_font_size_75_damage_on_moving_foe_span": 26
+          "plus_damage_on_moving_foe": 26
         },
         {
           "rank": 9,
           "adrenaline_gain": 3,
-          "span_style_font_size_75_damage_on_moving_foe_span": 28
+          "plus_damage_on_moving_foe": 28
         },
         {
           "rank": 10,
           "adrenaline_gain": 3,
-          "span_style_font_size_75_damage_on_moving_foe_span": 30
+          "plus_damage_on_moving_foe": 30
         },
         {
           "rank": 11,
           "adrenaline_gain": 3,
-          "span_style_font_size_75_damage_on_moving_foe_span": 32
+          "plus_damage_on_moving_foe": 32
         },
         {
           "rank": 12,
           "adrenaline_gain": 3,
-          "span_style_font_size_75_damage_on_moving_foe_span": 34
+          "plus_damage_on_moving_foe": 34
         },
         {
           "rank": 13,
           "adrenaline_gain": 4,
-          "span_style_font_size_75_damage_on_moving_foe_span": 36
+          "plus_damage_on_moving_foe": 36
         },
         {
           "rank": 14,
           "adrenaline_gain": 4,
-          "span_style_font_size_75_damage_on_moving_foe_span": 38
+          "plus_damage_on_moving_foe": 38
         },
         {
           "rank": 15,
           "adrenaline_gain": 4,
-          "span_style_font_size_75_damage_on_moving_foe_span": 40
+          "plus_damage_on_moving_foe": 40
         },
         {
           "rank": 16,
           "adrenaline_gain": 4,
-          "span_style_font_size_75_damage_on_moving_foe_span": 42
+          "plus_damage_on_moving_foe": 42
         },
         {
           "rank": 17,
           "adrenaline_gain": 4,
-          "span_style_font_size_75_damage_on_moving_foe_span": 44
+          "plus_damage_on_moving_foe": 44
         },
         {
           "rank": 18,
           "adrenaline_gain": 5,
-          "span_style_font_size_75_damage_on_moving_foe_span": 46
+          "plus_damage_on_moving_foe": 46
         },
         {
           "rank": 19,
           "adrenaline_gain": 5,
-          "span_style_font_size_75_damage_on_moving_foe_span": 48
+          "plus_damage_on_moving_foe": 48
         },
         {
           "rank": 20,
           "adrenaline_gain": 5,
-          "span_style_font_size_75_damage_on_moving_foe_span": 50
+          "plus_damage_on_moving_foe": 50
         },
         {
           "rank": 21,
           "adrenaline_gain": 5,
-          "span_style_font_size_75_damage_on_moving_foe_span": 52
+          "plus_damage_on_moving_foe": 52
         }
       ]
     },
@@ -77336,8 +77336,8 @@
           }
         },
         {
-          "key": "plus_damage_br_on_moving_foe",
-          "name": "+ Damage<br>(on moving foe)",
+          "key": "plus_damage_on_moving_foe",
+          "name": "+ Damage (on moving foe)",
           "points": {
             "0": 10,
             "15": 40
@@ -77348,112 +77348,112 @@
         {
           "rank": 0,
           "adrenaline_gain": 1,
-          "plus_damage_br_on_moving_foe": 10
+          "plus_damage_on_moving_foe": 10
         },
         {
           "rank": 1,
           "adrenaline_gain": 1,
-          "plus_damage_br_on_moving_foe": 12
+          "plus_damage_on_moving_foe": 12
         },
         {
           "rank": 2,
           "adrenaline_gain": 1,
-          "plus_damage_br_on_moving_foe": 14
+          "plus_damage_on_moving_foe": 14
         },
         {
           "rank": 3,
           "adrenaline_gain": 2,
-          "plus_damage_br_on_moving_foe": 16
+          "plus_damage_on_moving_foe": 16
         },
         {
           "rank": 4,
           "adrenaline_gain": 2,
-          "plus_damage_br_on_moving_foe": 18
+          "plus_damage_on_moving_foe": 18
         },
         {
           "rank": 5,
           "adrenaline_gain": 2,
-          "plus_damage_br_on_moving_foe": 20
+          "plus_damage_on_moving_foe": 20
         },
         {
           "rank": 6,
           "adrenaline_gain": 2,
-          "plus_damage_br_on_moving_foe": 22
+          "plus_damage_on_moving_foe": 22
         },
         {
           "rank": 7,
           "adrenaline_gain": 2,
-          "plus_damage_br_on_moving_foe": 24
+          "plus_damage_on_moving_foe": 24
         },
         {
           "rank": 8,
           "adrenaline_gain": 3,
-          "plus_damage_br_on_moving_foe": 26
+          "plus_damage_on_moving_foe": 26
         },
         {
           "rank": 9,
           "adrenaline_gain": 3,
-          "plus_damage_br_on_moving_foe": 28
+          "plus_damage_on_moving_foe": 28
         },
         {
           "rank": 10,
           "adrenaline_gain": 3,
-          "plus_damage_br_on_moving_foe": 30
+          "plus_damage_on_moving_foe": 30
         },
         {
           "rank": 11,
           "adrenaline_gain": 3,
-          "plus_damage_br_on_moving_foe": 32
+          "plus_damage_on_moving_foe": 32
         },
         {
           "rank": 12,
           "adrenaline_gain": 3,
-          "plus_damage_br_on_moving_foe": 34
+          "plus_damage_on_moving_foe": 34
         },
         {
           "rank": 13,
           "adrenaline_gain": 4,
-          "plus_damage_br_on_moving_foe": 36
+          "plus_damage_on_moving_foe": 36
         },
         {
           "rank": 14,
           "adrenaline_gain": 4,
-          "plus_damage_br_on_moving_foe": 38
+          "plus_damage_on_moving_foe": 38
         },
         {
           "rank": 15,
           "adrenaline_gain": 4,
-          "plus_damage_br_on_moving_foe": 40
+          "plus_damage_on_moving_foe": 40
         },
         {
           "rank": 16,
           "adrenaline_gain": 4,
-          "plus_damage_br_on_moving_foe": 42
+          "plus_damage_on_moving_foe": 42
         },
         {
           "rank": 17,
           "adrenaline_gain": 4,
-          "plus_damage_br_on_moving_foe": 44
+          "plus_damage_on_moving_foe": 44
         },
         {
           "rank": 18,
           "adrenaline_gain": 5,
-          "plus_damage_br_on_moving_foe": 46
+          "plus_damage_on_moving_foe": 46
         },
         {
           "rank": 19,
           "adrenaline_gain": 5,
-          "plus_damage_br_on_moving_foe": 48
+          "plus_damage_on_moving_foe": 48
         },
         {
           "rank": 20,
           "adrenaline_gain": 5,
-          "plus_damage_br_on_moving_foe": 50
+          "plus_damage_on_moving_foe": 50
         },
         {
           "rank": 21,
           "adrenaline_gain": 5,
-          "plus_damage_br_on_moving_foe": 52
+          "plus_damage_on_moving_foe": 52
         }
       ]
     },
@@ -80540,8 +80540,8 @@
           }
         },
         {
-          "key": "energy_gain_second_sup_1_sup",
-          "name": "Energy gain/second<sup>1</sup>",
+          "key": "energy_gain_second1",
+          "name": "Energy gain/second1",
           "points": {
             "0": 0.17,
             "15": 1.17
@@ -80553,133 +80553,133 @@
           "rank": 0,
           "duration": 8,
           "energy_gained": 10,
-          "energy_gain_second_sup_1_sup": 0.17
+          "energy_gain_second1": 0.17
         },
         {
           "rank": 1,
           "duration": 9,
           "energy_gained": 12,
-          "energy_gain_second_sup_1_sup": 0
+          "energy_gain_second1": 0
         },
         {
           "rank": 2,
           "duration": 10,
           "energy_gained": 14,
-          "energy_gain_second_sup_1_sup": 0
+          "energy_gain_second1": 0
         },
         {
           "rank": 3,
           "duration": 10,
           "energy_gained": 16,
-          "energy_gain_second_sup_1_sup": 0
+          "energy_gain_second1": 0
         },
         {
           "rank": 4,
           "duration": 11,
           "energy_gained": 18,
-          "energy_gain_second_sup_1_sup": 0
+          "energy_gain_second1": 0
         },
         {
           "rank": 5,
           "duration": 12,
           "energy_gained": 20,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 6,
           "duration": 13,
           "energy_gained": 22,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 7,
           "duration": 14,
           "energy_gained": 24,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 8,
           "duration": 14,
           "energy_gained": 26,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 9,
           "duration": 15,
           "energy_gained": 28,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 10,
           "duration": 16,
           "energy_gained": 30,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 11,
           "duration": 17,
           "energy_gained": 32,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 12,
           "duration": 18,
           "energy_gained": 34,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 13,
           "duration": 18,
           "energy_gained": 36,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 14,
           "duration": 19,
           "energy_gained": 38,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 15,
           "duration": 20,
           "energy_gained": 40,
-          "energy_gain_second_sup_1_sup": 1.17
+          "energy_gain_second1": 1.17
         },
         {
           "rank": 16,
           "duration": 21,
           "energy_gained": 42,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 17,
           "duration": 22,
           "energy_gained": 44,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 18,
           "duration": 22,
           "energy_gained": 46,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 19,
           "duration": 23,
           "energy_gained": 48,
-          "energy_gain_second_sup_1_sup": 1
+          "energy_gain_second1": 1
         },
         {
           "rank": 20,
           "duration": 24,
           "energy_gained": 50,
-          "energy_gain_second_sup_1_sup": 2
+          "energy_gain_second1": 2
         },
         {
           "rank": 21,
           "duration": 25,
           "energy_gained": 52,
-          "energy_gain_second_sup_1_sup": 2
+          "energy_gain_second1": 2
         }
       ]
     },
@@ -91402,7 +91402,7 @@
       "recharge": 3
     },
     "description": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...30...35 damage if it hits.",
-    "conciseDescription": "Off-Hand Attack. Deals +10...30...35 damage. Unblockable. <span style=\"color:grey;\">Must follow a lead attack.</span>",
+    "conciseDescription": "Off-Hand Attack. Deals +10...30...35 damage. Unblockable. Must follow a lead attack.",
     "progression": {
       "attribute": "Dagger Mastery",
       "columns": [
@@ -91518,7 +91518,7 @@
       "recharge": 3,
       "causes1": "Unblockable",
       "description": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...30...35 damage if it hits.",
-      "concise_description": "Off-Hand Attack. Deals +10...30...35 damage. Unblockable. <span style=\"color:grey;\">Must follow a lead attack.</span>",
+      "concise_description": "Off-Hand Attack. Deals +10...30...35 damage. Unblockable. Must follow a lead attack.",
       "requires": "lead",
       "unblockable": "y",
       "has_pvp": "y"
@@ -91563,7 +91563,7 @@
       "recharge": 6
     },
     "description": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...22...25 damage if it hits.",
-    "conciseDescription": "Off-Hand Attack. Deals +10...22...25 damage. Unblockable. <span style=\"color:grey;\">Must follow a lead attack.</span>",
+    "conciseDescription": "Off-Hand Attack. Deals +10...22...25 damage. Unblockable. Must follow a lead attack.",
     "progression": {
       "attribute": "Dagger Mastery",
       "columns": [
@@ -91680,7 +91680,7 @@
       "recharge": 6,
       "causes1": "Unblockable",
       "description": "Off-Hand Attack. Must follow a lead attack. Fox Fangs cannot be blocked and strikes for +10...22...25 damage if it hits.",
-      "concise_description": "Off-Hand Attack. Deals +10...22...25 damage. Unblockable. <span style=\"color:grey;\">Must follow a lead attack.</span>",
+      "concise_description": "Off-Hand Attack. Deals +10...22...25 damage. Unblockable. Must follow a lead attack.",
       "requires": "lead",
       "unblockable": "y"
     }
@@ -100665,8 +100665,8 @@
       "attribute": "Wind Prayers",
       "columns": [
         {
-          "key": "span_style_font_size_75_life_stealing_and_damage_reduction_span",
-          "name": "<span style=font-size:75%;>Life stealing and damage reduction</span>",
+          "key": "life_stealing_and_damage_reduction",
+          "name": "Life stealing and damage reduction",
           "points": {
             "0": 5,
             "15": 25
@@ -100676,91 +100676,91 @@
       "ranks": [
         {
           "rank": 0,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 5
+          "life_stealing_and_damage_reduction": 5
         },
         {
           "rank": 1,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 6
+          "life_stealing_and_damage_reduction": 6
         },
         {
           "rank": 2,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 8
+          "life_stealing_and_damage_reduction": 8
         },
         {
           "rank": 3,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 9
+          "life_stealing_and_damage_reduction": 9
         },
         {
           "rank": 4,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 10
+          "life_stealing_and_damage_reduction": 10
         },
         {
           "rank": 5,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 12
+          "life_stealing_and_damage_reduction": 12
         },
         {
           "rank": 6,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 13
+          "life_stealing_and_damage_reduction": 13
         },
         {
           "rank": 7,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 14
+          "life_stealing_and_damage_reduction": 14
         },
         {
           "rank": 8,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 16
+          "life_stealing_and_damage_reduction": 16
         },
         {
           "rank": 9,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 17
+          "life_stealing_and_damage_reduction": 17
         },
         {
           "rank": 10,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 18
+          "life_stealing_and_damage_reduction": 18
         },
         {
           "rank": 11,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 20
+          "life_stealing_and_damage_reduction": 20
         },
         {
           "rank": 12,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 21
+          "life_stealing_and_damage_reduction": 21
         },
         {
           "rank": 13,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 22
+          "life_stealing_and_damage_reduction": 22
         },
         {
           "rank": 14,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 24
+          "life_stealing_and_damage_reduction": 24
         },
         {
           "rank": 15,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 25
+          "life_stealing_and_damage_reduction": 25
         },
         {
           "rank": 16,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 26
+          "life_stealing_and_damage_reduction": 26
         },
         {
           "rank": 17,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 28
+          "life_stealing_and_damage_reduction": 28
         },
         {
           "rank": 18,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 29
+          "life_stealing_and_damage_reduction": 29
         },
         {
           "rank": 19,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 30
+          "life_stealing_and_damage_reduction": 30
         },
         {
           "rank": 20,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 32
+          "life_stealing_and_damage_reduction": 32
         },
         {
           "rank": 21,
-          "span_style_font_size_75_life_stealing_and_damage_reduction_span": 33
+          "life_stealing_and_damage_reduction": 33
         }
       ]
     },
@@ -111903,8 +111903,8 @@
           }
         },
         {
-          "key": "span_style_font_size_75_cold_damage_upon_death_span",
-          "name": "<span style=font-size:75%;>Cold damage upon death</span>",
+          "key": "cold_damage_upon_death",
+          "name": "Cold damage upon death",
           "points": {
             "0": 20,
             "15": 110
@@ -111916,133 +111916,133 @@
           "rank": 0,
           "cold_damage": 10,
           "duration": 10,
-          "span_style_font_size_75_cold_damage_upon_death_span": 20
+          "cold_damage_upon_death": 20
         },
         {
           "rank": 1,
           "cold_damage": 15,
           "duration": 12,
-          "span_style_font_size_75_cold_damage_upon_death_span": 26
+          "cold_damage_upon_death": 26
         },
         {
           "rank": 2,
           "cold_damage": 21,
           "duration": 13,
-          "span_style_font_size_75_cold_damage_upon_death_span": 32
+          "cold_damage_upon_death": 32
         },
         {
           "rank": 3,
           "cold_damage": 26,
           "duration": 15,
-          "span_style_font_size_75_cold_damage_upon_death_span": 38
+          "cold_damage_upon_death": 38
         },
         {
           "rank": 4,
           "cold_damage": 31,
           "duration": 17,
-          "span_style_font_size_75_cold_damage_upon_death_span": 44
+          "cold_damage_upon_death": 44
         },
         {
           "rank": 5,
           "cold_damage": 37,
           "duration": 18,
-          "span_style_font_size_75_cold_damage_upon_death_span": 50
+          "cold_damage_upon_death": 50
         },
         {
           "rank": 6,
           "cold_damage": 42,
           "duration": 20,
-          "span_style_font_size_75_cold_damage_upon_death_span": 56
+          "cold_damage_upon_death": 56
         },
         {
           "rank": 7,
           "cold_damage": 47,
           "duration": 22,
-          "span_style_font_size_75_cold_damage_upon_death_span": 62
+          "cold_damage_upon_death": 62
         },
         {
           "rank": 8,
           "cold_damage": 53,
           "duration": 23,
-          "span_style_font_size_75_cold_damage_upon_death_span": 68
+          "cold_damage_upon_death": 68
         },
         {
           "rank": 9,
           "cold_damage": 58,
           "duration": 25,
-          "span_style_font_size_75_cold_damage_upon_death_span": 74
+          "cold_damage_upon_death": 74
         },
         {
           "rank": 10,
           "cold_damage": 63,
           "duration": 27,
-          "span_style_font_size_75_cold_damage_upon_death_span": 80
+          "cold_damage_upon_death": 80
         },
         {
           "rank": 11,
           "cold_damage": 69,
           "duration": 28,
-          "span_style_font_size_75_cold_damage_upon_death_span": 86
+          "cold_damage_upon_death": 86
         },
         {
           "rank": 12,
           "cold_damage": 74,
           "duration": 30,
-          "span_style_font_size_75_cold_damage_upon_death_span": 92
+          "cold_damage_upon_death": 92
         },
         {
           "rank": 13,
           "cold_damage": 79,
           "duration": 32,
-          "span_style_font_size_75_cold_damage_upon_death_span": 98
+          "cold_damage_upon_death": 98
         },
         {
           "rank": 14,
           "cold_damage": 85,
           "duration": 33,
-          "span_style_font_size_75_cold_damage_upon_death_span": 104
+          "cold_damage_upon_death": 104
         },
         {
           "rank": 15,
           "cold_damage": 90,
           "duration": 35,
-          "span_style_font_size_75_cold_damage_upon_death_span": 110
+          "cold_damage_upon_death": 110
         },
         {
           "rank": 16,
           "cold_damage": 95,
           "duration": 37,
-          "span_style_font_size_75_cold_damage_upon_death_span": 116
+          "cold_damage_upon_death": 116
         },
         {
           "rank": 17,
           "cold_damage": 101,
           "duration": 38,
-          "span_style_font_size_75_cold_damage_upon_death_span": 122
+          "cold_damage_upon_death": 122
         },
         {
           "rank": 18,
           "cold_damage": 106,
           "duration": 40,
-          "span_style_font_size_75_cold_damage_upon_death_span": 128
+          "cold_damage_upon_death": 128
         },
         {
           "rank": 19,
           "cold_damage": 111,
           "duration": 42,
-          "span_style_font_size_75_cold_damage_upon_death_span": 134
+          "cold_damage_upon_death": 134
         },
         {
           "rank": 20,
           "cold_damage": 117,
           "duration": 43,
-          "span_style_font_size_75_cold_damage_upon_death_span": 140
+          "cold_damage_upon_death": 140
         },
         {
           "rank": 21,
           "cold_damage": 122,
           "duration": 45,
-          "span_style_font_size_75_cold_damage_upon_death_span": 146
+          "cold_damage_upon_death": 146
         }
       ]
     },
@@ -133294,8 +133294,8 @@
           }
         },
         {
-          "key": "effective_pve_recharge_time_sup_1_sup",
-          "name": "Effective PvE recharge time (%)<sup>1</sup>",
+          "key": "effective_pve_recharge_time_1",
+          "name": "Effective PvE recharge time (%)1",
           "points": {
             "0": 67,
             "15": 37
@@ -133306,112 +133306,112 @@
         {
           "rank": 0,
           "duration": 5,
-          "effective_pve_recharge_time_sup_1_sup": 67
+          "effective_pve_recharge_time_1": 67
         },
         {
           "rank": 1,
           "duration": 6,
-          "effective_pve_recharge_time_sup_1_sup": 65
+          "effective_pve_recharge_time_1": 65
         },
         {
           "rank": 2,
           "duration": 7,
-          "effective_pve_recharge_time_sup_1_sup": 63
+          "effective_pve_recharge_time_1": 63
         },
         {
           "rank": 3,
           "duration": 8,
-          "effective_pve_recharge_time_sup_1_sup": 61
+          "effective_pve_recharge_time_1": 61
         },
         {
           "rank": 4,
           "duration": 9,
-          "effective_pve_recharge_time_sup_1_sup": 59
+          "effective_pve_recharge_time_1": 59
         },
         {
           "rank": 5,
           "duration": 10,
-          "effective_pve_recharge_time_sup_1_sup": 57
+          "effective_pve_recharge_time_1": 57
         },
         {
           "rank": 6,
           "duration": 11,
-          "effective_pve_recharge_time_sup_1_sup": 55
+          "effective_pve_recharge_time_1": 55
         },
         {
           "rank": 7,
           "duration": 12,
-          "effective_pve_recharge_time_sup_1_sup": 53
+          "effective_pve_recharge_time_1": 53
         },
         {
           "rank": 8,
           "duration": 13,
-          "effective_pve_recharge_time_sup_1_sup": 51
+          "effective_pve_recharge_time_1": 51
         },
         {
           "rank": 9,
           "duration": 14,
-          "effective_pve_recharge_time_sup_1_sup": 49
+          "effective_pve_recharge_time_1": 49
         },
         {
           "rank": 10,
           "duration": 15,
-          "effective_pve_recharge_time_sup_1_sup": 47
+          "effective_pve_recharge_time_1": 47
         },
         {
           "rank": 11,
           "duration": 16,
-          "effective_pve_recharge_time_sup_1_sup": 45
+          "effective_pve_recharge_time_1": 45
         },
         {
           "rank": 12,
           "duration": 17,
-          "effective_pve_recharge_time_sup_1_sup": 43
+          "effective_pve_recharge_time_1": 43
         },
         {
           "rank": 13,
           "duration": 18,
-          "effective_pve_recharge_time_sup_1_sup": 41
+          "effective_pve_recharge_time_1": 41
         },
         {
           "rank": 14,
           "duration": 19,
-          "effective_pve_recharge_time_sup_1_sup": 39
+          "effective_pve_recharge_time_1": 39
         },
         {
           "rank": 15,
           "duration": 20,
-          "effective_pve_recharge_time_sup_1_sup": 37
+          "effective_pve_recharge_time_1": 37
         },
         {
           "rank": 16,
           "duration": 21,
-          "effective_pve_recharge_time_sup_1_sup": 35
+          "effective_pve_recharge_time_1": 35
         },
         {
           "rank": 17,
           "duration": 22,
-          "effective_pve_recharge_time_sup_1_sup": 33
+          "effective_pve_recharge_time_1": 33
         },
         {
           "rank": 18,
           "duration": 23,
-          "effective_pve_recharge_time_sup_1_sup": 31
+          "effective_pve_recharge_time_1": 31
         },
         {
           "rank": 19,
           "duration": 24,
-          "effective_pve_recharge_time_sup_1_sup": 29
+          "effective_pve_recharge_time_1": 29
         },
         {
           "rank": 20,
           "duration": 25,
-          "effective_pve_recharge_time_sup_1_sup": 27
+          "effective_pve_recharge_time_1": 27
         },
         {
           "rank": 21,
           "duration": 26,
-          "effective_pve_recharge_time_sup_1_sup": 25
+          "effective_pve_recharge_time_1": 25
         }
       ]
     },
@@ -154400,8 +154400,8 @@
           }
         },
         {
-          "key": "span_style_font_size_75_armor_against_elemental_damage_span",
-          "name": "<span style=font-size:75%;>- Armor against elemental damage</span>",
+          "key": "armor_against_elemental_damage",
+          "name": "- Armor against elemental damage",
           "points": {
             "0": 24,
             "15": 12
@@ -154412,112 +154412,112 @@
         {
           "rank": 0,
           "duration": 30,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 24
+          "armor_against_elemental_damage": 24
         },
         {
           "rank": 1,
           "duration": 34,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 23
+          "armor_against_elemental_damage": 23
         },
         {
           "rank": 2,
           "duration": 38,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 22
+          "armor_against_elemental_damage": 22
         },
         {
           "rank": 3,
           "duration": 42,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 22
+          "armor_against_elemental_damage": 22
         },
         {
           "rank": 4,
           "duration": 46,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 21
+          "armor_against_elemental_damage": 21
         },
         {
           "rank": 5,
           "duration": 50,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 20
+          "armor_against_elemental_damage": 20
         },
         {
           "rank": 6,
           "duration": 54,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 19
+          "armor_against_elemental_damage": 19
         },
         {
           "rank": 7,
           "duration": 58,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 18
+          "armor_against_elemental_damage": 18
         },
         {
           "rank": 8,
           "duration": 62,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 18
+          "armor_against_elemental_damage": 18
         },
         {
           "rank": 9,
           "duration": 66,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 17
+          "armor_against_elemental_damage": 17
         },
         {
           "rank": 10,
           "duration": 70,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 16
+          "armor_against_elemental_damage": 16
         },
         {
           "rank": 11,
           "duration": 74,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 15
+          "armor_against_elemental_damage": 15
         },
         {
           "rank": 12,
           "duration": 78,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 14
+          "armor_against_elemental_damage": 14
         },
         {
           "rank": 13,
           "duration": 82,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 14
+          "armor_against_elemental_damage": 14
         },
         {
           "rank": 14,
           "duration": 86,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 13
+          "armor_against_elemental_damage": 13
         },
         {
           "rank": 15,
           "duration": 90,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 12
+          "armor_against_elemental_damage": 12
         },
         {
           "rank": 16,
           "duration": 94,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 11
+          "armor_against_elemental_damage": 11
         },
         {
           "rank": 17,
           "duration": 98,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 10
+          "armor_against_elemental_damage": 10
         },
         {
           "rank": 18,
           "duration": 102,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 10
+          "armor_against_elemental_damage": 10
         },
         {
           "rank": 19,
           "duration": 106,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 9
+          "armor_against_elemental_damage": 9
         },
         {
           "rank": 20,
           "duration": 110,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 8
+          "armor_against_elemental_damage": 8
         },
         {
           "rank": 21,
           "duration": 114,
-          "span_style_font_size_75_armor_against_elemental_damage_span": 7
+          "armor_against_elemental_damage": 7
         }
       ]
     },
@@ -207380,8 +207380,8 @@
       "activation": 1,
       "recharge": 6
     },
-    "description": "Spell. Target foe is struck for 5|50|14 lightning damage. If any spirits are within earshot, Spirit Burn causes Burning for <font color=green>3</font> seconds.",
-    "conciseDescription": "Spell. Deals 5|50|14 lightning damage. Inflicts Burning condition (<font color=green>3</font> seconds) if you are within earshot of a spirit.",
+    "description": "Spell. Target foe is struck for 5|50|14 lightning damage. If any spirits are within earshot, Spirit Burn causes Burning for 3 seconds.",
+    "conciseDescription": "Spell. Deals 5|50|14 lightning damage. Inflicts Burning condition (3 seconds) if you are within earshot of a spirit.",
     "progression": {
       "attribute": "Channeling Magic",
       "columns": [
@@ -207527,8 +207527,8 @@
       "energy": 5,
       "activation": 1,
       "recharge": 6,
-      "description": "Spell. Target foe is struck for 5|50|14 lightning damage. If any spirits are within earshot, Spirit Burn causes Burning for <font color=green>3</font> seconds.",
-      "concise_description": "Spell. Deals 5|50|14 lightning damage. Inflicts Burning condition (<font color=green>3</font> seconds) if you are within earshot of a spirit."
+      "description": "Spell. Target foe is struck for 5|50|14 lightning damage. If any spirits are within earshot, Spirit Burn causes Burning for 3 seconds.",
+      "concise_description": "Spell. Deals 5|50|14 lightning damage. Inflicts Burning condition (3 seconds) if you are within earshot of a spirit."
     }
   },
   {
@@ -207946,8 +207946,8 @@
           }
         },
         {
-          "key": "additional_health_gain_br_per_second",
-          "name": "Additional health gain<br />per second",
+          "key": "additional_health_gain_per_second",
+          "name": "Additional health gain per second",
           "points": {
             "0": 1,
             "15": 15
@@ -207958,112 +207958,112 @@
         {
           "rank": 0,
           "health_gain_per_second": 1,
-          "additional_health_gain_br_per_second": 1
+          "additional_health_gain_per_second": 1
         },
         {
           "rank": 1,
           "health_gain_per_second": 2,
-          "additional_health_gain_br_per_second": 2
+          "additional_health_gain_per_second": 2
         },
         {
           "rank": 2,
           "health_gain_per_second": 3,
-          "additional_health_gain_br_per_second": 3
+          "additional_health_gain_per_second": 3
         },
         {
           "rank": 3,
           "health_gain_per_second": 4,
-          "additional_health_gain_br_per_second": 4
+          "additional_health_gain_per_second": 4
         },
         {
           "rank": 4,
           "health_gain_per_second": 5,
-          "additional_health_gain_br_per_second": 5
+          "additional_health_gain_per_second": 5
         },
         {
           "rank": 5,
           "health_gain_per_second": 6,
-          "additional_health_gain_br_per_second": 6
+          "additional_health_gain_per_second": 6
         },
         {
           "rank": 6,
           "health_gain_per_second": 7,
-          "additional_health_gain_br_per_second": 7
+          "additional_health_gain_per_second": 7
         },
         {
           "rank": 7,
           "health_gain_per_second": 8,
-          "additional_health_gain_br_per_second": 8
+          "additional_health_gain_per_second": 8
         },
         {
           "rank": 8,
           "health_gain_per_second": 8,
-          "additional_health_gain_br_per_second": 8
+          "additional_health_gain_per_second": 8
         },
         {
           "rank": 9,
           "health_gain_per_second": 9,
-          "additional_health_gain_br_per_second": 9
+          "additional_health_gain_per_second": 9
         },
         {
           "rank": 10,
           "health_gain_per_second": 10,
-          "additional_health_gain_br_per_second": 10
+          "additional_health_gain_per_second": 10
         },
         {
           "rank": 11,
           "health_gain_per_second": 11,
-          "additional_health_gain_br_per_second": 11
+          "additional_health_gain_per_second": 11
         },
         {
           "rank": 12,
           "health_gain_per_second": 12,
-          "additional_health_gain_br_per_second": 12
+          "additional_health_gain_per_second": 12
         },
         {
           "rank": 13,
           "health_gain_per_second": 13,
-          "additional_health_gain_br_per_second": 13
+          "additional_health_gain_per_second": 13
         },
         {
           "rank": 14,
           "health_gain_per_second": 14,
-          "additional_health_gain_br_per_second": 14
+          "additional_health_gain_per_second": 14
         },
         {
           "rank": 15,
           "health_gain_per_second": 15,
-          "additional_health_gain_br_per_second": 15
+          "additional_health_gain_per_second": 15
         },
         {
           "rank": 16,
           "health_gain_per_second": 16,
-          "additional_health_gain_br_per_second": 16
+          "additional_health_gain_per_second": 16
         },
         {
           "rank": 17,
           "health_gain_per_second": 17,
-          "additional_health_gain_br_per_second": 17
+          "additional_health_gain_per_second": 17
         },
         {
           "rank": 18,
           "health_gain_per_second": 18,
-          "additional_health_gain_br_per_second": 18
+          "additional_health_gain_per_second": 18
         },
         {
           "rank": 19,
           "health_gain_per_second": 19,
-          "additional_health_gain_br_per_second": 19
+          "additional_health_gain_per_second": 19
         },
         {
           "rank": 20,
           "health_gain_per_second": 20,
-          "additional_health_gain_br_per_second": 20
+          "additional_health_gain_per_second": 20
         },
         {
           "rank": 21,
           "health_gain_per_second": 21,
-          "additional_health_gain_br_per_second": 21
+          "additional_health_gain_per_second": 21
         }
       ]
     },
@@ -216894,8 +216894,8 @@
       "activation": 2,
       "recharge": 10
     },
-    "description": "Hex Spell. For <font color=green>17</font> seconds, target foe moves, attacks, and casts Spells 20% slower.",
-    "conciseDescription": "Hex Spell. (<font color=green>17</font> seconds.) Target foe moves, attacks, and casts spells 20% slower.",
+    "description": "Hex Spell. For 17 seconds, target foe moves, attacks, and casts Spells 20% slower.",
+    "conciseDescription": "Hex Spell. (17 seconds.) Target foe moves, attacks, and casts spells 20% slower.",
     "wikiFields": {
       "id": 2682,
       "image": "File:Sum of All Fears (Gwen).jpg",
@@ -216908,8 +216908,8 @@
       "energy": 10,
       "activation": 2,
       "recharge": 10,
-      "description": "Hex Spell. For <font color=green>17</font> seconds, target foe moves, attacks, and casts Spells 20% slower.",
-      "concise_description": "Hex Spell. (<font color=green>17</font> seconds.) Target foe moves, attacks, and casts spells 20% slower."
+      "description": "Hex Spell. For 17 seconds, target foe moves, attacks, and casts Spells 20% slower.",
+      "concise_description": "Hex Spell. (17 seconds.) Target foe moves, attacks, and casts spells 20% slower."
     }
   },
   {

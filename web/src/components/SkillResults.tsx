@@ -7,6 +7,7 @@ type SkillResultsProps = {
   error: string | null;
   hasMore: boolean;
   isLoading: boolean;
+  isRefreshing: boolean;
   onLoadMore: () => void;
   response: SkillListResponse | null;
 };
@@ -15,12 +16,13 @@ export function SkillResults({
   error,
   hasMore,
   isLoading,
+  isRefreshing,
   onLoadMore,
   response,
 }: SkillResultsProps) {
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   const isLoadingInitial = isLoading && !response;
-  const isLoadingMore = isLoading && !!response && response.results.length > 0;
+  const isLoadingMore = isLoading && !isRefreshing && !!response && response.results.length > 0;
 
   useEffect(() => {
     const sentinel = sentinelRef.current;
@@ -45,13 +47,21 @@ export function SkillResults({
       {!error && !isLoading && response?.results.length === 0 && <div className="state-panel">No skills matched this search.</div>}
       {!error && response && response.results.length > 0 && (
         <>
-          <ol className="result-list">
-            {response.results.map((skill) => (
-              <SkillRow key={skill.pageId} skill={skill} />
-            ))}
-          </ol>
+          <div className="result-list-wrap">
+            {isRefreshing ? (
+              <div className="results-refresh-badge" aria-live="polite">
+                <span className="results-refresh-dot" aria-hidden="true" />
+                Updating results
+              </div>
+            ) : null}
+            <ol className={isRefreshing ? "result-list result-list--refreshing" : "result-list"}>
+              {response.results.map((skill) => (
+                <SkillRow key={skill.pageId} skill={skill} />
+              ))}
+            </ol>
+          </div>
           <div className="results-status" aria-live="polite">
-            {isLoadingMore ? "Loading more skills..." : hasMore ? "Scroll for more" : "End of results"}
+            {isRefreshing ? "Updating results..." : isLoadingMore ? "Loading more skills..." : hasMore ? "Scroll for more" : "End of results"}
           </div>
           {hasMore ? <div className="results-sentinel" ref={sentinelRef} aria-hidden="true" /> : null}
         </>
