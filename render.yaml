@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: gw-skills-api
+    runtime: node
+    plan: free
+    branch: release
+    autoDeployTrigger: commit
+    buildCommand: npm ci && npm run db:import
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: NODE_VERSION
+        value: 24

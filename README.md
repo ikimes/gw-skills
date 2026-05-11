@@ -19,6 +19,7 @@ Longer-term features may include saved builds, saved team builds, lightweight au
 ## Architecture Decisions
 
 - [ADR 0001: Search Architecture](docs/adr/0001-search-architecture.md)
+- [Deploy the API on Render](docs/deploy-render.md)
 
 ## Current App/API Shape
 
